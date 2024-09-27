@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="9299060fc3b85210d056bd43e40131b6" label="Incidents" max_length="40" name="x_968807_public_0_incidents" type="collection">
+        <element choice="1" label="Disposition" max_length="40" name="disposition" type="choice">
+            <choice/>
+        </element>
+        <element label="Responding Units" max_length="4000" name="responding_units" reference="x_968807_public_0_employees" type="glide_list"/>
+        <element label="Assigned To" max_length="32" name="assigned_to" reference="x_968807_public_0_employees" type="reference"/>
+        <element choice="3" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Open" sequence="0" value="Open"/>
+                <element inactive_on_update="false" label="Closed" sequence="1" value="Closed"/>
+            </choice>
+        </element>
+        <element label="Report Number" max_length="40" name="report_number" type="string"/>
+        <element choice="3" label="Location" max_length="40" name="location" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Downtown Campus" sequence="3" value="Downtown Campus"/>
+                <element inactive_on_update="false" label="Off Campus" sequence="7" value="Off Campus"/>
+                <element inactive_on_update="false" label="Ocean Campus" sequence="0" value="Ocean Campus"/>
+                <element inactive_on_update="false" label="North Beach/Chinatown Campus" sequence="4" value="North Beach/Chinatown Campus"/>
+                <element inactive_on_update="false" label="Evans Campus" sequence="5" value="Evans Campus"/>
+                <element inactive_on_update="false" label="Mission Campus" sequence="1" value="Mission Campus"/>
+                <element inactive_on_update="false" label="John Adams Campus" sequence="2" value="John Adams Campus"/>
+                <element inactive_on_update="false" label="Airport Campus" sequence="6" value="Airport Campus"/>
+            </choice>
+        </element>
+        <element choice="3" dependent="location" dependent_on_field="location" label="Locaion Additional" max_length="40" name="locaion_additional" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Downtown Campus" inactive_on_update="false" label="Classroom" sequence="23" value="Classroom"/>
+                <element dependent_value="John Adams Campus" inactive_on_update="false" label="2nd Floor" sequence="16" value="2nd Floor"/>
+                <element dependent_value="Mission Campus" inactive_on_update="false" label="Building B" sequence="12" value="Building B"/>
+                <element dependent_value="Ocean Campus" inactive_on_update="false" label="Arts Buildings" sequence="7" value="Arts Buildings"/>
+                <element dependent_value="John Adams Campus" inactive_on_update="false" label="Gymnasium" sequence="19" value="Gymnasium"/>
+                <element dependent_value="Ocean Campus" inactive_on_update="false" label="Conlan Hall" sequence="0" value="Conlan Hall"/>
+                <element dependent_value="Ocean Campus" inactive_on_update="false" label="Rosenberg Library" sequence="3" value="Rosenberg Library"/>
+                <element dependent_value="Mission Campus" inactive_on_update="false" label="Library" sequence="13" value="Library"/>
+                <element dependent_value="Ocean Campus" inactive_on_update="false" label="Wellness Center" sequence="4" value="Wellness Center"/>
+                <element dependent_value="Ocean Campus" inactive_on_update="false" label="Science Hall" sequence="8" value="Science Hall"/>
+                <element dependent_value="Downtown Campus" inactive_on_update="false" label="Cafe" sequence="21" value="Cafe"/>
+                <element dependent_value="John Adams Campus" inactive_on_update="false" label="1st Floor" sequence="15" value="1st Floor"/>
+                <element dependent_value="Mission Campus" inactive_on_update="false" label="Garage" sequence="14" value="Garage"/>
+                <element dependent_value="John Adams Campus" inactive_on_update="false" label="3rd Floor" sequence="17" value="3rd Floor"/>
+                <element dependent_value="Ocean Campus" inactive_on_update="false" label="Smith Hall" sequence="1" value="Smith Hall"/>
+                <element dependent_value="Ocean Campus" inactive_on_update="false" label="Bungalows" sequence="5" value="Bungalows"/>
+                <element dependent_value="Ocean Campus" inactive_on_update="false" label="Cloud Hall" sequence="9" value="Cloud Hall"/>
+                <element dependent_value="Downtown Campus" inactive_on_update="false" label="Lobby" sequence="20" value="Lobby"/>
+                <element dependent_value="Downtown Campus" inactive_on_update="false" label="Kitchen" sequence="22" value="Kitchen"/>
+                <element dependent_value="Mission Campus" inactive_on_update="false" label="Building A" sequence="11" value="Building A"/>
+                <element dependent_value="Ocean Campus" inactive_on_update="false" label="Batmale Hall" sequence="6" value="Batmale Hall"/>
+                <element dependent_value="Ocean Campus" inactive_on_update="false" label="Parking Lot" sequence="10" value="Parking Lot"/>
+                <element dependent_value="John Adams Campus" inactive_on_update="false" label="Basement" sequence="18" value="Basement"/>
+                <element dependent_value="Ocean Campus" inactive_on_update="false" label="Student Union" sequence="2" value="Student Union"/>
+            </choice>
+        </element>
+        <element label="Report" max_length="40" name="report" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+    </element>
+</database>

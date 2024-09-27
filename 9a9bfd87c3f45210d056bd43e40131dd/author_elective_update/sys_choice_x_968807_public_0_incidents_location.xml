@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="location" table="x_968807_public_0_incidents" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>location</element>
+            <name>x_968807_public_0_incidents</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-27 03:07:18</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>location</sys_name>
+            <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
+            <sys_update_name>sys_choice_x_968807_public_0_incidents_location</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-27 03:07:18</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ocean Campus</label>
+            <language>en</language>
+            <name>x_968807_public_0_incidents</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-27 03:07:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-27 03:07:17</sys_updated_on>
+            <value>Ocean Campus</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mission Campus</label>
+            <language>en</language>
+            <name>x_968807_public_0_incidents</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-27 03:07:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-27 03:07:18</sys_updated_on>
+            <value>Mission Campus</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>John Adams Campus</label>
+            <language>en</language>
+            <name>x_968807_public_0_incidents</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-27 03:07:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-27 03:07:18</sys_updated_on>
+            <value>John Adams Campus</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Downtown Campus</label>
+            <language>en</language>
+            <name>x_968807_public_0_incidents</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-27 03:07:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-27 03:07:18</sys_updated_on>
+            <value>Downtown Campus</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>North Beach/Chinatown Campus</label>
+            <language>en</language>
+            <name>x_968807_public_0_incidents</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-27 03:07:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-27 03:07:18</sys_updated_on>
+            <value>North Beach/Chinatown Campus</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Evans Campus</label>
+            <language>en</language>
+            <name>x_968807_public_0_incidents</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-27 03:07:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-27 03:07:18</sys_updated_on>
+            <value>Evans Campus</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Airport Campus</label>
+            <language>en</language>
+            <name>x_968807_public_0_incidents</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-27 03:07:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-27 03:07:18</sys_updated_on>
+            <value>Airport Campus</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Off Campus</label>
+            <language>en</language>
+            <name>x_968807_public_0_incidents</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-27 03:07:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-27 03:07:18</sys_updated_on>
+            <value>Off Campus</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

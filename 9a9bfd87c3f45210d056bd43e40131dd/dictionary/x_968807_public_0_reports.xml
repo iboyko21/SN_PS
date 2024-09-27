@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="901ece4fc3f85210d056bd43e40131c6" label="Reports" max_length="40" name="x_968807_public_0_reports" type="collection">
+        <element choice="3" default="Open" label="Status" max_length="40" name="status" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Waiting For Approval" sequence="1" value="Waiting For Approval"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="Approved"/>
+                <element inactive_on_update="false" label="Open" sequence="0" value="Open"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Reporting Officer" max_length="32" name="reporting_officer" reference="x_968807_public_0_employees" type="reference"/>
+        <element choice="1" label="Location" max_length="40" name="location" type="choice">
+            <choice/>
+        </element>
+        <element label="Incident Number" max_length="32" name="incident_number" reference="x_968807_public_0_incidents" type="reference"/>
+        <element choice="1" label="Location Additional" max_length="40" name="location_additional" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice/>
+        </element>
+        <element label="Approved By" max_length="32" name="approved_by" reference="x_968807_public_0_employees" type="reference"/>
+        <index name="index">
+            <element name="approved_by"/>
+        </index>
+        <index name="index2">
+            <element name="incident_number"/>
+        </index>
+        <index name="index3">
+            <element name="reporting_officer"/>
+        </index>
+    </element>
+</database>
