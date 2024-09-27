@@ -9,21 +9,21 @@
         <description/>
         <local_or_existing>Local</local_or_existing>
         <name>x_968807_public_0_incidents</name>
-        <operation display_value="delete">delete</operation>
+        <operation display_value="create">create</operation>
         <script/>
         <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-09-27 01:09:02</sys_created_on>
-        <sys_id>a4a94a0fc3b85210d056bd43e401314a</sys_id>
+        <sys_created_on>2024-09-27 03:48:52</sys_created_on>
+        <sys_id>4a3eea8bc3b09210d056bd43e40131a8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_968807_public_0_incidents</sys_name>
         <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
-        <sys_update_name>sys_security_acl_a4a94a0fc3b85210d056bd43e401314a</sys_update_name>
+        <sys_update_name>sys_security_acl_4a3eea8bc3b09210d056bd43e40131a8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-27 01:09:02</sys_updated_on>
+        <sys_updated_on>2024-09-27 03:48:52</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>

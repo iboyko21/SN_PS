@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 00:14:27</sys_created_on>
+        <sys_id>452d3dcfc3f45210d056bd43e4013197</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_968807_public_0_employees.x_968807_public_0.admin</sys_name>
+        <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
+        <sys_security_acl display_value="x_968807_public_0_employees">0d2d3dcfc3f45210d056bd43e4013153</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_452d3dcfc3f45210d056bd43e4013197</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 00:14:27</sys_updated_on>
+        <sys_user_role display_value="x_968807_public_0.admin" name="x_968807_public_0.admin">e29b31c7c3f45210d056bd43e401316e</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</application>
+        <file_path/>
+        <instance_id>09943ed3dbe9029837d72a5913961978</instance_id>
+        <instance_name>dev260260</instance_name>
+        <name>sys_security_acl_role_452d3dcfc3f45210d056bd43e4013197</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-27 00:14:27</sys_created_on><sys_id>452d3dcfc3f45210d056bd43e4013197</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_968807_public_0_employees.x_968807_public_0.admin</sys_name><sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package><sys_policy/><sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope><sys_security_acl display_value="x_968807_public_0_employees">0d2d3dcfc3f45210d056bd43e4013153</sys_security_acl><sys_update_name>sys_security_acl_role_452d3dcfc3f45210d056bd43e4013197</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-27 00:14:27</sys_updated_on><sys_user_role display_value="x_968807_public_0.admin" name="x_968807_public_0.admin">e29b31c7c3f45210d056bd43e401316e</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1896630542</payload_hash>
+        <record_name>x_968807_public_0_employees.x_968807_public_0.admin</record_name>
+        <reverted_from/>
+        <source>a6ccf94fc3f45210d056bd43e401310f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 00:14:27</sys_created_on>
+        <sys_id>812d3dcfc3f45210d056bd43e401319b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19230d438d40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 00:14:27</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>852d3dcfedf4521012b27d3e73b46a9a</update_guid>
+        <update_guid_history>852d3dcfedf4521012b27d3e73b46a9a:1896630542</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_968807_public_0_employees.x_968807_public_0.admin">3f0e624fc3b09210d056bd43e401311b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 03:48:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>0443109d3cf64aa080154d2e82194790</sys_id>
+        <sys_metadata>452d3dcfc3f45210d056bd43e4013197</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_968807_public_0_employees.x_968807_public_0.admin</sys_name>
+        <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
+        <sys_scope_delete display_value="">4c78752d5203411aaac0e69796d5d3c9</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_452d3dcfc3f45210d056bd43e4013197</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_452d3dcfc3f45210d056bd43e4013197">812d3dcfc3f45210d056bd43e401319b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 03:48:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
