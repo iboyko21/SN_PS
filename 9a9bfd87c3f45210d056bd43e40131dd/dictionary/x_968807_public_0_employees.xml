@@ -2,9 +2,16 @@
     <element db_object_id="f21d39cfc3f45210d056bd43e401313a" label="Employees" max_length="40" name="x_968807_public_0_employees" type="collection">
         <element label="First Name" max_length="40" name="first_name" type="string"/>
         <element label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element label="Shield #" max_length="40" name="shield" type="string"/>
+        <element label="Supervisor" max_length="32" name="supervisor" reference="x_968807_public_0_employees" type="reference"/>
         <element label="Name" max_length="32" name="name" reference="sys_user" type="reference"/>
+        <element label="Title" max_length="40" name="title" type="string"/>
+        <element label="DOB" max_length="40" name="dob" type="glide_date"/>
         <index name="index">
             <element name="name"/>
+        </index>
+        <index name="index2">
+            <element name="supervisor"/>
         </index>
     </element>
 </database>
