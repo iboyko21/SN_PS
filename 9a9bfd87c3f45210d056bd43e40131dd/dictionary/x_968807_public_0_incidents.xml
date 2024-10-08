@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="9299060fc3b85210d056bd43e40131b6" label="Incidents" max_length="40" name="x_968807_public_0_incidents" type="collection">
-        <element choice="1" label="Disposition" max_length="40" name="disposition" type="choice">
-            <choice/>
+        <element choice="3" label="Disposition" max_length="40" name="disposition" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Checked/Secured" sequence="2" value="Checked/Secured"/>
+                <element inactive_on_update="false" label="No Action Required" sequence="7" value="No Action Required"/>
+                <element inactive_on_update="false" label="Citation Issued" sequence="3" value="Citation Issued"/>
+                <element inactive_on_update="false" label="Referred Outside Agency" sequence="5" value="Referred Outside Agency"/>
+                <element inactive_on_update="false" label="Admonished" sequence="0" value="Admonished"/>
+                <element inactive_on_update="false" label="Arrest Made" sequence="1" value="Arrest Made"/>
+                <element inactive_on_update="false" label="Unable to Locate" sequence="6" value="Unable to Locate"/>
+                <element inactive_on_update="false" label="Detained" sequence="4" value="Detained"/>
+            </choice>
         </element>
         <element label="Responding Units" max_length="4000" name="responding_units" reference="x_968807_public_0_employees" type="glide_list"/>
         <element label="Assigned To" max_length="32" name="assigned_to" reference="x_968807_public_0_employees" type="reference"/>
-        <element choice="3" label="Status" max_length="40" name="status" type="choice">
+        <element label="Closed" max_length="40" name="closed" read_only="true" type="glide_date_time"/>
+        <element choice="3" default="Open" label="Status" max_length="40" name="status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Open" sequence="0" value="Open"/>
                 <element inactive_on_update="false" label="Closed" sequence="1" value="Closed"/>
@@ -54,8 +64,21 @@
         </element>
         <element label="Report" max_length="40" name="report" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element choice="1" label="Type" max_length="40" name="type" type="choice">
-            <choice/>
+        <element choice="3" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Medical" sequence="4" value="Medical"/>
+                <element inactive_on_update="false" label="Animal" sequence="1" value="Animal"/>
+                <element inactive_on_update="false" label="Homeless" sequence="3" value="Homeless"/>
+                <element inactive_on_update="false" label="Theft" sequence="8" value="Theft"/>
+                <element inactive_on_update="false" label="Assault" sequence="2" value="Assault"/>
+                <element inactive_on_update="false" label="Trespassing" sequence="10" value="Trespassing"/>
+                <element inactive_on_update="false" label="Suspicious Occurrence" sequence="6" value="Suspicious Occurrence"/>
+                <element inactive_on_update="false" label="Traffic Stop" sequence="9" value="Traffic Stop"/>
+                <element inactive_on_update="false" label="Parking" sequence="5" value="Parking"/>
+                <element inactive_on_update="false" label="Alarm" sequence="0" value="Alarm Call"/>
+                <element inactive_on_update="false" label="Welfare Check" sequence="11" value="Welfare Check"/>
+                <element inactive_on_update="false" label="Threats" sequence="7" value="Threats"/>
+            </choice>
         </element>
         <index name="index">
             <element name="assigned_to"/>

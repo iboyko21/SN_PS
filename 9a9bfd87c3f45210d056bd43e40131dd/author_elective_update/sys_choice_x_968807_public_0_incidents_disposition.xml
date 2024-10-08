@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="disposition" table="x_968807_public_0_incidents" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>disposition</element>
+            <name>x_968807_public_0_incidents</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-08 18:06:03</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>disposition</sys_name>
+            <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
+            <sys_update_name>sys_choice_x_968807_public_0_incidents_disposition</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-08 18:06:03</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>disposition</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Admonished</label>
+            <language>en</language>
+            <name>x_968807_public_0_incidents</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-08 18:06:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-08 18:06:03</sys_updated_on>
+            <value>Admonished</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>disposition</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Arrest Made</label>
+            <language>en</language>
+            <name>x_968807_public_0_incidents</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-08 18:06:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-08 18:06:03</sys_updated_on>
+            <value>Arrest Made</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>disposition</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Checked/Secured</label>
+            <language>en</language>
+            <name>x_968807_public_0_incidents</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-08 18:06:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-08 18:06:03</sys_updated_on>
+            <value>Checked/Secured</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>disposition</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Citation Issued</label>
+            <language>en</language>
+            <name>x_968807_public_0_incidents</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-08 18:06:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-08 18:06:03</sys_updated_on>
+            <value>Citation Issued</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>disposition</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Detained</label>
+            <language>en</language>
+            <name>x_968807_public_0_incidents</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-08 18:06:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-08 18:06:03</sys_updated_on>
+            <value>Detained</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>disposition</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Referred Outside Agency</label>
+            <language>en</language>
+            <name>x_968807_public_0_incidents</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-08 18:06:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-08 18:06:03</sys_updated_on>
+            <value>Referred Outside Agency</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>disposition</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unable to Locate</label>
+            <language>en</language>
+            <name>x_968807_public_0_incidents</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-08 18:06:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-08 18:06:03</sys_updated_on>
+            <value>Unable to Locate</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>disposition</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No Action Required</label>
+            <language>en</language>
+            <name>x_968807_public_0_incidents</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-08 18:06:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-08 18:06:03</sys_updated_on>
+            <value>No Action Required</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
