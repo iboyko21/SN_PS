@@ -11,8 +11,8 @@
 
 })(current);]]></calculation>
         <choice>1</choice>
-        <choice_field/>
-        <choice_table/>
+        <choice_field>locaion_additional</choice_field>
+        <choice_table>x_968807_public_0_incidents</choice_table>
         <column_label>Location Additional</column_label>
         <comments/>
         <create_roles/>
@@ -58,11 +58,11 @@
         <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
         <sys_update_name>sys_dictionary_x_968807_public_0_reports_location_additional</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-27 02:21:02</sys_updated_on>
+        <sys_updated_on>2024-10-08 19:10:40</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
+        <use_dependent_field>true</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>

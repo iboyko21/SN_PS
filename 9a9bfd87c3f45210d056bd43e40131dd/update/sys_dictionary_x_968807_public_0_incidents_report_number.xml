@@ -32,7 +32,7 @@
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_968807_public_0_incidents</name>
@@ -40,7 +40,7 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="x_968807_public_0_reports">x_968807_public_0_reports</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -58,7 +58,7 @@
         <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
         <sys_update_name>sys_dictionary_x_968807_public_0_incidents_report_number</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-27 01:18:23</sys_updated_on>
+        <sys_updated_on>2024-10-08 18:57:47</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

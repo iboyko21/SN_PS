@@ -3,12 +3,13 @@
         <element choice="3" label="Disposition" max_length="40" name="disposition" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Checked/Secured" sequence="2" value="Checked/Secured"/>
-                <element inactive_on_update="false" label="No Action Required" sequence="7" value="No Action Required"/>
+                <element inactive_on_update="false" label="No Action Required" sequence="8" value="No Action Required"/>
+                <element inactive_on_update="false" label="Report Taken" sequence="6" value="Report Taken"/>
                 <element inactive_on_update="false" label="Citation Issued" sequence="3" value="Citation Issued"/>
                 <element inactive_on_update="false" label="Referred Outside Agency" sequence="5" value="Referred Outside Agency"/>
                 <element inactive_on_update="false" label="Admonished" sequence="0" value="Admonished"/>
                 <element inactive_on_update="false" label="Arrest Made" sequence="1" value="Arrest Made"/>
-                <element inactive_on_update="false" label="Unable to Locate" sequence="6" value="Unable to Locate"/>
+                <element inactive_on_update="false" label="Unable to Locate" sequence="7" value="Unable to Locate"/>
                 <element inactive_on_update="false" label="Detained" sequence="4" value="Detained"/>
             </choice>
         </element>
@@ -21,7 +22,7 @@
                 <element inactive_on_update="false" label="Closed" sequence="1" value="Closed"/>
             </choice>
         </element>
-        <element label="Report Number" max_length="40" name="report_number" type="string"/>
+        <element label="Report Number" max_length="40" name="report_number" reference="x_968807_public_0_reports" type="reference"/>
         <element choice="3" label="Location" max_length="40" name="location" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Downtown Campus" sequence="3" value="Downtown Campus"/>
@@ -39,20 +40,20 @@
                 <element dependent_value="Downtown Campus" inactive_on_update="false" label="Classroom" sequence="23" value="Classroom"/>
                 <element dependent_value="John Adams Campus" inactive_on_update="false" label="2nd Floor" sequence="16" value="2nd Floor"/>
                 <element dependent_value="Mission Campus" inactive_on_update="false" label="Building B" sequence="12" value="Building B"/>
-                <element dependent_value="Ocean Campus" inactive_on_update="false" label="Arts Buildings" sequence="7" value="Arts Buildings"/>
+                <element dependent_value="Ocean Campus" inactive_on_update="false" label="Arts Buildings" sequence="4" value="Arts Buildings"/>
                 <element dependent_value="John Adams Campus" inactive_on_update="false" label="Gymnasium" sequence="19" value="Gymnasium"/>
                 <element dependent_value="Ocean Campus" inactive_on_update="false" label="Conlan Hall" sequence="0" value="Conlan Hall"/>
                 <element dependent_value="Ocean Campus" inactive_on_update="false" label="Rosenberg Library" sequence="3" value="Rosenberg Library"/>
                 <element dependent_value="Mission Campus" inactive_on_update="false" label="Library" sequence="13" value="Library"/>
-                <element dependent_value="Ocean Campus" inactive_on_update="false" label="Wellness Center" sequence="4" value="Wellness Center"/>
-                <element dependent_value="Ocean Campus" inactive_on_update="false" label="Science Hall" sequence="8" value="Science Hall"/>
+                <element dependent_value="Ocean Campus" inactive_on_update="false" label="Wellness Center" sequence="9" value="Wellness Center"/>
+                <element dependent_value="Ocean Campus" inactive_on_update="false" label="Science Hall" sequence="7" value="Science Hall"/>
                 <element dependent_value="Downtown Campus" inactive_on_update="false" label="Cafe" sequence="21" value="Cafe"/>
                 <element dependent_value="John Adams Campus" inactive_on_update="false" label="1st Floor" sequence="15" value="1st Floor"/>
                 <element dependent_value="Mission Campus" inactive_on_update="false" label="Garage" sequence="14" value="Garage"/>
                 <element dependent_value="John Adams Campus" inactive_on_update="false" label="3rd Floor" sequence="17" value="3rd Floor"/>
                 <element dependent_value="Ocean Campus" inactive_on_update="false" label="Smith Hall" sequence="1" value="Smith Hall"/>
                 <element dependent_value="Ocean Campus" inactive_on_update="false" label="Bungalows" sequence="5" value="Bungalows"/>
-                <element dependent_value="Ocean Campus" inactive_on_update="false" label="Cloud Hall" sequence="9" value="Cloud Hall"/>
+                <element dependent_value="Ocean Campus" inactive_on_update="false" label="Cloud Hall" sequence="8" value="Cloud Hall"/>
                 <element dependent_value="Downtown Campus" inactive_on_update="false" label="Lobby" sequence="20" value="Lobby"/>
                 <element dependent_value="Downtown Campus" inactive_on_update="false" label="Kitchen" sequence="22" value="Kitchen"/>
                 <element dependent_value="Mission Campus" inactive_on_update="false" label="Building A" sequence="11" value="Building A"/>

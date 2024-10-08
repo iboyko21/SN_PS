@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>approved_by</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-08 19:29:08</sys_created_on>
+        <sys_id>beee2236c3c51210d056bd43e40131fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>approved_by</sys_name>
+        <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
+        <sys_update_name>sys_ui_policy_action_beee2236c3c51210d056bd43e40131fa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-08 19:29:08</sys_updated_on>
+        <table>x_968807_public_0_reports</table>
+        <ui_policy display_value="Approved By show/hide">3aee2236c3c51210d056bd43e40131ac</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=beee2236c3c51210d056bd43e40131fa"/>
+</record_update>
