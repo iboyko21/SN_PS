@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_menu">
+    <sp_instance_menu action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column/>
+        <sp_widget display_value="Header Menu">5ef595c1cb12020000f8d856634c9c6e</sp_widget>
+        <sys_class_name>sp_instance_menu</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 01:04:03</sys_created_on>
+        <sys_id>988b7b72c3819210d056bd43e40131f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Public Safety</sys_name>
+        <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
+        <sys_update_name>sp_instance_menu_988b7b72c3819210d056bd43e40131f2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 01:04:03</sys_updated_on>
+        <title>Public Safety</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_menu>
+    <sys_translated_text action="delete_multiple" query="documentkey=988b7b72c3819210d056bd43e40131f2"/>
+</record_update>
