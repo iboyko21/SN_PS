@@ -35,7 +35,7 @@
                 <element inactive_on_update="false" label="Airport Campus" sequence="6" value="Airport Campus"/>
             </choice>
         </element>
-        <element choice="3" dependent="location" dependent_on_field="location" label="Locaion Additional" max_length="40" name="locaion_additional" type="choice" use_dependent_field="true">
+        <element choice="3" dependent="location" dependent_on_field="location" label="Location Additional" max_length="40" name="locaion_additional" type="choice" use_dependent_field="true">
             <choice>
                 <element dependent_value="Downtown Campus" inactive_on_update="false" label="Classroom" sequence="23" value="Classroom"/>
                 <element dependent_value="John Adams Campus" inactive_on_update="false" label="2nd Floor" sequence="16" value="2nd Floor"/>
