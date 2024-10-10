@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="location_additional" table="x_968807_public_0_reports">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="activity" table="x_968807_public_0_activity_log">
         <active>true</active>
         <array>false</array>
         <attributes/>
@@ -10,23 +10,23 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice>1</choice>
-        <choice_field>locaion_additional</choice_field>
-        <choice_table>x_968807_public_0_incidents</choice_table>
-        <column_label>Location Additional</column_label>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Activity</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
         <defaultsort/>
         <delete_roles/>
-        <dependent>location</dependent>
-        <dependent_on_field>location</dependent_on_field>
+        <dependent/>
+        <dependent_on_field/>
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>location_additional</element>
+        <element>activity</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -35,7 +35,7 @@
         <internal_type display_value="Choice">choice</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_968807_public_0_reports</name>
+        <name>x_968807_public_0_activity_log</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -51,18 +51,18 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-09-27 02:21:02</sys_created_on>
-        <sys_name>Location Additional</sys_name>
+        <sys_created_on>2024-10-10 20:24:26</sys_created_on>
+        <sys_name>Activity</sys_name>
         <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
-        <sys_update_name>sys_dictionary_x_968807_public_0_reports_location_additional</sys_update_name>
+        <sys_update_name>sys_dictionary_x_968807_public_0_activity_log_activity</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-10 21:01:14</sys_updated_on>
+        <sys_updated_on>2024-10-10 20:47:37</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
-        <use_dependent_field>true</use_dependent_field>
+        <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>

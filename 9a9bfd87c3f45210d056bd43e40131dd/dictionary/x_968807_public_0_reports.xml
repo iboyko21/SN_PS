@@ -14,7 +14,7 @@
             <choice/>
         </element>
         <element label="Incident Number" max_length="32" name="incident_number" reference="x_968807_public_0_incidents" type="reference"/>
-        <element choice="1" choice_field="locaion_additional" choice_table="x_968807_public_0_incidents" label="Location Additional" max_length="40" name="location_additional" type="choice" use_dependent_field="true">
+        <element choice="1" choice_field="locaion_additional" choice_table="x_968807_public_0_incidents" dependent="location" dependent_on_field="location" label="Location Additional" max_length="40" name="location_additional" type="choice" use_dependent_field="true">
             <choice/>
         </element>
         <element choice="1" label="Type" max_length="40" name="type" type="choice">

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.header {
+	padding: 50px;
+  font-size: 35px;
+}
+
+.title {
+  width: 100%;
+  // border-radius: 5px;
+  padding: 10px;
+	background-color: #1F8476;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+table {
+	width: 100%;
+}
+
+th {
+	background-color: light blue;
+  font-size: 15px;
+  padding: 15px;
+}
+
+td {
+	padding: 5px;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>ps_activity_log</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>PS Activity Log</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+
+	data.table = {
+		"list" : []
+	};
+	
+	var activityLog = new GlideRecord('x_968807_public_0_activity_log'); // table name
+	activityLog.addQuery('status','In Progress'); // filter by status
+	
+	// activityLog.orderBy('sys_created_on');
+	activityLog.query();
+	
+	while (activityLog.next()) {
+		var obj = {};
+		obj.number = activityLog.getValue('number');
+		obj.activity = activityLog.getValue('activity');
+		obj.reporting_unit = activityLog.getDisplayValue('reporting_unit');
+		obj.status = activityLog.getValue('status');
+		obj.location = activityLog.getValue('location');
+		obj.locationAdd = activityLog.getValue('location_additional');
+		
+		data.table.list.push(obj);
+	}
+	
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-10 21:18:41</sys_created_on>
+        <sys_id>832b15e3c3c5d610d056bd43e4013141</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>PS Activity Log</sys_name>
+        <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
+        <sys_update_name>sp_widget_832b15e3c3c5d610d056bd43e4013141</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-10 22:43:25</sys_updated_on>
+        <template><![CDATA[<div>
+
+  <p class="title">Activity Log
+  </p>
+  <table class="table-striped">
+    <tr>
+      <th>Number</th>
+      <th>Activity</th>
+      <th>Officer</th>
+      <th>Status</th>
+      <th>Location</th>
+      <th>Location Additional</th>
+     </tr>
+  
+    <tr ng-repeat="row in c.data.table.list">
+      <td>
+        {{row.number}}
+      </td>
+      <td>
+        {{row.activity}}
+      </td>
+      <td>
+        {{row.reporting_unit}}
+      </td>
+      <td>
+        {{row.status}}
+      </td>
+       <td>
+        {{row.location}}
+      </td>
+      <td>
+        {{row.locationAdd}}
+      </td>	
+    </tr>
+  </table>
+</div>]]></template>
+    </sp_widget>
+</record_update>

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rel_widget_clone">
+    <sp_rel_widget_clone action="DELETE">
+        <child display_value="Activity Log">c86a95ebc345d610d056bd43e40131bf</child>
+        <cloned>2024-10-09 02:00:56</cloned>
+        <last_validated>2024-10-09 02:00:56</last_validated>
+        <parent display_value="Ticket Fields">5736bf52cb30020000f8d856634c9c2d</parent>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;sp_widget&gt;&lt;category&gt;standard&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function ($scope, spUtil) {
+	spUtil.recordWatch($scope, $scope.data.table, "sys_id=" + $scope.data.sys_id);
+}]]&gt;&lt;/client_script&gt;&lt;controller_as/&gt;&lt;css&gt;.options-btn {
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    font-size: 18px;
+}
+
+.pre-wrap {
+  white-space: pre-wrap;
+}
+
+.ticket-fields {
+  margin-left: -7px;
+  margin-right: -8px;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  display: flex;
+  flex-wrap: wrap;
+
+  dt {
+    //font-weight: normal;
+    margin-bottom: 10px;
+  }
+  dd {
+    margin-bottom: 10px;
+  }
+.multi-lines {
+  white-space: pre-line;
+  word-break: break-word;
+  border: none;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: "SourceSansPro", Helvetica, Arial, sans-serif;
+}&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id/&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link/&gt;&lt;name&gt;Ticket Fields&lt;/name&gt;&lt;option_schema&gt;[{"name":"pickup_msg","section":"Presentation","label":"Pickup message","type":"string"}]&lt;/option_schema&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles&gt;snc_external,snc_internal&lt;/roles&gt;&lt;script&gt;&lt;![CDATA[(function(){
+	data.pickupMsg = gs.getMessage(options.pickup_msg);
+	var gr = $sp.getRecord();
+	if (gr == null)
+		return;
+
+	data.canRead = gr.canRead();
+	if (!data.canRead)
+		return;
+
+	var agent = "";
+	var a = $sp.getField(gr, 'assigned_to');
+	if (a != null)
+		agent = a.display_value;
+
+	var fields = $sp.getFields(gr, 'number,state,priority,sys_created_on');
+	if (gr.getValue("sys_mod_count") &gt; 0)
+		fields.push($sp.getField(gr, 'sys_updated_on'));
+
+	if (gr.getValue('price') &gt; 0)
+		fields.push($sp.getField(gr, 'price'));
+
+	if (gr.getValue('recurring_price') &gt; 0) {
+		var rp = $sp.getField(gr, 'recurring_price');
+		if (gr.isValidField("recurring_price"))
+			rp.display_value = rp.display_value + " " + gr.getDisplayValue("recurring_frequency");
+		fields.push(rp);
+	}
+	if (gr.isValidField("quantity"))
+		fields.push($sp.getField(gr, 'quantity'));
+
+	data.tableLabel = gr.getLabel();
+	data.fields = fields;
+	data.variables = new GlobalServiceCatalogUtil().getVariablesForTask(gr, true);
+	data.agent = agent;
+	data.agentPossible = gr.isValidField("assigned_to");
+	data.table = gr.getTableName();
+	data.sys_id = gr.getUniqueValue();
+	data.variableSummarizerWidget = $sp.getWidget('sc-variable-summarizer', {'variables' : data.variables, 'toggle' : true, 'task' : fields[0].value});
+})()
+
+]]&gt;&lt;/script&gt;&lt;servicenow&gt;true&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2015-06-24 18:04:43&lt;/sys_created_on&gt;&lt;sys_id&gt;5736bf52cb30020000f8d856634c9c2d&lt;/sys_id&gt;&lt;sys_mod_count&gt;254&lt;/sys_mod_count&gt;&lt;sys_name&gt;Ticket Fields&lt;/sys_name&gt;&lt;sys_package display_value="Service Portal - Core" source="com.glide.service-portal"&gt;32110c76f8f2021008dd9cfea425ac88&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_5736bf52cb30020000f8d856634c9c2d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-03-02 13:23:17&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div ng-if="data.canRead" class="panel b"&gt;
+  &lt;div class="panel-heading bg-primary panel-la-jolla-default"&gt;
+    &lt;div ng-init="spSearch.targetRequests()"&gt;
+      &lt;sp-c-link target="form" table="data.table" id="data.sys_id"&gt;&lt;/sp-c-link&gt;
+    &lt;/div&gt;
+    &lt;h2 class="sr-only"&gt;${Ticket details}&lt;/h2&gt;
+    &lt;span ng-if="data.agent" &gt;
+      ${Agent working on this {{data.tableLabel}}}:
+      &lt;div&gt;{{data.agent}}&lt;/div&gt;
+    &lt;/span&gt;
+    &lt;span aria-live="assertive"&gt;
+    &lt;span ng-if="!data.agent &amp;&amp; data.agentPossible" &gt;${Your request has been submitted}&lt;/span&gt;
+    &lt;/span&gt;
+    &lt;span ng-if="!data.agentPossible"&gt;${{{data.tableLabel}} record details}&lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;div class="panel-body"&gt;
+    &lt;dl class="ticket-fields" ng-if="data.fields.length &gt; 0"&gt;
+        &lt;dt class= "col-md-6 col-sm-12 col-xs-6 break-word"
+            ng-if="field.value &amp;&amp; (field.type != 'decimal' || field.type == 'decimal' &amp;&amp; field.value != 0)"
+            ng-repeat-start="field in data.fields"&gt;{{field.label}}&lt;/dt&gt;
+        &lt;dd class= "col-md-6 col-sm-12 col-xs-6 break-word"
+            ng-repeat-end ng-switch="field.type"
+            ng-if="field.value &amp;&amp; (field.type != 'decimal' || field.type == 'decimal' &amp;&amp; field.value != 0)"&gt;
+          &lt;div ng-switch-when="glide_date_time" title="{{field.display_value}}"&gt;
+            &lt;sn-time-ago timestamp="::field.value"&gt;&lt;/sn-time-ago&gt;
+          &lt;/div&gt;
+          &lt;div ng-switch-when="multi_small"&gt;&lt;pre class="multi-lines"&gt;{{field.display_value}}&lt;/pre&gt;&lt;/div&gt;
+          &lt;div ng-switch-default&gt;&lt;span class="pre-wrap"&gt;{{field.display_value}}&lt;/span&gt;&lt;/div&gt;
+        &lt;/dd&gt;
+    &lt;/dl&gt;
+    &lt;sp-widget widget="data.variableSummarizerWidget"&gt;&lt;/sp-widget&gt;
+  &lt;/div&gt;
+
+  &lt;div ng-if="data.agentPossible &amp;&amp; !data.agent &amp;&amp; options.pickup_msg" class="panel-footer"&gt;
+    &lt;div id="ticket_fields_footer" class="text-center text-muted" style="font-style: italic;" ng-bind-html="data.pickupMsg"&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;</payload>
+        <sys_class_name>sp_rel_widget_clone</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-10 21:15:13</sys_created_on>
+        <sys_id>046a99a3c3c5d610d056bd43e40131b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c86a95ebc345d610d056bd43e40131bf</sys_name>
+        <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
+        <sys_update_name>sp_rel_widget_clone_046a99a3c3c5d610d056bd43e40131b9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-10 21:15:13</sys_updated_on>
+    </sp_rel_widget_clone>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</application>
+        <file_path/>
+        <instance_id>09943ed3dbe9029837d72a5913961978</instance_id>
+        <instance_name>dev260260</instance_name>
+        <name>sp_rel_widget_clone_046a99a3c3c5d610d056bd43e40131b9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rel_widget_clone"><sp_rel_widget_clone action="INSERT_OR_UPDATE"><child display_value="Activity Log">c86a95ebc345d610d056bd43e40131bf</child><cloned>2024-10-09 02:00:56</cloned><last_validated>2024-10-09 02:00:56</last_validated><parent display_value="Ticket Fields">5736bf52cb30020000f8d856634c9c2d</parent><payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;sp_widget&gt;&lt;category&gt;standard&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function ($scope, spUtil) {
+	spUtil.recordWatch($scope, $scope.data.table, "sys_id=" + $scope.data.sys_id);
+}]]&gt;&lt;/client_script&gt;&lt;controller_as/&gt;&lt;css&gt;.options-btn {
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    font-size: 18px;
+}
+
+.pre-wrap {
+  white-space: pre-wrap;
+}
+
+.ticket-fields {
+  margin-left: -7px;
+  margin-right: -8px;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  display: flex;
+  flex-wrap: wrap;
+
+  dt {
+    //font-weight: normal;
+    margin-bottom: 10px;
+  }
+  dd {
+    margin-bottom: 10px;
+  }
+.multi-lines {
+  white-space: pre-line;
+  word-break: break-word;
+  border: none;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: "SourceSansPro", Helvetica, Arial, sans-serif;
+}&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id/&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link/&gt;&lt;name&gt;Ticket Fields&lt;/name&gt;&lt;option_schema&gt;[{"name":"pickup_msg","section":"Presentation","label":"Pickup message","type":"string"}]&lt;/option_schema&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles&gt;snc_external,snc_internal&lt;/roles&gt;&lt;script&gt;&lt;![CDATA[(function(){
+	data.pickupMsg = gs.getMessage(options.pickup_msg);
+	var gr = $sp.getRecord();
+	if (gr == null)
+		return;
+
+	data.canRead = gr.canRead();
+	if (!data.canRead)
+		return;
+
+	var agent = "";
+	var a = $sp.getField(gr, 'assigned_to');
+	if (a != null)
+		agent = a.display_value;
+
+	var fields = $sp.getFields(gr, 'number,state,priority,sys_created_on');
+	if (gr.getValue("sys_mod_count") &gt; 0)
+		fields.push($sp.getField(gr, 'sys_updated_on'));
+
+	if (gr.getValue('price') &gt; 0)
+		fields.push($sp.getField(gr, 'price'));
+
+	if (gr.getValue('recurring_price') &gt; 0) {
+		var rp = $sp.getField(gr, 'recurring_price');
+		if (gr.isValidField("recurring_price"))
+			rp.display_value = rp.display_value + " " + gr.getDisplayValue("recurring_frequency");
+		fields.push(rp);
+	}
+	if (gr.isValidField("quantity"))
+		fields.push($sp.getField(gr, 'quantity'));
+
+	data.tableLabel = gr.getLabel();
+	data.fields = fields;
+	data.variables = new GlobalServiceCatalogUtil().getVariablesForTask(gr, true);
+	data.agent = agent;
+	data.agentPossible = gr.isValidField("assigned_to");
+	data.table = gr.getTableName();
+	data.sys_id = gr.getUniqueValue();
+	data.variableSummarizerWidget = $sp.getWidget('sc-variable-summarizer', {'variables' : data.variables, 'toggle' : true, 'task' : fields[0].value});
+})()
+
+]]&gt;&lt;/script&gt;&lt;servicenow&gt;true&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2015-06-24 18:04:43&lt;/sys_created_on&gt;&lt;sys_id&gt;5736bf52cb30020000f8d856634c9c2d&lt;/sys_id&gt;&lt;sys_mod_count&gt;254&lt;/sys_mod_count&gt;&lt;sys_name&gt;Ticket Fields&lt;/sys_name&gt;&lt;sys_package display_value="Service Portal - Core" source="com.glide.service-portal"&gt;32110c76f8f2021008dd9cfea425ac88&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_5736bf52cb30020000f8d856634c9c2d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-03-02 13:23:17&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div ng-if="data.canRead" class="panel b"&gt;
+  &lt;div class="panel-heading bg-primary panel-la-jolla-default"&gt;
+    &lt;div ng-init="spSearch.targetRequests()"&gt;
+      &lt;sp-c-link target="form" table="data.table" id="data.sys_id"&gt;&lt;/sp-c-link&gt;
+    &lt;/div&gt;
+    &lt;h2 class="sr-only"&gt;${Ticket details}&lt;/h2&gt;
+    &lt;span ng-if="data.agent" &gt;
+      ${Agent working on this {{data.tableLabel}}}:
+      &lt;div&gt;{{data.agent}}&lt;/div&gt;
+    &lt;/span&gt;
+    &lt;span aria-live="assertive"&gt;
+    &lt;span ng-if="!data.agent &amp;&amp; data.agentPossible" &gt;${Your request has been submitted}&lt;/span&gt;
+    &lt;/span&gt;
+    &lt;span ng-if="!data.agentPossible"&gt;${{{data.tableLabel}} record details}&lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;div class="panel-body"&gt;
+    &lt;dl class="ticket-fields" ng-if="data.fields.length &gt; 0"&gt;
+        &lt;dt class= "col-md-6 col-sm-12 col-xs-6 break-word"
+            ng-if="field.value &amp;&amp; (field.type != 'decimal' || field.type == 'decimal' &amp;&amp; field.value != 0)"
+            ng-repeat-start="field in data.fields"&gt;{{field.label}}&lt;/dt&gt;
+        &lt;dd class= "col-md-6 col-sm-12 col-xs-6 break-word"
+            ng-repeat-end ng-switch="field.type"
+            ng-if="field.value &amp;&amp; (field.type != 'decimal' || field.type == 'decimal' &amp;&amp; field.value != 0)"&gt;
+          &lt;div ng-switch-when="glide_date_time" title="{{field.display_value}}"&gt;
+            &lt;sn-time-ago timestamp="::field.value"&gt;&lt;/sn-time-ago&gt;
+          &lt;/div&gt;
+          &lt;div ng-switch-when="multi_small"&gt;&lt;pre class="multi-lines"&gt;{{field.display_value}}&lt;/pre&gt;&lt;/div&gt;
+          &lt;div ng-switch-default&gt;&lt;span class="pre-wrap"&gt;{{field.display_value}}&lt;/span&gt;&lt;/div&gt;
+        &lt;/dd&gt;
+    &lt;/dl&gt;
+    &lt;sp-widget widget="data.variableSummarizerWidget"&gt;&lt;/sp-widget&gt;
+  &lt;/div&gt;
+
+  &lt;div ng-if="data.agentPossible &amp;&amp; !data.agent &amp;&amp; options.pickup_msg" class="panel-footer"&gt;
+    &lt;div id="ticket_fields_footer" class="text-center text-muted" style="font-style: italic;" ng-bind-html="data.pickupMsg"&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;</payload><sys_class_name>sp_rel_widget_clone</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-10 21:15:13</sys_created_on><sys_id>046a99a3c3c5d610d056bd43e40131b9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>c86a95ebc345d610d056bd43e40131bf</sys_name><sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package><sys_policy/><sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope><sys_update_name>sp_rel_widget_clone_046a99a3c3c5d610d056bd43e40131b9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-10 21:15:13</sys_updated_on></sp_rel_widget_clone></record_update>]]></payload>
+        <payload_hash>560448063</payload_hash>
+        <record_name>c86a95ebc345d610d056bd43e40131bf</record_name>
+        <reverted_from/>
+        <source>a6ccf94fc3f45210d056bd43e401310f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-10 21:15:13</sys_created_on>
+        <sys_id>446a99a3c3c5d610d056bd43e40131bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192784927ca0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-10 21:15:13</sys_updated_on>
+        <type>Widget Clone</type>
+        <update_guid>086a99a3c3c5d610f2a14e6ae8ffacbc</update_guid>
+        <update_guid_history>086a99a3c3c5d610f2a14e6ae8ffacbc:560448063</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">ca0b1967c3c5d610d056bd43e4013129</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-10 21:18:04</sys_created_on>
+        <sys_db_object display_value="" name="sp_rel_widget_clone">sp_rel_widget_clone</sys_db_object>
+        <sys_id>cfcef1141c8b497aac1941d1d00ac561</sys_id>
+        <sys_metadata>046a99a3c3c5d610d056bd43e40131b9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c86a95ebc345d610d056bd43e40131bf</sys_name>
+        <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
+        <sys_scope_delete display_value="">4c78752d5203411aaac0e69796d5d3c9</sys_scope_delete>
+        <sys_update_name>sp_rel_widget_clone_046a99a3c3c5d610d056bd43e40131b9</sys_update_name>
+        <sys_update_version display_value="sp_rel_widget_clone_046a99a3c3c5d610d056bd43e40131b9">446a99a3c3c5d610d056bd43e40131bd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-10 21:18:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

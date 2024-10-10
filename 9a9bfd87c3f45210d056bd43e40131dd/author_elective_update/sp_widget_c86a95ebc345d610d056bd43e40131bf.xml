@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="DELETE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function($scope) {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.container {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.header {
+	text-align: center;
+  // font-family: "Lucida Console", Courier, monospace;
+  font-size: 20px;
+}
+
+span {
+	font-weight: bold;
+}
+
+.details {
+	margin-left: 100px;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>activity_log</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Activity Log</name>
+        <option_schema>[{"name":"pickup_msg","section":"Presentation","label":"Pickup message","type":"string"}]</option_schema>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function(){
+	
+	var gr = $sp.getRecord();
+	var officer = $sp.getField(gr, 'reporting_officer').display_value;
+	var fields = $sp.getFields(gr, 'number,incident_number,sys_created_on,type,location,location_additional,status');
+
+	data.fields = fields;
+	data.officer = officer;
+	console.log(data.fields);
+	
+})()
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-10 21:15:12</sys_created_on>
+        <sys_id>c86a95ebc345d610d056bd43e40131bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Activity Log</sys_name>
+        <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
+        <sys_update_name>sp_widget_c86a95ebc345d610d056bd43e40131bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-10 21:15:12</sys_updated_on>
+        <template><![CDATA[<div class="panel b">
+    <div class="panel-heading bg-primary">
+      <p class="header">You are viewing details for Report Number: <b>{{c.data.fields[0].display_value}}</b></p>
+  	</div>
+  	
+    <div class="container">
+    	<div class="labels"><p ng-repeat="field in c.data.fields" ng-if="$index > 0">{{field.label}}</p> </div>
+    	<div class="details"><p ng-repeat="field in c.data.fields" ng-if="$index > 0">{{field.display_value}}</p></div>
+		</div>
+
+  <div class="panel-heading bg-primary panel-la-jolla-default">
+    <p ng-if="data.officer">
+      Reporting Officer: <span>{{c.data.officer}}</span>
+    </p>
+  </div>
+
+</div>]]></template>
+    </sp_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</application>
+        <file_path/>
+        <instance_id>09943ed3dbe9029837d72a5913961978</instance_id>
+        <instance_name>dev260260</instance_name>
+        <name>sp_widget_c86a95ebc345d610d056bd43e40131bf</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[api.controller=function($scope) {
+  /* widget controller */
+  var c = this;
+};]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;.container {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.header {
+	text-align: center;
+  // font-family: "Lucida Console", Courier, monospace;
+  font-size: 20px;
+}
+
+span {
+	font-weight: bold;
+}
+
+.details {
+	margin-left: 100px;
+}&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;true&lt;/has_preview&gt;&lt;id&gt;activity_log&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {  }]]&gt;&lt;/link&gt;&lt;name&gt;Activity Log&lt;/name&gt;&lt;option_schema&gt;[{"name":"pickup_msg","section":"Presentation","label":"Pickup message","type":"string"}]&lt;/option_schema&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function(){
+	
+	var gr = $sp.getRecord();
+	var officer = $sp.getField(gr, 'reporting_officer').display_value;
+	var fields = $sp.getFields(gr, 'number,incident_number,sys_created_on,type,location,location_additional,status');
+
+	data.fields = fields;
+	data.officer = officer;
+	console.log(data.fields);
+	
+})()
+]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-10 21:15:12&lt;/sys_created_on&gt;&lt;sys_id&gt;c86a95ebc345d610d056bd43e40131bf&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Activity Log&lt;/sys_name&gt;&lt;sys_package display_value="Public Safety" source="x_968807_public_0"&gt;9a9bfd87c3f45210d056bd43e40131dd&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Public Safety"&gt;9a9bfd87c3f45210d056bd43e40131dd&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_c86a95ebc345d610d056bd43e40131bf&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-10 21:15:12&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div class="panel b"&gt;
+    &lt;div class="panel-heading bg-primary"&gt;
+      &lt;p class="header"&gt;You are viewing details for Report Number: &lt;b&gt;{{c.data.fields[0].display_value}}&lt;/b&gt;&lt;/p&gt;
+  	&lt;/div&gt;
+  	
+    &lt;div class="container"&gt;
+    	&lt;div class="labels"&gt;&lt;p ng-repeat="field in c.data.fields" ng-if="$index &gt; 0"&gt;{{field.label}}&lt;/p&gt; &lt;/div&gt;
+    	&lt;div class="details"&gt;&lt;p ng-repeat="field in c.data.fields" ng-if="$index &gt; 0"&gt;{{field.display_value}}&lt;/p&gt;&lt;/div&gt;
+		&lt;/div&gt;
+
+  &lt;div class="panel-heading bg-primary panel-la-jolla-default"&gt;
+    &lt;p ng-if="data.officer"&gt;
+      Reporting Officer: &lt;span&gt;{{c.data.officer}}&lt;/span&gt;
+    &lt;/p&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>273799621</payload_hash>
+        <record_name>Activity Log</record_name>
+        <reverted_from/>
+        <source>a6ccf94fc3f45210d056bd43e401310f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-10 21:15:13</sys_created_on>
+        <sys_id>046a99a3c3c5d610d056bd43e40131b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1927849270e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-10 21:15:13</sys_updated_on>
+        <type>Widget</type>
+        <update_guid>c46a99a3dfc5d61068fb36fe1df810b7</update_guid>
+        <update_guid_history>c46a99a3dfc5d61068fb36fe1df810b7:273799621</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Activity Log">c60bd5afc385d610d056bd43e4013183</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-10 21:18:05</sys_created_on>
+        <sys_db_object display_value="" name="sp_widget">sp_widget</sys_db_object>
+        <sys_id>10cd587991aa4903a287e11fe2459961</sys_id>
+        <sys_metadata>c86a95ebc345d610d056bd43e40131bf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Activity Log</sys_name>
+        <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
+        <sys_scope_delete display_value="">4c78752d5203411aaac0e69796d5d3c9</sys_scope_delete>
+        <sys_update_name>sp_widget_c86a95ebc345d610d056bd43e40131bf</sys_update_name>
+        <sys_update_version display_value="sp_widget_c86a95ebc345d610d056bd43e40131bf">046a99a3c3c5d610d056bd43e40131b8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-10 21:18:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
