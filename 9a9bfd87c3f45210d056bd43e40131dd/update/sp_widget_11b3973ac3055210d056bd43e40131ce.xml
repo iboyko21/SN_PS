@@ -8,7 +8,7 @@
 	$scope.clickButton = function(x) {
 		
 		c.data.answer = x; // update server object with info from client script
-		console.log(x);
+		// console.log(x);
 		c.server.update(); // run the server again, populates the input object
 	}
 };]]></client_script>
@@ -19,17 +19,24 @@
 }
 
 .title {
-  width: 54%;
+  width: 100%;
+  // border-radius: 5px;
   padding: 10px;
-	background-color: blue;
-  font-size: 20px;
+	background-color: #1F8476;
+  font-size: 30px;
   color: white;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+table {
+	width: 100%;
 }
 
 th {
 	background-color: light blue;
   font-size: 15px;
-  padding: 10px;
+  padding: 15px;
 }
 
 td {
@@ -54,7 +61,7 @@ td {
 	
 	// Running from a c.server.update()
 	if (input) { // input is updated version of original data object
-		console.log('Server updated' + input.answer);
+		console.log('Server updated: ' + input.answer);
 	}
 
 	// data.userName = gs.getUserDisplayName();
@@ -86,14 +93,14 @@ td {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-08 22:09:52</sys_created_on>
         <sys_id>11b3973ac3055210d056bd43e40131ce</sys_id>
-        <sys_mod_count>71</sys_mod_count>
+        <sys_mod_count>89</sys_mod_count>
         <sys_name>Active Incidents</sys_name>
         <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
         <sys_update_name>sp_widget_11b3973ac3055210d056bd43e40131ce</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-10 02:55:37</sys_updated_on>
+        <sys_updated_on>2024-10-10 20:12:33</sys_updated_on>
         <template><![CDATA[<div>
   <!-- your widget template -->
 
@@ -103,17 +110,18 @@ td {
   </p>
 -->
 
-  <p class="title">
-    List of Incidents
+  <p class="title">List of Incidents
   </p>
   <table class="table-striped">
-    <th></th>
-    <th>Number</th>
-    <th>Type</th>
-    <th>Status</th>
-    <th>Location</th>
-    <th>Location Additional</th>
-    <th>Assigned To</th>
+    <tr>
+      <th></th>
+      <th>Number</th>
+      <th>Type</th>
+      <th>Status</th>
+      <th>Location</th>
+      <th>Location Additional</th>
+      <th>Assigned To</th>
+     </tr>
   
     <tr ng-repeat="row in c.data.table.list">
        <td>
@@ -138,8 +146,7 @@ td {
       </td>
       <td>
         {{row.assigned}}
-      </td>
-     
+      </td>	
     </tr>
   </table>
 </div>

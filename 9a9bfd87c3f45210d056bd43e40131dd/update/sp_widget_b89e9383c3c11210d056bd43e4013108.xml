@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
     <sp_widget action="INSERT_OR_UPDATE">
         <category>custom</category>
-        <client_script><![CDATA[/*
-function ($scope, spUtil) {
+        <client_script><![CDATA[function ($scope, spUtil) {
 	spUtil.recordWatch($scope, $scope.data.table, "sys_id=" + $scope.data.sys_id);
-}
-*/]]></client_script>
+}]]></client_script>
         <controller_as>c</controller_as>
         <css>.ticket-fields {
   display: flex;
@@ -15,7 +13,7 @@ function ($scope, spUtil) {
 
 .header {
 	text-align: center;
-  font-family: "Lucida Console", Courier, monospace;
+  // font-family: "Lucida Console", Courier, monospace;
   font-size: 20px;
 }
 
@@ -98,17 +96,17 @@ span {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-09 17:35:50</sys_created_on>
         <sys_id>b89e9383c3c11210d056bd43e4013108</sys_id>
-        <sys_mod_count>121</sys_mod_count>
+        <sys_mod_count>126</sys_mod_count>
         <sys_name>Public Safety Incident Details</sys_name>
         <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
         <sys_update_name>sp_widget_b89e9383c3c11210d056bd43e4013108</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-10 02:03:09</sys_updated_on>
+        <sys_updated_on>2024-10-10 20:15:26</sys_updated_on>
         <template><![CDATA[	<div class="panel b">
-    <div class="panel-heading bg-primary panel-la-jolla-default">
-      <p class="header">You are viewing Incident Number: {{data.fields[0].display_value}}</p>
+    <div class="panel-heading bg-primary">
+      <p class="header">You are viewing details for Incident Number: <b>{{data.fields[0].display_value}}</b></p>
   	</div>
   	
     <div class="ticket-fields">
