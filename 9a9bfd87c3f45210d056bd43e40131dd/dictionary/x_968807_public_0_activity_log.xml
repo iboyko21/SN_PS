@@ -14,10 +14,12 @@
                 <element inactive_on_update="false" label="Motorist Assist" sequence="3" value="Motorist Assist"/>
                 <element inactive_on_update="false" label="Report Writing" sequence="4" value="Report Writing"/>
                 <element inactive_on_update="false" label="Training" sequence="6" value="Training"/>
+                <element inactive_on_update="false" label="Incident" sequence="8" value="Incident"/>
                 <element inactive_on_update="false" label="Passing Call" sequence="0" value="Passing Call"/>
                 <element inactive_on_update="false" label="Meal Break" sequence="1" value="Meal Break"/>
             </choice>
         </element>
+        <element label="Report Number" max_length="32" name="report_number" reference="x_968807_public_0_reports" type="reference"/>
         <element label="Completed" max_length="40" name="completed" type="glide_date_time"/>
         <element choice="1" choice_field="location" choice_table="x_968807_public_0_incidents" label="Location" max_length="40" name="location" type="choice">
             <choice/>
@@ -27,7 +29,14 @@
         </element>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Reporting Unit" max_length="32" name="reporting_unit" reference="x_968807_public_0_employees" type="reference"/>
+        <element label="Incident Number" max_length="32" name="incident_number" reference="x_968807_public_0_incidents" type="reference"/>
         <index name="index">
+            <element name="incident_number"/>
+        </index>
+        <index name="index2">
+            <element name="report_number"/>
+        </index>
+        <index name="index3">
             <element name="reporting_unit"/>
         </index>
     </element>

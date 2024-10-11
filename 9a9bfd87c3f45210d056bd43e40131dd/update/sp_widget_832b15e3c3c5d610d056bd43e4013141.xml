@@ -19,7 +19,7 @@
   font-size: 30px;
   color: white;
   text-align: center;
-  margin-top: 50px;
+  // margin-top: 50px;
   margin-bottom: 0;
 }
 
@@ -56,14 +56,22 @@ td {
 	};
 	
 	var activityLog = new GlideRecord('x_968807_public_0_activity_log'); // table name
-	activityLog.addQuery('status','In Progress'); // filter by status
-	
-	// activityLog.orderBy('sys_created_on');
+	activityLog.addQuery('status','In Progress');
+	activityLog.orderByDesc('sys_created_on');
 	activityLog.query();
 	
 	while (activityLog.next()) {
 		var obj = {};
 		obj.number = activityLog.getValue('number');
+		obj.date = activityLog.getValue('sys_created_on');
+		// console.log(obj.date);
+		
+		function removeDate(dateString) {
+  		var regex = /\d{4}-\d{2}-\d{2}/;
+  		return dateString.replace(regex, '');
+	}
+
+		obj.date = removeDate(obj.date);	
 		obj.activity = activityLog.getValue('activity');
 		obj.reporting_unit = activityLog.getDisplayValue('reporting_unit');
 		obj.status = activityLog.getValue('status');
@@ -79,14 +87,14 @@ td {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-10 21:18:41</sys_created_on>
         <sys_id>832b15e3c3c5d610d056bd43e4013141</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_name>PS Activity Log</sys_name>
         <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
         <sys_update_name>sp_widget_832b15e3c3c5d610d056bd43e4013141</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-10 22:43:25</sys_updated_on>
+        <sys_updated_on>2024-10-11 00:47:37</sys_updated_on>
         <template><![CDATA[<div>
 
   <p class="title">Activity Log
@@ -94,6 +102,7 @@ td {
   <table class="table-striped">
     <tr>
       <th>Number</th>
+      <th>Time</th>
       <th>Activity</th>
       <th>Officer</th>
       <th>Status</th>
@@ -104,6 +113,9 @@ td {
     <tr ng-repeat="row in c.data.table.list">
       <td>
         {{row.number}}
+      </td>
+      <td>
+        {{row.date}}
       </td>
       <td>
         {{row.activity}}
