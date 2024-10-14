@@ -33,17 +33,20 @@
         <script><![CDATA[var report = new GlideRecord("x_968807_public_0_reports"); //Target Table
 
 report.initialize();
-report.incident_number = current.number;
+report.incident_number = current.sys_id;
+// gs.info("Incident number: " + current.number);
+
 report.type = current.type;
 report.location = current.location;
-report.location_additional = current.location_additional;
+report.location_additional = current.locaion_additional;
 report.reporting_officer = current.assigned_to;
 report.insert();
-// action.setRedirectURL(current);
 
-/*
- gs.addInfoMessage('Record <a href ="/x_968807_public_0_reports.do?sysparm_query=number%3D' + x.number + '">'/+ x.number +'</a>'+ 'has been created.');
- */]]></script>
+current.report = true;
+current.report_number = report.sys_id;
+current.update();
+
+action.setRedirectURL(report);]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -54,7 +57,7 @@ report.insert();
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>193da9dbc3341210d056bd43e40131e4</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>Create Report</sys_name>
         <sys_overrides/>
         <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
@@ -62,7 +65,7 @@ report.insert();
         <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
         <sys_update_name>sys_ui_action_193da9dbc3341210d056bd43e40131e4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-08 18:59:12</sys_updated_on>
+        <sys_updated_on>2024-10-14 22:28:42</sys_updated_on>
         <table>x_968807_public_0_incidents</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
