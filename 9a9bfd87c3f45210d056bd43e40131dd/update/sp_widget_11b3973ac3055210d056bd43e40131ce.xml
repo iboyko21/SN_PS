@@ -5,29 +5,27 @@
   /* widget controller */
   var c = this;
 	
-	$scope.clickButton = function(x) {
+	$scope.clickButton = function(sid) {
 		// /nav_to.do?uri=x_968807_public_0_incidents.do?sys_id=11253e70c35d1210d056bd43e4013185
-		var incidentUrl = "/nav_to.do?uri=x_968807_public_0_incidents.do?sys_id=" + x;
+		var incidentUrl = "/nav_to.do?uri=x_968807_public_0_incidents.do?sys_id=" + sid;
     window.open(incidentUrl, '_blank');  // Open in a new tab/window
 		
 	}
 };
 
 
-/*	$scope.clickButton = function(x) {
+/*	
+$scope.clickButton = function(x) {
 // update server object with info from client script		
 		c.data.answer = x; 
-		// console.log(x);
+		console.log(x);
 // run the server again, populates the input object		
 		c.server.update(); 
 	}
-}; */]]></client_script>
+}; 
+*/]]></client_script>
         <controller_as>c</controller_as>
-        <css>.container-fluid {
-	//margin-bottom: 10px;
-}
-
-.title {
+        <css>.title {
   padding: 2px 0 2px 0;
 	background-color: #1F8476;
   font-size: 20px;
@@ -46,6 +44,13 @@ th {
 td {
 	padding: 5px;
   text-align: center;
+}
+
+td button {
+	//color: pink;
+  //margin-top: 10px;
+  //align-self: center;
+	//padding: 3px 5px 3px 5px;
 }</css>
         <data_table>sp_instance</data_table>
         <demo_data/>
@@ -66,14 +71,9 @@ td {
 	
 // Running from a c.server.update()
 // input is updated version of original data object
-	if (input) { 
-		console.log('Server updated: ' + input.answer);
-	}
-	
-//	var today = new GlideDateTime().getDate();
-//	today = today.getByFormat("MM-dd-yyyy");
-//	data.today = today;
-//	console.log('today: ' + data.date);
+//	if (input) { 
+//		console.log('Server updated: ' + input.answer);
+//	}
 	
 	data.table = {
 		"list" : []
@@ -93,6 +93,7 @@ td {
 		obj.name = incident.getValue('type');
 		obj.location = incident.getValue('location');
 		obj.locationAdd = incident.getValue('locaion_additional');
+		obj.assignedTo = incident.getDisplayValue('assigned_to');
 		
 		data.table.list.push(obj);
 	}
@@ -103,40 +104,36 @@ td {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-08 22:09:52</sys_created_on>
         <sys_id>11b3973ac3055210d056bd43e40131ce</sys_id>
-        <sys_mod_count>156</sys_mod_count>
+        <sys_mod_count>178</sys_mod_count>
         <sys_name>Active Incidents</sys_name>
         <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
         <sys_update_name>sp_widget_11b3973ac3055210d056bd43e40131ce</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 19:10:14</sys_updated_on>
+        <sys_updated_on>2024-10-15 21:06:03</sys_updated_on>
         <template><![CDATA[<div class="container-fluid">
   <div>
     <p class="title">Open Incidents</p>
-    <table class="table-striped">
+    <table class="table-hover">
       <tr>
-        <th></th>
         <th>Number</th>
         <th>Date/Time</th>
         <th>Type</th>
         <th>Location</th>
         <th>Location Additional</th>
+        <th>Assigned To</th>
       </tr>
 
       <tr ng-repeat="row in c.data.table.list">
         <td>
-          <button class="btn btn-success" name="clickButton" 
+          <button class="btn btn-info" name="clickAction" 
                   ng-click="clickButton(row.sysId)">
-            View
+            {{row.number}}
           </button>
         </td>
-        <td>
-          {{row.number}}
-        </td>
-        <!-- <td>
-          {{row.date}}
-        </td> -->
+     
+  
         <td>
           {{row.date}}
         </td>
@@ -151,6 +148,9 @@ td {
         </td>
         <td>
           {{row.locationAdd}}
+        </td>
+        <td>
+          {{row.assignedTo}}
         </td>
       </tr>
     </table>

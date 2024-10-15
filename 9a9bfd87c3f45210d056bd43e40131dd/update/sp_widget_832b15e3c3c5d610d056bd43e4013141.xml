@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
     <sp_widget action="INSERT_OR_UPDATE">
         <category>custom</category>
-        <client_script><![CDATA[api.controller=function() {
+        <client_script><![CDATA[api.controller=function($scope) {
   /* widget controller */
   var c = this;
+	
+	$scope.clickButton = function(sid) {
+		var logUrl = "/nav_to.do?uri=x_968807_public_0_activity_log.do?sys_id=" + sid;
+    window.open(logUrl, '_blank');  // Open in a new tab/window
+	}
 };]]></client_script>
         <controller_as>c</controller_as>
         <css>.title {
@@ -12,17 +17,10 @@
   font-size: 20px;
   color: white;
   text-align: center;
-  // margin-top: 50px;
   margin-bottom: 0;
 }
 
-table {
-	// width: 90%;
-}
-
 th {
-  //font-size: 15px;
-  //padding: 5px;
   text-align: center;
 }
 
@@ -57,7 +55,7 @@ td {
 	var activityLog = new GlideRecord('x_968807_public_0_activity_log'); // table name
 	// activityLog.addQuery('status','In Progress'); // filter by field
 	activityLog.orderByDesc('sys_created_on'); // order by date
-	activityLog.setLimit(10); // return first 10 records
+	activityLog.setLimit(8); // how many records to return
 	activityLog.query();
 	
 	while (activityLog.next()) {
@@ -71,6 +69,7 @@ td {
   		return dateString.replace(regex, '');
 	}
 
+		obj.sysId = activityLog.getValue('sys_id');
 		obj.date = removeDate(obj.date);	
 		obj.activity = activityLog.getValue('activity');
 		obj.reporting_unit = activityLog.getDisplayValue('reporting_unit');
@@ -87,17 +86,17 @@ td {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-10 21:18:41</sys_created_on>
         <sys_id>832b15e3c3c5d610d056bd43e4013141</sys_id>
-        <sys_mod_count>50</sys_mod_count>
+        <sys_mod_count>63</sys_mod_count>
         <sys_name>PS Activity Log</sys_name>
         <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
         <sys_update_name>sp_widget_832b15e3c3c5d610d056bd43e4013141</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 18:36:58</sys_updated_on>
+        <sys_updated_on>2024-10-15 21:24:37</sys_updated_on>
         <template><![CDATA[<div>
-  <p class="title">Today's Activity Log | {{c.data.today}}</p>
-  <table class="table-striped">
+  <p class="title">Today's Activity Log [ {{c.data.today}} ]</p>
+  <table class="table-hover">
     <tr>
       <th>Number</th>
       <th>Time</th>
@@ -110,7 +109,10 @@ td {
   
     <tr ng-repeat="row in c.data.table.list">
       <td>
-        {{row.number}}
+         <button class="btn btn-info" name="clickAction" 
+                  ng-click="clickButton(row.sysId)">
+            {{row.number}}
+          </button>
       </td>
       <td>
         {{row.date}}
