@@ -15,23 +15,16 @@
 };]]></client_script>
         <controller_as>c</controller_as>
         <css>.title {
-  // width: 100%;
-  // border-radius: 5px;
   padding: 10px;
 	background-color: #1F8476;
-  font-size: 30px;
+  font-size: 20px;
   color: white;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 0;
 }
 
-table {
-	// width: 100%;
-}
-
 th {
-	// background-color: blue;
   font-size: 15px;
   padding: 15px;
 }
@@ -62,12 +55,10 @@ td {
 		console.log('Server updated: ' + input.answer);
 	}
 	
-	
-	var today = new GlideDateTime().getDate();
-	today = today.getByFormat("MM-dd-yyyy");
-	data.date = today;
-	// data.date = today.getDisplayValue();
-	// console.log('today: ' + data.date);
+//	var today = new GlideDateTime().getDate();
+//	today = today.getByFormat("MM-dd-yyyy");
+//	data.today = today;
+//	console.log('today: ' + data.date);
 	
 	data.table = {
 		"list" : []
@@ -75,7 +66,7 @@ td {
 	data.answer = "";
 	
 	var incident = new GlideRecord('x_968807_public_0_incidents'); // table name
-	// incident.addQuery('status','Open'); // filter by status
+	incident.addQuery('status', 'Open'); // filter by status
 	incident.orderByDesc('sys_created_on');
 	incident.query();
 	
@@ -84,10 +75,8 @@ td {
 		obj.number = incident.getValue('number');
 		obj.date = incident.getValue('sys_created_on');
 		obj.name = incident.getValue('type');
-		// obj.status = incident.getValue('status');
 		obj.location = incident.getValue('location');
 		obj.locationAdd = incident.getValue('locaion_additional');
-		// obj.assigned = incident.getDisplayValue('assigned_to');
 		
 		data.table.list.push(obj);
 	}
@@ -98,28 +87,25 @@ td {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-08 22:09:52</sys_created_on>
         <sys_id>11b3973ac3055210d056bd43e40131ce</sys_id>
-        <sys_mod_count>124</sys_mod_count>
+        <sys_mod_count>134</sys_mod_count>
         <sys_name>Active Incidents</sys_name>
         <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
         <sys_update_name>sp_widget_11b3973ac3055210d056bd43e40131ce</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-14 23:57:24</sys_updated_on>
+        <sys_updated_on>2024-10-15 01:03:52</sys_updated_on>
         <template><![CDATA[<div class="container-fluid">
   <div>
-    
-    <p class="title">Today's Incidents ({{c.data.date}}) </p>
+    <p class="title">Open Incidents</p>
     <table class="table-striped">
       <tr>
         <th></th>
         <th>Number</th>
         <th>Date/Time</th>
         <th>Type</th>
-        <!-- <th>Status</th> -->
         <th>Location</th>
         <th>Location Additional</th>
-        <!-- <th>Assigned To</th> -->
       </tr>
 
       <tr ng-repeat="row in c.data.table.list">
@@ -147,8 +133,8 @@ td {
           {{row.location}}
         </td>
         <td>
-        {{row.locationAdd}}
-      </td>
+          {{row.locationAdd}}
+        </td>
       </tr>
     </table>
   </div>
