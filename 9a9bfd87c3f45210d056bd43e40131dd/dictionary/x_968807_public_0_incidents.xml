@@ -14,6 +14,7 @@
             </choice>
         </element>
         <element label="Responding Units" max_length="4000" name="responding_units" reference="x_968807_public_0_employees" type="glide_list"/>
+        <element label="Comments" max_length="40" name="comments" type="journal_input"/>
         <element label="Assigned To" max_length="32" name="assigned_to" reference="x_968807_public_0_employees" type="reference"/>
         <element label="Closed" max_length="40" name="closed" read_only="true" type="glide_date_time"/>
         <element choice="3" default="Open" label="Status" max_length="40" name="status" type="choice">
