@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Additional Information" section_id="37875b8dc3d19610d056bd43e4013120" sys_domain="global" table="x_968807_public_0_activity_log" version="3" view="workspace-public-safety-dispatcher-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_on</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-15 22:13:03</sys_created_on>
+            <sys_id>7b875b8dc3d19610d056bd43e4013122</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Additional Information" display_value="Additional Information" name="x_968807_public_0_activity_log" sys_domain="global" view="56779b4d45d19610fa625b1e52a7dad0">37875b8dc3d19610d056bd43e4013120</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-15 22:13:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>completed</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-15 22:13:03</sys_created_on>
+            <sys_id>bf875b8dc3d19610d056bd43e4013148</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Additional Information" display_value="Additional Information" name="x_968807_public_0_activity_log" sys_domain="global" view="56779b4d45d19610fa625b1e52a7dad0">37875b8dc3d19610d056bd43e4013120</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-15 22:13:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-15 22:13:03</sys_created_on>
+            <sys_id>b7875b8dc3d19610d056bd43e4013148</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Additional Information" display_value="Additional Information" name="x_968807_public_0_activity_log" sys_domain="global" view="56779b4d45d19610fa625b1e52a7dad0">37875b8dc3d19610d056bd43e4013120</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-15 22:13:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-15 22:13:03</sys_created_on>
+            <sys_id>b7875b8dc3d19610d056bd43e4013149</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="Additional Information" display_value="Additional Information" name="x_968807_public_0_activity_log" sys_domain="global" view="56779b4d45d19610fa625b1e52a7dad0">37875b8dc3d19610d056bd43e4013120</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-15 22:13:03</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Additional Information</caption>
+            <header>false</header>
+            <name>x_968807_public_0_activity_log</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-15 22:13:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>37875b8dc3d19610d056bd43e4013120</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_968807_public_0_activity_log</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
+            <sys_update_name>sys_ui_section_37875b8dc3d19610d056bd43e4013120</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-15 22:13:03</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace Public Safety Dispatcher 0" name="workspace-public-safety-dispatcher-0">56779b4d45d19610fa625b1e52a7dad0</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

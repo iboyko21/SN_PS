@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="901ece4fc3f85210d056bd43e40131c6" label="Reports" max_length="40" name="x_968807_public_0_reports" type="collection">
+    <element db_object_id="901ece4fc3f85210d056bd43e40131c6" label="Reports" max_length="40" name="x_968807_public_0_reports" text_index="true" type="collection">
         <element label="Approval Status" max_length="40" name="approval_status" read_only="true" type="string"/>
         <element choice="3" default="Open" label="Status" max_length="40" name="status" type="choice">
             <choice>

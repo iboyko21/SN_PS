@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" db_object_id="293e8debc381d610d056bd43e4013102" label="Activity Log" max_length="40" name="x_968807_public_0_activity_log" type="collection">
+    <element audit="true" db_object_id="293e8debc381d610d056bd43e4013102" label="Activity Log" max_length="40" name="x_968807_public_0_activity_log" text_index="true" type="collection">
         <element choice="3" default="In Progress" label="Status" max_length="40" name="status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Completed" sequence="1" value="Completed"/>
