@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 17:24:50</sys_created_on>
+        <sys_id>b72f539dc391da10d056bd43e401319f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AisDisableSearchSignalEvent</sys_name>
+        <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
+        <sys_update_name>sys_scope_privilege_b72f539dc391da10d056bd43e401319f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 17:24:50</sys_updated_on>
+        <target_name>AisDisableSearchSignalEvent</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>sys_script_include</target_type>
+    </sys_scope_privilege>
+</record_update>
