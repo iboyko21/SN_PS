@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">de779b4de4d1961021379dc4cfe775d2</canvas>
+        <component display_value="List - Simple">2b1c080881e05dc63b917044290b233f</component>
+        <component_props>{"table":"x_968807_public_0_activity_log","fixedQuery":"","listTitle":"","columns":"number,sys_created_on,status,activity,reporting_unit,location,location_additional,incident_number","query":"","groupByField":"","hideViewAll":false,"hideHighlightedValues":false,"highlightedValueConfigId":"","hideHighlightContent":false,"highlightContent":{"patterns":[],"color":""},"hideLinks":false,"wordWrap":false,"overrideWordWrapUserPref":false,"maxCharLimit":4000,"hideEmptyStateImage":false,"hidePersonalization":true,"hideDotwalk":true,"hideColumnReorder":true,"hideRowSelector":false,"hideColumnGrouping":true,"hideColumnResizing":true,"hideColumnFiltering":true,"hideColumnSorting":true,"hideHeader":false,"hideTitle":true,"hideTitleRowCount":true,"hideLastRefreshedText":false,"hideRefreshButton":false,"hideInlineEditing":true,"noDebounce":true,"id":"hideColumnSorting","value":true,"propLabel":"Hide column sorting","maxColumns":8,"limit":10}</component_props>
+        <h>27</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-15 22:40:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>81fd5345c3959610d056bd43e4013104</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
+        <sys_update_name>par_dashboard_widget_81fd5345c3959610d056bd43e4013104</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-15 23:54:31</sys_updated_on>
+        <visualization/>
+        <w>41</w>
+        <widget_props/>
+        <x>0</x>
+        <y>3</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</application>
+        <file_path/>
+        <instance_id>09943ed3dbe9029837d72a5913961978</instance_id>
+        <instance_name>dev260260</instance_name>
+        <name>par_dashboard_widget_81fd5345c3959610d056bd43e4013104</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">de779b4de4d1961021379dc4cfe775d2</canvas><component display_value="List - Simple">2b1c080881e05dc63b917044290b233f</component><component_props>{"table":"x_968807_public_0_activity_log","fixedQuery":"","listTitle":"","columns":"number,sys_created_on,status,activity,reporting_unit,location,location_additional,incident_number","query":"","groupByField":"","hideViewAll":false,"hideHighlightedValues":false,"highlightedValueConfigId":"","hideHighlightContent":false,"highlightContent":{"patterns":[],"color":""},"hideLinks":false,"wordWrap":false,"overrideWordWrapUserPref":false,"maxCharLimit":4000,"hideEmptyStateImage":false,"hidePersonalization":true,"hideDotwalk":true,"hideColumnReorder":true,"hideRowSelector":false,"hideColumnGrouping":true,"hideColumnResizing":true,"hideColumnFiltering":true,"hideColumnSorting":true,"hideHeader":false,"hideTitle":true,"hideTitleRowCount":true,"hideLastRefreshedText":false,"hideRefreshButton":false,"hideInlineEditing":true,"noDebounce":true,"id":"hideColumnSorting","value":true,"propLabel":"Hide column sorting","maxColumns":8,"limit":10}</component_props><h>27</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-15 22:40:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>81fd5345c3959610d056bd43e4013104</sys_id><sys_mod_count>13</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package><sys_policy/><sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope><sys_update_name>par_dashboard_widget_81fd5345c3959610d056bd43e4013104</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-15 23:54:31</sys_updated_on><visualization/><w>41</w><widget_props/><x>0</x><y>3</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-521647208</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>a6ccf94fc3f45210d056bd43e401310f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-15 23:54:31</sys_created_on>
+        <sys_id>56ce2389c3999610d056bd43e4013186</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192929acb920000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-15 23:54:31</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>9eceaf49e99996107741d15e2b66c56e</update_guid>
+        <update_guid_history>9eceaf49e99996107741d15e2b66c56e:-521647208,ad2ea349d5999610f4c5d92bc5d09ad4:1010988097,cbec2f45e0999610a37acfa83ad04f3f:683022274,c79c2b857e9996106a3bfe037e3207a6:11842017,bcda27816e99961081f8cf084c6a6c74:1751646822,73c82b452e5996100e48b022cfcb59ba:-222859354,cd24eb859cd5961076286a4264d1d92e:1079730603,b743a7417fd59610770048825c437883:-566013016,0d036bcd6495961031efc967299ad601:576417668,5e42e7897d959610d9baf08a6c6a3795:-192019132,d801eb09b895961078bf70616add5b29:1466021599,f1502fc54d9596104e46199428213f7d:-577451228,115f17c5719596109bde8b71cb268df8:-303221026,05fd534534959610781ca2df6ec7b805:1359594640</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">6020ffc9c3999610d056bd43e401313e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 00:00:24</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>6044e7ce1e66401cbcce57cecc736c64</sys_id>
+        <sys_metadata>81fd5345c3959610d056bd43e4013104</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
+        <sys_scope_delete display_value="">4c78752d5203411aaac0e69796d5d3c9</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_81fd5345c3959610d056bd43e4013104</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_81fd5345c3959610d056bd43e4013104">56ce2389c3999610d056bd43e4013186</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 00:00:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
