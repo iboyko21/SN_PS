@@ -22,10 +22,10 @@
         <element label="Comments" max_length="40" name="comments" type="journal_input"/>
         <element label="Report Number" max_length="32" name="report_number" reference="x_968807_public_0_reports" type="reference"/>
         <element label="Completed" max_length="40" name="completed" type="glide_date_time"/>
-        <element choice="1" choice_field="location" choice_table="x_968807_public_0_incidents" label="Location" max_length="40" name="location" type="choice">
+        <element choice="1" choice_field="location" choice_table="x_968807_public_0_incidents" label="Campus" max_length="40" name="location" type="choice">
             <choice/>
         </element>
-        <element choice="1" choice_field="locaion_additional" choice_table="x_968807_public_0_incidents" dependent="location" dependent_on_field="location" label="Location Additional" max_length="40" name="location_additional" type="choice" use_dependent_field="true">
+        <element choice="1" choice_field="locaion_additional" choice_table="x_968807_public_0_incidents" dependent="location" dependent_on_field="location" label="Location" max_length="40" name="location_additional" type="choice" use_dependent_field="true">
             <choice/>
         </element>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>

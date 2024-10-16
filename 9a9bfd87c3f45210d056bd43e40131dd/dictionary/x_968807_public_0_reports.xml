@@ -10,11 +10,11 @@
         </element>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Reporting Officer" max_length="32" name="reporting_officer" reference="x_968807_public_0_employees" type="reference"/>
-        <element choice="1" choice_field="location" choice_table="x_968807_public_0_incidents" label="Location" max_length="40" name="location" type="choice">
+        <element choice="1" choice_field="location" choice_table="x_968807_public_0_incidents" label="Campus" max_length="40" name="location" type="choice">
             <choice/>
         </element>
         <element label="Incident Number" max_length="32" name="incident_number" reference="x_968807_public_0_incidents" type="reference"/>
-        <element choice="1" choice_field="locaion_additional" choice_table="x_968807_public_0_incidents" dependent="location" dependent_on_field="location" label="Location Additional" max_length="40" name="location_additional" type="choice" use_dependent_field="true">
+        <element choice="1" choice_field="locaion_additional" choice_table="x_968807_public_0_incidents" dependent="location" dependent_on_field="location" label="Location" max_length="40" name="location_additional" type="choice" use_dependent_field="true">
             <choice/>
         </element>
         <element choice="1" label="Type" max_length="40" name="type" type="choice">
