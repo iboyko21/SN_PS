@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">724af421c3515e10d056bd43e40131ee</canvas>
+        <component display_value="Pivot Table">06f6aacbd1818110f877d87436272684</component>
+        <component_props>{"freezeHeader":false,"freezeFooter":false,"showPivotExpanded":true,"freezeFirstColumn":true,"showAlternateRowColors":true,"showAlternateColumnColors":false,"showRowDividers":true,"truncateFirstColumn":true,"wrapColumnHeader":true,"truncateColumnHeader":false,"showColumnDividers":true,"showRowAggregate":true,"showColumnAggregate":true,"showSubAggregate":false,"colorConfig":{"type":"default"},"enableDrilldown":true,"showZero":true,"newReporting":true,"additionalGroupByConfig":null,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Employees","sourceType":"table","tableOrViewName":"x_968807_public_0_employees","filterQuery":"title=Safety Officer^ORtitle=Safety Sergeant","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4Xzk2ODgwN19wdWJsaWNfMF9lbXBsb3llZXMxNzI5MTgzNjUwNTY4","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":true,"showFirstGroupAggregate":true,"showSecondGroupAggregate":true,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"contextMenuActions":[],"headingLevel":2,"showBorder":true,"bareBorder":false,"dataCategory":"group","telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"dataPassthrough":null,"metrics":[{"dataSource":"dGFibGV4Xzk2ODgwN19wdWJsaWNfMF9lbXBsb3llZXMxNzI5MTgzNjUwNTY4","id":"ZEdGaWJHVjRYemsyT0Rnd04xOXdkV0pzYVdOZk1GOWxiWEJzYjNsbFpYTXhOekk1TVRnek5qVXdOVFk0MTcyOTE4MzY1MjI1Ng==","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary","label":"Officers"}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4Xzk2ODgwN19wdWJsaWNfMF9lbXBsb3llZXMxNzI5MTgzNjUwNTY4","groupByField":"title","isRange":false,"isChoice":false,"isPaBucket":false}],"categoryIndex":0,"maxNumberOfGroups":10,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"hideZeroValues":false,"disableRanges":true},{"groupBy":[{"dataSource":"dGFibGV4Xzk2ODgwN19wdWJsaWNfMF9lbXBsb3llZXMxNzI5MTgzNjUwNTY4","groupByField":"status","isRange":false,"isChoice":true,"isPaBucket":false}],"categoryIndex":1,"maxNumberOfGroups":"ALL","numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"hideZeroValues":false,"disableRanges":true}],"sortBy":"choice","sortByOrder":"asc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"cs93sqwl","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"hideDevSettings":false,"configPropModifiers":{},"filterConfigurations":"@state.parFilters","showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":"latest","showChangeFrom":"previous","period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"id":"showFilterIcon","value":true,"noDebounce":true,"propLabel":"Show filter icon"}</component_props>
+        <h>19</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 17:05:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e9446839c3dd5250d056bd43e4013132</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
+        <sys_update_name>par_dashboard_widget_e9446839c3dd5250d056bd43e4013132</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 17:14:52</sys_updated_on>
+        <visualization/>
+        <w>14</w>
+        <widget_props/>
+        <x>34</x>
+        <y>3</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</application>
+        <file_path/>
+        <instance_id>09943ed3dbe9029837d72a5913961978</instance_id>
+        <instance_name>dev260260</instance_name>
+        <name>par_dashboard_widget_e9446839c3dd5250d056bd43e4013132</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">724af421c3515e10d056bd43e40131ee</canvas><component display_value="Pivot Table">06f6aacbd1818110f877d87436272684</component><component_props>{"freezeHeader":false,"freezeFooter":false,"showPivotExpanded":true,"freezeFirstColumn":true,"showAlternateRowColors":true,"showAlternateColumnColors":false,"showRowDividers":true,"truncateFirstColumn":true,"wrapColumnHeader":true,"truncateColumnHeader":false,"showColumnDividers":true,"showRowAggregate":true,"showColumnAggregate":true,"showSubAggregate":false,"colorConfig":{"type":"default"},"enableDrilldown":true,"showZero":true,"newReporting":true,"additionalGroupByConfig":null,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Employees","sourceType":"table","tableOrViewName":"x_968807_public_0_employees","filterQuery":"title=Safety Officer^ORtitle=Safety Sergeant","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4Xzk2ODgwN19wdWJsaWNfMF9lbXBsb3llZXMxNzI5MTgzNjUwNTY4","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":true,"showFirstGroupAggregate":true,"showSecondGroupAggregate":true,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"contextMenuActions":[],"headingLevel":2,"showBorder":true,"bareBorder":false,"dataCategory":"group","telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"dataPassthrough":null,"metrics":[{"dataSource":"dGFibGV4Xzk2ODgwN19wdWJsaWNfMF9lbXBsb3llZXMxNzI5MTgzNjUwNTY4","id":"ZEdGaWJHVjRYemsyT0Rnd04xOXdkV0pzYVdOZk1GOWxiWEJzYjNsbFpYTXhOekk1TVRnek5qVXdOVFk0MTcyOTE4MzY1MjI1Ng==","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary","label":"Officers"}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4Xzk2ODgwN19wdWJsaWNfMF9lbXBsb3llZXMxNzI5MTgzNjUwNTY4","groupByField":"title","isRange":false,"isChoice":false,"isPaBucket":false}],"categoryIndex":0,"maxNumberOfGroups":10,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"hideZeroValues":false,"disableRanges":true},{"groupBy":[{"dataSource":"dGFibGV4Xzk2ODgwN19wdWJsaWNfMF9lbXBsb3llZXMxNzI5MTgzNjUwNTY4","groupByField":"status","isRange":false,"isChoice":true,"isPaBucket":false}],"categoryIndex":1,"maxNumberOfGroups":"ALL","numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"hideZeroValues":false,"disableRanges":true}],"sortBy":"choice","sortByOrder":"asc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"cs93sqwl","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"hideDevSettings":false,"configPropModifiers":{},"filterConfigurations":"@state.parFilters","showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":"latest","showChangeFrom":"previous","period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"id":"showFilterIcon","value":true,"noDebounce":true,"propLabel":"Show filter icon"}</component_props><h>19</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-17 17:05:11</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e9446839c3dd5250d056bd43e4013132</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package><sys_policy/><sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope><sys_update_name>par_dashboard_widget_e9446839c3dd5250d056bd43e4013132</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-17 17:14:52</sys_updated_on><visualization/><w>14</w><widget_props/><x>34</x><y>3</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>169941851</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>a6ccf94fc3f45210d056bd43e401310f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 17:14:52</sys_created_on>
+        <sys_id>6776ec71c3119250d056bd43e4013115</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1929b79a0050000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 17:14:52</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>eb76ec71d4119250abe57aade801fd14</update_guid>
+        <update_guid_history>eb76ec71d4119250abe57aade801fd14:169941851,a544683988dd52505aeaf982ef359734:-410893816</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">21eca0fdc3919250d056bd43e401311c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 17:42:52</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>612ca3f6ae584c048f8d2e93fc4ea124</sys_id>
+        <sys_metadata>e9446839c3dd5250d056bd43e4013132</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
+        <sys_scope_delete display_value="">4c78752d5203411aaac0e69796d5d3c9</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_e9446839c3dd5250d056bd43e4013132</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_e9446839c3dd5250d056bd43e4013132">6776ec71c3119250d056bd43e4013115</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 17:42:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
