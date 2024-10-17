@@ -16,7 +16,7 @@
                 <element inactive_on_update="false" label="Training" sequence="6" value="Training"/>
                 <element inactive_on_update="false" label="Incident" sequence="8" value="Incident"/>
                 <element inactive_on_update="false" label="Passing Call" sequence="0" value="Passing Call"/>
-                <element inactive_on_update="false" label="Meal Break" sequence="1" value="Meal Break"/>
+                <element inactive_on_update="false" label="Break" sequence="1" value="Meal Break"/>
             </choice>
         </element>
         <element label="Comments" max_length="40" name="comments" type="journal_input"/>
@@ -29,7 +29,7 @@
             <choice/>
         </element>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Reporting Unit" max_length="32" name="reporting_unit" reference="x_968807_public_0_employees" type="reference"/>
+        <element label="Reporting Officer" max_length="32" name="reporting_unit" reference="x_968807_public_0_employees" type="reference"/>
         <element label="Incident Number" max_length="32" name="incident_number" reference="x_968807_public_0_incidents" type="reference"/>
         <index name="index">
             <element name="incident_number"/>

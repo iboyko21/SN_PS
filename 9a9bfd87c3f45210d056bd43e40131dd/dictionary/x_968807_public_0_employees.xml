@@ -2,10 +2,27 @@
     <element db_object_id="f21d39cfc3f45210d056bd43e401313a" label="Employees" max_length="40" name="x_968807_public_0_employees" text_index="true" type="collection">
         <element label="First Name" max_length="40" name="first_name" type="string"/>
         <element label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element choice="3" dependent="status" dependent_on_field="status" label="Status Additional" max_length="40" name="status_additional" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Incident" inactive_on_update="false" label="Incident" sequence="1" value="Incident"/>
+                <element dependent_value="Available" inactive_on_update="false" label="Available" sequence="5" value="Available"/>
+                <element dependent_value="Incident" inactive_on_update="false" label="Report Writing" sequence="2" value="Report Writing"/>
+                <element dependent_value="Incident" inactive_on_update="false" label="Break" sequence="4" value="Break"/>
+                <element dependent_value="Incident" inactive_on_update="false" label="Activity" sequence="0" value="Activity"/>
+                <element dependent_value="Incident" inactive_on_update="false" label="Meeting" sequence="3" value="Meeting"/>
+            </choice>
+        </element>
         <element label="Shield #" max_length="40" name="shield" type="string"/>
         <element label="Supervisor" max_length="32" name="supervisor" reference="x_968807_public_0_employees" type="reference"/>
         <element label="Name" max_length="32" name="name" reference="sys_user" type="reference"/>
         <element label="Title" max_length="40" name="title" type="string"/>
+        <element choice="3" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Unavailable" sequence="1" value="Incident"/>
+                <element inactive_on_update="false" label="Off Duty" sequence="2" value="Off Duty"/>
+                <element inactive_on_update="false" label="Available" sequence="0" value="Available"/>
+            </choice>
+        </element>
         <element label="DOB" max_length="40" name="dob" type="glide_date"/>
         <index name="index">
             <element name="name"/>
