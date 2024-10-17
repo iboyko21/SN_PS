@@ -3,13 +3,14 @@
         <element choice="3" label="Disposition" max_length="40" name="disposition" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Checked/Secured" sequence="2" value="Checked/Secured"/>
-                <element inactive_on_update="false" label="No Action Required" sequence="8" value="No Action Required"/>
+                <element inactive_on_update="false" label="No Action Required" sequence="9" value="No Action Required"/>
+                <element inactive_on_update="false" label="Transported" sequence="7" value="Transported"/>
                 <element inactive_on_update="false" label="Report Taken" sequence="6" value="Report Taken"/>
                 <element inactive_on_update="false" label="Citation Issued" sequence="3" value="Citation Issued"/>
                 <element inactive_on_update="false" label="Referred Outside Agency" sequence="5" value="Referred Outside Agency"/>
                 <element inactive_on_update="false" label="Admonished" sequence="0" value="Admonished"/>
                 <element inactive_on_update="false" label="Arrest Made" sequence="1" value="Arrest Made"/>
-                <element inactive_on_update="false" label="Unable to Locate" sequence="7" value="Unable to Locate"/>
+                <element inactive_on_update="false" label="Unable to Locate" sequence="8" value="Unable to Locate"/>
                 <element inactive_on_update="false" label="Detained" sequence="4" value="Detained"/>
             </choice>
         </element>

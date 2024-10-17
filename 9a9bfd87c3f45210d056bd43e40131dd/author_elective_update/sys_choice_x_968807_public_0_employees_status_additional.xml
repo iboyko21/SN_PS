@@ -110,24 +110,5 @@
             <sys_updated_on>2024-10-16 23:34:42</sys_updated_on>
             <value>Break</value>
         </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>Available</dependent_value>
-            <element>status_additional</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Available</label>
-            <language>en</language>
-            <name>x_968807_public_0_employees</name>
-            <sequence>5</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-16 23:49:29</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-16 23:49:30</sys_updated_on>
-            <value>Available</value>
-        </sys_choice>
     </sys_choice>
 </record_update>
