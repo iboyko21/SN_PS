@@ -5,7 +5,7 @@
         <element choice="3" dependent="status" dependent_on_field="status" label="Status Additional" max_length="40" name="status_additional" type="choice" use_dependent_field="true">
             <choice>
                 <element dependent_value="Incident" inactive_on_update="false" label="Incident" sequence="1" value="Incident"/>
-                <element dependent_value="Incident" inactive_on_update="false" label="Report Writing" sequence="2" value="Report Writing"/>
+                <element dependent_value="Incident" inactive_on_update="false" label="Report" sequence="2" value="Report Writing"/>
                 <element dependent_value="Incident" inactive_on_update="false" label="Break" sequence="4" value="Break"/>
                 <element dependent_value="Incident" inactive_on_update="false" label="Activity" sequence="0" value="Activity"/>
                 <element dependent_value="Incident" inactive_on_update="false" label="Meeting" sequence="3" value="Meeting"/>

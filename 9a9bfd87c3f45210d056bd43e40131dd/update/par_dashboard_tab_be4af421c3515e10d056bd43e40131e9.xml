@@ -3,7 +3,7 @@
         <active>true</active>
         <background_color/>
         <dashboard display_value="Public Safety Dispatcher">9e779b4d3ad1961043df3cb33c61c4d3</dashboard>
-        <name>Officers On Duty</name>
+        <name>Roster</name>
         <order>3</order>
         <sys_class_name>par_dashboard_tab</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -11,14 +11,14 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>be4af421c3515e10d056bd43e40131e9</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Officers On Duty</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Roster</sys_name>
         <sys_overrides/>
         <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
         <sys_update_name>par_dashboard_tab_be4af421c3515e10d056bd43e40131e9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-17 17:45:48</sys_updated_on>
+        <sys_updated_on>2024-10-18 01:08:41</sys_updated_on>
     </par_dashboard_tab>
 </record_update>
