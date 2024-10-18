@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_968807_public_0.CreateNewRecordAjax</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>CreateNewRecordAjax</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var CreateNewRecordAjax = Class.create();
+CreateNewRecordAjax.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+    
+    createNewRecord: function() {
+        // Get the parameters from the client-side script
+        var sys_id = this.getParameter('sys_id');
+        var location = this.getParameter('location');
+        //var assigned_to = this.getParameter('assigned_to');
+        //var description = this.getParameter('description');
+
+        // Create a new record in the target table (e.g., 'x_new_table')
+        var newRecord = new GlideRecord('x_968807_public_0_incidents');
+        newRecord.initialize();
+		console.log("Script Include Record Inserted");
+        newRecord.location = location;
+		newRecord.insert();
+		console.log("Script Include Record Inserted2");
+        //newRecord.assigned_to = assigned_to;
+        //newRecord.description = description;
+
+        // Insert the new record and return the sys_id
+       // var newSysId = 'Hi!';
+       // return newSysId;  // Send the new sys_id back to the client
+    },
+
+    type: 'CreateNewRecordAjax'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 23:09:49</sys_created_on>
+        <sys_id>b6573135c399d250d056bd43e40131e9</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>CreateNewRecordAjax</sys_name>
+        <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
+        <sys_update_name>sys_script_include_b6573135c399d250d056bd43e40131e9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 23:52:03</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>b6573135c399d250d056bd43e40131e9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 23:09:49</sys_created_on>
+        <sys_id>cfb73135c399d250d056bd43e40131ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 23:09:49</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

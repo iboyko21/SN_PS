@@ -3,16 +3,42 @@
         <action_name/>
         <active>true</active>
         <client>true</client>
-        <client_script_v2><![CDATA[function onClick(g_form) {
+        <client_script_v2><![CDATA[//function createNewRecord(g_form) {
+function onClick(g_form) {
+    // Collect values from the current form
+    //var sys_id = g_form.getUniqueValue();
+    var location = g_form.getValue('location');
+    //var assigned_to = g_form.getValue('reporting_unit');
+    //var description = g_form.getValue('description');
+
+    // Make GlideAjax call to server-side Script Include
+    var ga = new GlideAjax('CreateNewRecordAjax'); // 'CreateNewRecordAjax' is the Script Include
+    //ga.addParam('sysparm_name', 'createNewRecord');
+    //ga.addParam('sys_id', sys_id);
+    ga.addParam('location', location);
+    //ga.addParam('assigned_to', assigned_to);
+    //ga.addParam('description', description);
+
+    // Handle the response and redirect to the new record
+
+            console.log("Hi, Record created: " + location);
+       
+}
+
+
+
+
+/*
+function onClick(g_form) {
     // Collect necessary data from the form using g_form
     var location = g_form.getValue('location');
     var location_additional = g_form.getValue('location_additional');
     var assigned_to = g_form.getDisplayValue('reporting_unit');
     var sys_id = g_form.getUniqueValue();
 	console.log('Values: ' + location, location_additional, assigned_to, sys_id);
-	
      
-}]]></client_script_v2>
+}
+*/]]></client_script_v2>
         <comments/>
         <condition/>
         <form_action>false</form_action>
@@ -38,7 +64,7 @@
         <onclick/>
         <order>100</order>
         <script/>
-        <show_insert>false</show_insert>
+        <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
         <show_update>true</show_update>
@@ -48,7 +74,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c5d5e395c355da10d056bd43e401318e</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name>Test Button</sys_name>
         <sys_overrides/>
         <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
@@ -56,19 +82,19 @@
         <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
         <sys_update_name>sys_ui_action_c5d5e395c355da10d056bd43e401318e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-16 19:08:58</sys_updated_on>
+        <sys_updated_on>2024-10-17 23:49:02</sys_updated_on>
         <table>x_968807_public_0_activity_log</table>
         <ui11_compatible>true</ui11_compatible>
-        <ui16_compatible>true</ui16_compatible>
+        <ui16_compatible>false</ui16_compatible>
     </sys_ui_action>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>c5d5e395c355da10d056bd43e401318e</id>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-16 18:02:39</sys_created_on>
         <sys_id>add7abd5c355da10d056bd43e4013127</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-16 18:02:39</sys_updated_on>
+        <sys_updated_on>2024-10-17 23:21:45</sys_updated_on>
         <table>sys_ui_action</table>
         <use_es_latest>false</use_es_latest>
     </sys_es_latest_script>

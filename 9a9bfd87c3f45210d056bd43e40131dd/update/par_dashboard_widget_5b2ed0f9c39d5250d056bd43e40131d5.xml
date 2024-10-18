@@ -2,8 +2,8 @@
     <par_dashboard_widget action="INSERT_OR_UPDATE">
         <canvas display_value="">724af421c3515e10d056bd43e40131ee</canvas>
         <component display_value="List - Simple">2b1c080881e05dc63b917044290b233f</component>
-        <component_props>{"table":"x_968807_public_0_employees","columnPreferenceKey":"","fixedQuery":"title=Safety Sergeant^status!=Off Duty","followFilters":true,"listTitle":"Employees","columns":"","maxColumns":7,"query":"active=true","groupByField":"","limit":4,"hideViewAll":false,"hideHighlightedValues":false,"showBorder":true,"bare":false,"highlightedValueConfigId":"","hideHighlightContent":false,"highlightContent":{"patterns":[],"color":""},"hideLinks":false,"nrlLandmark":true,"wordWrap":false,"overrideWordWrapUserPref":false,"maxCharLimit":4000,"hideEmptyStateImage":false,"hidePersonalization":true,"hideDotwalk":true,"hideColumnReorder":true,"hideRowSelector":false,"hideColumnGrouping":true,"hideColumnResizing":false,"hideColumnFiltering":false,"hideColumnSorting":false,"hideHeader":true,"hideTitle":false,"hideTitleRowCount":true,"hideLastRefreshedText":true,"hideRefreshButton":true,"hideInlineEditing":false,"isDashboard":true,"id":"maxColumns","value":7,"propLabel":"Number of displayed columns","noDebounce":true}</component_props>
-        <h>10</h>
+        <component_props>{"table":"x_968807_public_0_employees","columnPreferenceKey":"","fixedQuery":"title=Safety Sergeant^status!=Off Duty","followFilters":true,"listTitle":"Employees","columns":"","maxColumns":7,"query":"active=true","groupByField":"","limit":4,"hideViewAll":true,"hideHighlightedValues":false,"showBorder":true,"bare":false,"highlightedValueConfigId":"","hideHighlightContent":false,"highlightContent":{"patterns":[],"color":""},"hideLinks":false,"nrlLandmark":true,"wordWrap":false,"overrideWordWrapUserPref":false,"maxCharLimit":4000,"hideEmptyStateImage":false,"hidePersonalization":true,"hideDotwalk":true,"hideColumnReorder":true,"hideRowSelector":false,"hideColumnGrouping":true,"hideColumnResizing":false,"hideColumnFiltering":false,"hideColumnSorting":false,"hideHeader":true,"hideTitle":false,"hideTitleRowCount":true,"hideLastRefreshedText":true,"hideRefreshButton":true,"hideInlineEditing":false,"isDashboard":true,"id":"hideViewAll","value":true,"propLabel":"Hide 'View all' footer","noDebounce":true}</component_props>
+        <h>9</h>
         <name/>
         <stored_component/>
         <sys_class_name>par_dashboard_widget</sys_class_name>
@@ -12,7 +12,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5b2ed0f9c39d5250d056bd43e40131d5</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
@@ -20,7 +20,7 @@
         <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
         <sys_update_name>par_dashboard_widget_5b2ed0f9c39d5250d056bd43e40131d5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-17 17:42:52</sys_updated_on>
+        <sys_updated_on>2024-10-17 21:29:51</sys_updated_on>
         <visualization/>
         <w>39</w>
         <widget_props/>

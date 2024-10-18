@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_highlighted_value_condition">
+    <sys_highlighted_value_condition action="DELETE">
+        <color>low</color>
+        <conditions table="x_968807_public_0_incidents">priority=Low^EQ<item display_value="Low" endquery="false" field="priority" goto="false" newquery="false" operator="=" or="false" value="Low"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <form_label_description/>
+        <hide_form_label>false</hide_form_label>
+        <highlighted_value display_value="priority">a7b62971c315d250d056bd43e401315d</highlighted_value>
+        <icon/>
+        <order>0</order>
+        <show_icon>false</show_icon>
+        <status/>
+        <sys_class_name>sys_highlighted_value_condition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 21:58:57</sys_created_on>
+        <sys_id>5077e1f1c315d250d056bd43e40131d9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
+        <sys_update_name>sys_highlighted_value_condition_5077e1f1c315d250d056bd43e40131d9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 22:06:41</sys_updated_on>
+        <value_override/>
+        <variant>tertiary</variant>
+    </sys_highlighted_value_condition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</application>
+        <file_path/>
+        <instance_id>09943ed3dbe9029837d72a5913961978</instance_id>
+        <instance_name>dev260260</instance_name>
+        <name>sys_highlighted_value_condition_5077e1f1c315d250d056bd43e40131d9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_highlighted_value_condition"><sys_highlighted_value_condition action="INSERT_OR_UPDATE"><color>low</color><conditions table="x_968807_public_0_incidents">priority=Low^EQ<item display_value="Low" endquery="false" field="priority" goto="false" newquery="false" operator="=" or="false" value="Low"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></conditions><form_label_description/><hide_form_label>false</hide_form_label><highlighted_value display_value="priority">a7b62971c315d250d056bd43e401315d</highlighted_value><icon/><order>0</order><show_icon>false</show_icon><status/><sys_class_name>sys_highlighted_value_condition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-17 21:58:57</sys_created_on><sys_id>5077e1f1c315d250d056bd43e40131d9</sys_id><sys_mod_count>3</sys_mod_count><sys_name/><sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package><sys_policy/><sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope><sys_update_name>sys_highlighted_value_condition_5077e1f1c315d250d056bd43e40131d9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-17 22:06:41</sys_updated_on><value_override/><variant>tertiary</variant></sys_highlighted_value_condition></record_update>]]></payload>
+        <payload_hash>2097565053</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>a6ccf94fc3f45210d056bd43e401310f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 22:06:41</sys_created_on>
+        <sys_id>c649257dc315d250d056bd43e4013139</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1929c84ca020000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 22:06:41</sys_updated_on>
+        <type>Highlighted Value Condition</type>
+        <update_guid>4e49257db915d2505a29d83d19e4ec38</update_guid>
+        <update_guid_history>4e49257db915d2505a29d83d19e4ec38:2097565053,6f296135af55d25032fb2dcc2e4c1b54:-1045995207,a019e1f1d855d250501bf61c55b6e1d2:953917447,c5876135fd15d250d7e86e2c8a1d09c9:2097565053</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 22:13:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_highlighted_value_condition">sys_highlighted_value_condition</sys_db_object>
+        <sys_id>0744e803d9cb40c892c9448932089751</sys_id>
+        <sys_metadata>5077e1f1c315d250d056bd43e40131d9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
+        <sys_scope_delete display_value="">4c78752d5203411aaac0e69796d5d3c9</sys_scope_delete>
+        <sys_update_name>sys_highlighted_value_condition_5077e1f1c315d250d056bd43e40131d9</sys_update_name>
+        <sys_update_version display_value="sys_highlighted_value_condition_5077e1f1c315d250d056bd43e40131d9">c649257dc315d250d056bd43e4013139</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 22:13:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

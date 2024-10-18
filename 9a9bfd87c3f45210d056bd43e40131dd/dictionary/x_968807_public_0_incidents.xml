@@ -18,6 +18,13 @@
         <element label="Comments" max_length="40" name="comments" type="journal_input"/>
         <element label="Assigned To" max_length="32" name="assigned_to" reference="x_968807_public_0_employees" type="reference"/>
         <element label="Closed" max_length="40" name="closed" read_only="true" type="glide_date_time"/>
+        <element choice="3" label="Priority" max_length="40" name="priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="High" sequence="0" value="High"/>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="Medium"/>
+                <element inactive_on_update="false" label="Low" sequence="2" value="Low"/>
+            </choice>
+        </element>
         <element choice="3" default="Open" label="Status" max_length="40" name="status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Open" sequence="0" value="Open"/>
@@ -77,21 +84,30 @@
             </choice>
         </element>
         <element label="Report" max_length="40" name="report" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element choice="3" label="Type" max_length="40" name="type" type="choice">
+        <element choice="3" label="Source" max_length="40" name="source" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Medical" sequence="4" value="Medical"/>
-                <element inactive_on_update="false" label="Animal" sequence="1" value="Animal"/>
-                <element inactive_on_update="false" label="Homeless" sequence="3" value="Homeless"/>
-                <element inactive_on_update="false" label="Theft" sequence="8" value="Theft"/>
-                <element inactive_on_update="false" label="Assault" sequence="2" value="Assault"/>
-                <element inactive_on_update="false" label="Trespassing" sequence="10" value="Trespassing"/>
-                <element inactive_on_update="false" label="Suspicious Occurrence" sequence="6" value="Suspicious Occurrence"/>
-                <element inactive_on_update="false" label="Traffic Stop" sequence="9" value="Traffic Stop"/>
-                <element inactive_on_update="false" label="Parking" sequence="5" value="Parking"/>
-                <element inactive_on_update="false" label="Alarm" sequence="0" value="Alarm Call"/>
-                <element inactive_on_update="false" label="Welfare Check" sequence="11" value="Welfare Check"/>
-                <element inactive_on_update="false" label="Threats" sequence="7" value="Threats"/>
+                <element inactive_on_update="false" label="On View" sequence="3" value="On View"/>
+                <element inactive_on_update="false" label="Counter" sequence="4" value="Counter"/>
+                <element inactive_on_update="false" label="Digital" sequence="1" value="Digital"/>
+                <element inactive_on_update="false" label="Phone" sequence="0" value="Phone"/>
+                <element inactive_on_update="false" label="Flag Down" sequence="2" value="Flag Down"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" dependent="priority" dependent_on_field="priority" label="Type" max_length="40" name="type" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="High" inactive_on_update="false" label="Threats" sequence="7" value="Threats"/>
+                <element dependent_value="Medium" inactive_on_update="false" label="Traffic Stop" sequence="11" value="Traffic Stop"/>
+                <element dependent_value="High" inactive_on_update="false" label="Theft" sequence="8" value="Theft"/>
+                <element dependent_value="High" inactive_on_update="false" label="Alarm" sequence="0" value="Alarm Call"/>
+                <element dependent_value="Low" inactive="true" inactive_on_update="true" label="Animal" sequence="1" value="Animal"/>
+                <element dependent_value="Medium" inactive_on_update="false" label="Homeless" sequence="3" value="Homeless"/>
+                <element dependent_value="High" inactive_on_update="false" label="Assault" sequence="2" value="Assault"/>
+                <element dependent_value="Low" inactive_on_update="false" label="Parking" sequence="5" value="Parking"/>
+                <element dependent_value="Medium" inactive_on_update="false" label="Welfare Check" sequence="9" value="Welfare Check"/>
+                <element dependent_value="High" inactive_on_update="false" label="Medical" sequence="4" value="Medical"/>
+                <element dependent_value="Low" inactive_on_update="false" label="Suspicious Occurrence" sequence="6" value="Suspicious Occurrence"/>
+                <element dependent_value="Medium" inactive_on_update="false" label="Trespassing" sequence="10" value="Trespassing"/>
             </choice>
         </element>
         <index name="index">
