@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,timeFromCreateToActivate=97488000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,timeFromCreateToActivate=171228000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>26000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,10 +15,10 @@
         <flow_priority/>
         <generation_source/>
         <internal_name>close_incident_auto_close_log</internal_name>
-        <label_cache>[{"name":"Created or Updated_1.current.disposition","label":"Trigger - Record Created or Updated➛ Record➛Disposition","reference":"","reference_display":"Disposition","type":"choice","base_type":"choice","parent_table_name":"x_968807_public_0_incidents","column_name":"disposition","choices":[{"label":"Admonished","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Admonished","value":"Admonished","parameters":{"name":"x_968807_public_0_incidents","dependent_values":[""]}},{"label":"Arrest Made","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Arrest Made","value":"Arrest Made","parameters":{"name":"x_968807_public_0_incidents","dependent_values":[""]}},{"label":"Checked/Secured","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Checked/Secured","value":"Checked/Secured","parameters":{"name":"x_968807_public_0_incidents","dependent_values":[""]}},{"label":"Citation Issued","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Citation Issued","value":"Citation Issued","parameters":{"name":"x_968807_public_0_incidents","dependent_values":[""]}},{"label":"Detained","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Detained","value":"Detained","parameters":{"name":"x_968807_public_0_incidents","dependent_values":[""]}},{"label":"Referred Outside Agency","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Referred Outside Agency","value":"Referred Outside Agency","parameters":{"name":"x_968807_public_0_incidents","dependent_values":[""]}},{"label":"Report Taken","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Report Taken","value":"Report Taken","parameters":{"name":"x_968807_public_0_incidents","dependent_values":[""]}},{"label":"Transported","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Transported","value":"Transported","parameters":{"name":"x_968807_public_0_incidents","dependent_values":[""]}},{"label":"Unable to Locate","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Unable to Locate","value":"Unable to Locate","parameters":{"name":"x_968807_public_0_incidents","dependent_values":[""]}},{"label":"No Action Required","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"No Action Required","value":"No Action Required","parameters":{"name":"x_968807_public_0_incidents","dependent_values":[""]}}],"usedInstances":{"9e3939aa-1d9e-4c38-b32d-2ad4d70090ca":["condition"]}},{"name":"Created or Updated_1.current.assigned_to","label":"Trigger - Record Created or Updated➛ Record➛Primary","reference":"x_968807_public_0_employees","reference_display":"Employees","type":"reference","base_type":"reference","parent_table_name":"x_968807_public_0_incidents","column_name":"assigned_to","usedInstances":{"b7825dff-f56d-4e3f-a4fe-9ff8754f6c2f":["record"],"3da1113f-e93c-4990-ab1e-f5291ed01467":["record"],"2c33787b-61de-4423-86e8-2d475801e86e":["record"],"32a49fca-0c28-4008-a593-c63490b2f997":["record"]}},{"name":"787ceb44-2fcd-4c86-94db-f862614e47c7.item","label":"2 - For Each➛Backup Record","reference":"x_968807_public_0_employees","reference_display":"Employees","type":"reference","base_type":"reference","usedInstances":{"b3742e09-da66-41d5-986e-e1ccae7d2d33":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"Created or Updated_1.current.responding_units","label":"Trigger - Record Created or Updated➛ Record➛Backup","reference":"x_968807_public_0_employees","reference_display":"Employees","type":"glide_list","base_type":"glide_list","parent_table_name":"x_968807_public_0_incidents","column_name":"responding_units","usedInstances":{"787ceb44-2fcd-4c86-94db-f862614e47c7":["items"]}},{"name":"Created or Updated_1.current.log_entry","label":"Trigger - Record Created or Updated➛ Record➛Log Entry","reference":"x_968807_public_0_activity_log","reference_display":"Activity Log","type":"reference","base_type":"reference","parent_table_name":"x_968807_public_0_incidents","column_name":"log_entry","usedInstances":{"a07da8bf-d8bb-4b70-acba-f51bf991cc60":["record"]}}]</label_cache>
+        <label_cache>[{"name":"Created or Updated_1.current.log_entry","label":"Trigger - Record Created or Updated➛ Record➛Log Entry","reference":"x_968807_public_0_activity_log","reference_display":"Activity Log","type":"reference","base_type":"reference","parent_table_name":"x_968807_public_0_incidents","column_name":"log_entry","usedInstances":{"a07da8bf-d8bb-4b70-acba-f51bf991cc60":["record"]}},{"name":"Created or Updated_1.current.responding_units","label":"Trigger - Record Created or Updated➛ Record➛Backup","reference":"x_968807_public_0_employees","reference_display":"Employees","type":"glide_list","base_type":"glide_list","parent_table_name":"x_968807_public_0_incidents","column_name":"responding_units","usedInstances":{"787ceb44-2fcd-4c86-94db-f862614e47c7":["items"]}},{"name":"787ceb44-2fcd-4c86-94db-f862614e47c7.item","label":"2 - For Each➛Employees Record","reference":"x_968807_public_0_employees","reference_display":"Employees","type":"reference","base_type":"reference","usedInstances":{"b3742e09-da66-41d5-986e-e1ccae7d2d33":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"Created or Updated_1.current.assigned_to","label":"Trigger - Record Created or Updated➛ Record➛Primary","reference":"x_968807_public_0_employees","reference_display":"Employees","type":"reference","base_type":"reference","parent_table_name":"x_968807_public_0_incidents","column_name":"assigned_to","usedInstances":{"b7825dff-f56d-4e3f-a4fe-9ff8754f6c2f":["record"],"3da1113f-e93c-4990-ab1e-f5291ed01467":["record"],"2c33787b-61de-4423-86e8-2d475801e86e":["record"],"32a49fca-0c28-4008-a593-c63490b2f997":["record"]}},{"name":"Created or Updated_1.current.disposition","label":"Trigger - Record Created or Updated➛ Record➛Disposition","reference":"","reference_display":"Disposition","type":"choice","base_type":"choice","parent_table_name":"x_968807_public_0_incidents","column_name":"disposition","choices":[{"label":"Admonished","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Admonished","value":"Admonished","parameters":{"name":"x_968807_public_0_incidents","dependent_values":[""]}},{"label":"Arrest Made","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Arrest Made","value":"Arrest Made","parameters":{"name":"x_968807_public_0_incidents","dependent_values":[""]}},{"label":"Checked/Secured","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Checked/Secured","value":"Checked/Secured","parameters":{"name":"x_968807_public_0_incidents","dependent_values":[""]}},{"label":"Citation Issued","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Citation Issued","value":"Citation Issued","parameters":{"name":"x_968807_public_0_incidents","dependent_values":[""]}},{"label":"Detained","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Detained","value":"Detained","parameters":{"name":"x_968807_public_0_incidents","dependent_values":[""]}},{"label":"Referred Outside Agency","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Referred Outside Agency","value":"Referred Outside Agency","parameters":{"name":"x_968807_public_0_incidents","dependent_values":[""]}},{"label":"Report Taken","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Report Taken","value":"Report Taken","parameters":{"name":"x_968807_public_0_incidents","dependent_values":[""]}},{"label":"Transported","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Transported","value":"Transported","parameters":{"name":"x_968807_public_0_incidents","dependent_values":[""]}},{"label":"Unable to Locate","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Unable to Locate","value":"Unable to Locate","parameters":{"name":"x_968807_public_0_incidents","dependent_values":[""]}},{"label":"No Action Required","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"No Action Required","value":"No Action Required","parameters":{"name":"x_968807_public_0_incidents","dependent_values":[""]}}],"usedInstances":{"9e3939aa-1d9e-4c38-b32d-2ad4d70090ca":["condition"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛ Record","reference":"x_968807_public_0_incidents","reference_display":"Incidents","type":"reference","base_type":"reference","usedInstances":{"f3e01228-2509-4e60-81c3-460072b05945":["record"]},"attributes":{}}]</label_cache>
         <master_snapshot>1b237c25c3dd1e10d056bd43e40131ec</master_snapshot>
         <master_snapshot_digest/>
-        <name>Close Incident</name>
+        <name>Incident Close</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
@@ -36,15 +36,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6e6274e1c3dd1e10d056bd43e4013198</sys_id>
-        <sys_mod_count>29</sys_mod_count>
-        <sys_name>Close Incident</sys_name>
+        <sys_mod_count>36</sys_mod_count>
+        <sys_name>Incident Close</sys_name>
         <sys_overrides/>
         <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
         <sys_update_name>sys_hub_flow_6e6274e1c3dd1e10d056bd43e4013198</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-18 02:33:19</sys_updated_on>
+        <sys_updated_on>2024-10-18 23:02:19</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow>
@@ -82,14 +82,14 @@
         <identifier>6e6274e1c3dd1e10d056bd43e4013198</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-18 02:33:18</sys_created_on>
-        <sys_id>bb46e23dc3d51650d056bd43e40131ea</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2024-10-18 23:02:19</sys_created_on>
+        <sys_id>369f724ac35d5a50d056bd43e40131bf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-18 02:33:19</sys_updated_on>
+        <sys_updated_on>2024-10-18 23:02:19</sys_updated_on>
         <trigger display_value="">425f5e32c3051210d056bd43e40131e8</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=6e6274e1c3dd1e10d056bd43e4013198^sys_idNOT INbb46e23dc3d51650d056bd43e40131ea"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=6e6274e1c3dd1e10d056bd43e4013198^sys_idNOT IN369f724ac35d5a50d056bd43e40131bf"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=6e6274e1c3dd1e10d056bd43e4013198"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=6e6274e1c3dd1e10d056bd43e4013198^sys_idNOT IN6a6274e1c3dd1e10d056bd43e40131a8"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -168,7 +168,7 @@
         <label>Changed Fields</label>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
-        <model display_value="Close Incident">6e6274e1c3dd1e10d056bd43e4013198</model>
+        <model display_value="Incident Close">6e6274e1c3dd1e10d056bd43e4013198</model>
         <model_id>6e6274e1c3dd1e10d056bd43e4013198</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_6e6274e1c3dd1e10d056bd43e4013198</name>
@@ -252,7 +252,7 @@
         <label>Record</label>
         <mandatory>true</mandatory>
         <max_length>200</max_length>
-        <model display_value="Close Incident">6e6274e1c3dd1e10d056bd43e4013198</model>
+        <model display_value="Incident Close">6e6274e1c3dd1e10d056bd43e4013198</model>
         <model_id>6e6274e1c3dd1e10d056bd43e4013198</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_6e6274e1c3dd1e10d056bd43e4013198</name>
@@ -336,7 +336,7 @@
         <label>Table Name</label>
         <mandatory>false</mandatory>
         <max_length>200</max_length>
-        <model display_value="Close Incident">6e6274e1c3dd1e10d056bd43e4013198</model>
+        <model display_value="Incident Close">6e6274e1c3dd1e10d056bd43e4013198</model>
         <model_id>6e6274e1c3dd1e10d056bd43e4013198</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_6e6274e1c3dd1e10d056bd43e4013198</name>
@@ -386,22 +386,22 @@
     <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="Close Incident">6e6274e1c3dd1e10d056bd43e4013198</flow>
+        <flow display_value="Incident Close">6e6274e1c3dd1e10d056bd43e4013198</flow>
         <name>Created or Updated</name>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-16 23:28:29</sys_created_on>
         <sys_id>2e6274e1c3dd1e10d056bd43e40131e3</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-16 23:31:48</sys_updated_on>
+        <sys_updated_on>2024-10-18 23:02:11</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
-        <trigger_inputs>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</trigger_inputs>
+        <trigger_inputs>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</trigger_inputs>
         <trigger_outputs/>
         <trigger_type>record_create_or_update</trigger_type>
     </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=6e6274e1c3dd1e10d056bd43e4013198^sys_idNOT IN54596475c3519250d056bd43e401318f,af90ee3dc3551650d056bd43e4013155,c5e23825c3dd1e10d056bd43e4013111"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=6e6274e1c3dd1e10d056bd43e4013198^sys_idNOT IN54596475c3519250d056bd43e401318f,79deba46c35d5a50d056bd43e4013146,af90ee3dc3551650d056bd43e4013155,c5e23825c3dd1e10d056bd43e4013111"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
@@ -409,7 +409,7 @@
         <comment/>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
-        <flow display_value="Close Incident">6e6274e1c3dd1e10d056bd43e4013198</flow>
+        <flow display_value="Incident Close">6e6274e1c3dd1e10d056bd43e4013198</flow>
         <generation_source/>
         <order>3</order>
         <parent_ui_id>787ceb44-2fcd-4c86-94db-f862614e47c7</parent_ui_id>
@@ -417,10 +417,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-17 17:27:13</sys_created_on>
         <sys_id>54596475c3519250d056bd43e401318f</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-18 02:33:11</sys_updated_on>
+        <sys_updated_on>2024-10-18 22:58:58</sys_updated_on>
         <ui_id>b3742e09-da66-41d5-986e-e1ccae7d2d33</ui_id>
         <values>H4sIAAAAAAAA/+1Uy27bMBD8FUNnWdArsuxbAMNAD02AtMglTYkVubIJUJRKUY5dw/9eUg/HSVrXNdJDgeq2y92dmeWIDzuHM2fmxMj8YBokNAqiKPT9MI2DLImyIGQRIAaO60go0FQqpKViJl6DaGxit5ukE4pZHI/DnLJxTNNkPI1ZNs7TJEyCGOMJnXhcY7Hfmz7G60rA9r5vNxm64oIplM7s4dF1KlAGSaNyZrtXR3pbIRGQoTCN85I2BUo9+jA3M85VMXTfDTJey7IYJmb9dMJt0hxZPoHvOrjRKBkauBxEja5TgGSgS7V1Zlo1JqEQ2K0U20PFikvdKS1gU/PvZn7s27ocjTR62ELJKd5Wmpeyy2jIxHBYiqaQNx1Xu0TMoRH6aIlNjYRhZblZtI5K/mlVPt0NOAsuWxk9LVFSEIcItFY8azTWdu8osFVfQFVxuSSVKte8bTZUCm8pTODlonwymDVfSg+o5e2ZTYC3MPl5m74Hxa2Ij2aMad63osm3xuJ2MnrCpNXcCibtjZjSmipe6WszeI09zb3b+zW7OnXTdPp8sUcznz27IdMkTf0JqZpMcEp8gkUlyi0a9W8cerr4MvN+tqxGNx2rcxW9aP6Fwt6+L3K9e6/ezb3p33ZvD/2P2fd3pvXDk8/T0ZW2Pq2PDFtr0E39pfH9iF2vgQtL62uXJcAYt/RBdAVvLfyn7Rea2v4XoHHUwbpnqx4GLDgKVv9kDYOrewCy7gEO7/K7WTtI/Pb7/zxf8jw//gAGedqFUAgAAA==</values>
     </sys_hub_action_instance_v2>
@@ -428,21 +428,43 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <attributes/>
-        <comment/>
-        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <comment>Add Close time</comment>
+        <compiled_snapshot/>
         <display_text/>
-        <flow display_value="Close Incident">6e6274e1c3dd1e10d056bd43e4013198</flow>
+        <flow display_value="Incident Close">6e6274e1c3dd1e10d056bd43e4013198</flow>
         <generation_source/>
         <order>4</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-18 02:08:26</sys_created_on>
-        <sys_id>af90ee3dc3551650d056bd43e4013155</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_created_on>2024-10-18 22:58:58</sys_created_on>
+        <sys_id>79deba46c35d5a50d056bd43e4013146</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-18 02:33:11</sys_updated_on>
+        <sys_updated_on>2024-10-18 22:58:58</sys_updated_on>
+        <ui_id>f3e01228-2509-4e60-81c3-460072b05945</ui_id>
+        <values>H4sIAAAAAAAA/+1UTW/bMAz9K4ZPG+AZdpxmSXoaFmTYYS3Qdb20hSBLdCJAljxZTpoF/u+j/JGm7ZplRXcYMJ8siuR7j3zQ9dYX3J/6Q+BRPIlHLImTZBBFg/EwTkdJGg94QgFiP/AVzQEzDTBtOJ5XVFYusN1+NEAtcE8b71vB3S+JQ1YZA8rWNaZyURaSbq66CoywpZAc7/3p9W3gF9RgcwvGn24fXdlNAUTSFCQWzjSrcmzqfZ5hj2OJ99UXPfPHShwGnnnXnQgXxCvHJ44CH+4sKA4Il1FZQuDnVKFMbTb+1JoKAzgAfq7kZpexFMq2SnN6V4of2H8YubwMUBrbTUELBueFFVq1EUtT2V9qWeXqrOXqhggZraTdG2JVAuFQOG4OraWSfV3q9UWPMxeqkdHRkppRuTtRa41IKwulmztIaNTntCiEWpDC6JVoipFKHi4kHsJM6jVilmKhQsoc7xAnQcM5xmdN+Ioa4UR8wTZYXDeiyffK4bYyOsKk0dwIJs1GMLVkRhT2AzZeQUezDjqLpieHNs0m94vd63lv0zsyGY3H0XtSVKkUjEREKCYckfKpQw8nv8y8l46Vd9ayOlbRg+JnFHb2fRDr3Hvyau4d/233dtD/mH1/Z9pocPB52ltp49Nyz7BM6hL4TRVFCc/4uxYF+FOzPp/4QqNCju0teC1AcLSSvsFcgOTlL6T1Tu0AyKoD2L21r2bXeBQ13/8n98+e3FZQG2ts0njL/R3Kww0bb8Gt15rQU7D2PjnyM9zypcjhzdvTG2XAVka5vFMkVdIV8N1k67q+/QmuXxSQjAgAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment>Update Primary Officer Status to Available</comment>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Incident Close">6e6274e1c3dd1e10d056bd43e4013198</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-18 02:08:26</sys_created_on>
+        <sys_id>af90ee3dc3551650d056bd43e4013155</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-18 22:58:58</sys_updated_on>
         <ui_id>32a49fca-0c28-4008-a593-c63490b2f997</ui_id>
         <values>H4sIAAAAAAAA/+1UTW8aMRD9K2jPq9UuSyhwi4qQemgipW0uaWJ57QEsedeuPwgU8d873g9CkpZSlB4qldN6PDPvvfFj7raR4NEkGgBPs3E2ZHmW5/007Y8GWTHMi6zPcwqQRXFU0RIw0wBThuN5RaUPge32vQHqgPeU6X3RPHySLGHeGKhcQq0ViwpDTu12WMaF1ZJubttqjLClkBxzo8ndfRxpahDIgYkm2xdXbqOBSFqAxMKpYr5EgN6HKfY4VURXfdOpeKkqYOCZt92JCEG8CnyyNI5g7aDigHBzKi3EUUkrlKzMJpo44zGAw+DXldzsM5aico3Skq6t+I79B2nImwNKY/spKMHgWjuhqibiaCG7SyV9WV01XMMQYU69dAdD9BYIBx24BbSGyvzTUj3edDgzUdUyWlpSMSr3J+qcEYV3YMPcQUKtvqRai2pBtFErURcjlTJZSDwkc6keETM8b0JZ4J3gJGgyw/i0Dt9SI4KIj9gGi3e1aPLNB9xGRkuY1JprwaR+EUy1zAjtLrHxClqau7i1a3Fx7KXZ+OlhD3o+WXZNxsPRKH1HtC+kYCQlUGqpNoDqXzn0ePJ55v0cWPWuGlanKnpW/AuFrX2fxVr3XryZe0d/270t9D9m39+ZNu0fXU8HT1r71B4Y1jrqvP3q0zTnlysqZKD10EQJ5VwE+lQ2Ca8t/KflZ5o6/C9w+/ca2Phk1V2DmQDJ7U/G0Lm6BSCrFmC/l9/M2tkwrX//1/M56/n+Bx5fI21PCAAA</values>
     </sys_hub_action_instance_v2>
@@ -453,18 +475,18 @@
         <comment>Update Log Record Status to Completed</comment>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
-        <flow display_value="Close Incident">6e6274e1c3dd1e10d056bd43e4013198</flow>
+        <flow display_value="Incident Close">6e6274e1c3dd1e10d056bd43e4013198</flow>
         <generation_source/>
-        <order>1</order>
+        <order>5</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-16 23:30:33</sys_created_on>
         <sys_id>c5e23825c3dd1e10d056bd43e4013111</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-18 02:33:11</sys_updated_on>
+        <sys_updated_on>2024-10-18 22:58:58</sys_updated_on>
         <ui_id>a07da8bf-d8bb-4b70-acba-f51bf991cc60</ui_id>
         <values>H4sIAAAAAAAA/+1UUW/aMBD+KyjPUZQQyoC3qghpD2ulbutLV1mOfVBLTuw5NiVD/PedE4fSdm0R6h4mjZfg891333f+dLfbSPBoFo2Ap9k0G7M8y/Nhmg4no6wY50U25DkFyKI4qmgJmGmAKcPxvKbS+cB2e2GAWuADZQbfNfd/SZYwZwxUNpFqRfBrmt0Oi7iotaTNTajFCLsXkmNmNLu9iyNNDbaxYKLZ9tmVbTQQSQuQWDhXzJUIO/g8R4xjJfTV172G55p8DzzzgE6ED+KV55OlcQQbCxUHbLeksoY4KmmFgpVpopk1DgM4Cn5VyWafcS8q2ykt6aYWvxB/lPq8JaA0tp+CEgyutBWq6iKWFrK/VNKV1WXH1Q8RltRJezBEVwPhoD03362jsvx6rx6u+z4LUbUyAi2pGJX7E7XWiMJZqP3cQUKrvqRai2pFtFFr0RYjlTJZSTwkS6kesGctVlVCmeed4CRossD4vA3fUCO8iC8Ig8W7VjT56XzfTkYgTFrNrWDSvgim1swIbc8ReA2B5i4OZi3O3nppNn182APMR8NuyHQ8maSfiHaFFIykxPNfC9sQNOtLk76bf5qFv3lug8uO27G6nhS/ojOY+EksePjswzw8+dseDq3/MRO/Z910+OaSOnjS1q31gW1rS62rf7g0zfmFKrVEj/GXbn0t7USTAiLgRh908PHRKnqAhQDJ6z/I6l0aGpB1aLDfth9m1Wyctr//S/eUpXv3GylwqLYjCAAA</values>
     </sys_hub_action_instance_v2>
@@ -477,7 +499,7 @@
         <connected_to/>
         <decision_table/>
         <display_text/>
-        <flow display_value="Close Incident">6e6274e1c3dd1e10d056bd43e4013198</flow>
+        <flow display_value="Incident Close">6e6274e1c3dd1e10d056bd43e4013198</flow>
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
@@ -488,10 +510,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-17 17:27:13</sys_created_on>
         <sys_id>d4596475c3519250d056bd43e401318e</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-18 02:33:16</sys_updated_on>
+        <sys_updated_on>2024-10-18 23:02:16</sys_updated_on>
         <ui_id>787ceb44-2fcd-4c86-94db-f862614e47c7</ui_id>
         <values>H4sIAAAAAAAA/6VSTW/bMAz9K4XOgWE7RbDkVmwo0MNaoOt6GQpDkeiEmCxp+kjqGf7vI2M7G3rdyeIj+fgezUG4nHxO8cXdxYgHK3Y/3lYCLWP0HoSVHYidwARdFCtxkiZzPAyfA8gE+saFm+9e87OpCpVDAJuKANE7q9EemmwxxXGkXo3RG9m//geFOqLRlJ5kehlIXYIgdsOHVOo9NEbuwdCkZ1AuaJaPmsJqq9ttVW7Vut6s67KsP91W+816X9V6LUFvqG7pfJhtf9gCs1MYrrz0YRV1uRLwnsBqoEGtNBFWopOWvLnQi10KmQByrZ+s6a8VR7SJ6ATXvkf8TdxVWXJhC+RIwZRUR4cKnnxCZyckyb1Zks7kzj5OOnnZ0Mps0rJsQnKERoNncTxunt1+O7rz8zLoHu3FyJw0TklzjWRKAfc5QeR9g4GOiJpOes8/yQd3wkszaemKg6GgaI0701C+rEIqFl7QLmRxT/iXC/wqA7KLr0RDzePFdfMr89zJx6y4mUxTQVQBfbojuhPM4sY3Ps2JKU4XoEFhpIEvjD0sB82Jnv4mqn+hsws/WepfbPwD57E6QRoDAAA=</values>
         <workflow_reference/>
@@ -585,12 +607,12 @@
         <description>Automatically update log activity to complete status</description>
         <flow_priority/>
         <internal_name>close_incident_auto_close_log</internal_name>
-        <label_cache>[{"name":"Created or Updated_1.current.disposition","label":"Trigger - Record Created or Updated➛ Record➛Disposition","reference":"","reference_display":"Disposition","type":"choice","base_type":"choice","parent_table_name":"x_968807_public_0_incidents","column_name":"disposition","choices":[{"label":"Admonished","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Admonished","value":"Admonished","parameters":{"name":"x_968807_public_0_incidents","dependent_values":[""]}},{"label":"Arrest Made","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Arrest Made","value":"Arrest Made","parameters":{"name":"x_968807_public_0_incidents","dependent_values":[""]}},{"label":"Checked/Secured","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Checked/Secured","value":"Checked/Secured","parameters":{"name":"x_968807_public_0_incidents","dependent_values":[""]}},{"label":"Citation Issued","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Citation Issued","value":"Citation Issued","parameters":{"name":"x_968807_public_0_incidents","dependent_values":[""]}},{"label":"Detained","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Detained","value":"Detained","parameters":{"name":"x_968807_public_0_incidents","dependent_values":[""]}},{"label":"Referred Outside Agency","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Referred Outside Agency","value":"Referred Outside Agency","parameters":{"name":"x_968807_public_0_incidents","dependent_values":[""]}},{"label":"Report Taken","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Report Taken","value":"Report Taken","parameters":{"name":"x_968807_public_0_incidents","dependent_values":[""]}},{"label":"Transported","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Transported","value":"Transported","parameters":{"name":"x_968807_public_0_incidents","dependent_values":[""]}},{"label":"Unable to Locate","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Unable to Locate","value":"Unable to Locate","parameters":{"name":"x_968807_public_0_incidents","dependent_values":[""]}},{"label":"No Action Required","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"No Action Required","value":"No Action Required","parameters":{"name":"x_968807_public_0_incidents","dependent_values":[""]}}],"usedInstances":{"9e3939aa-1d9e-4c38-b32d-2ad4d70090ca":["condition"]}},{"name":"Created or Updated_1.current.assigned_to","label":"Trigger - Record Created or Updated➛ Record➛Primary","reference":"x_968807_public_0_employees","reference_display":"Employees","type":"reference","base_type":"reference","parent_table_name":"x_968807_public_0_incidents","column_name":"assigned_to","usedInstances":{"b7825dff-f56d-4e3f-a4fe-9ff8754f6c2f":["record"],"3da1113f-e93c-4990-ab1e-f5291ed01467":["record"],"2c33787b-61de-4423-86e8-2d475801e86e":["record"],"32a49fca-0c28-4008-a593-c63490b2f997":["record"]}},{"name":"787ceb44-2fcd-4c86-94db-f862614e47c7.item","label":"2 - For Each➛Backup Record","reference":"x_968807_public_0_employees","reference_display":"Employees","type":"reference","base_type":"reference","usedInstances":{"b3742e09-da66-41d5-986e-e1ccae7d2d33":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"Created or Updated_1.current.responding_units","label":"Trigger - Record Created or Updated➛ Record➛Backup","reference":"x_968807_public_0_employees","reference_display":"Employees","type":"glide_list","base_type":"glide_list","parent_table_name":"x_968807_public_0_incidents","column_name":"responding_units","usedInstances":{"787ceb44-2fcd-4c86-94db-f862614e47c7":["items"]}},{"name":"Created or Updated_1.current.log_entry","label":"Trigger - Record Created or Updated➛ Record➛Log Entry","reference":"x_968807_public_0_activity_log","reference_display":"Activity Log","type":"reference","base_type":"reference","parent_table_name":"x_968807_public_0_incidents","column_name":"log_entry","usedInstances":{"a07da8bf-d8bb-4b70-acba-f51bf991cc60":["record"]}}]</label_cache>
+        <label_cache>[{"name":"Created or Updated_1.current.log_entry","label":"Trigger - Record Created or Updated➛ Record➛Log Entry","reference":"x_968807_public_0_activity_log","reference_display":"Activity Log","type":"reference","base_type":"reference","parent_table_name":"x_968807_public_0_incidents","column_name":"log_entry","usedInstances":{"a07da8bf-d8bb-4b70-acba-f51bf991cc60":["record"]}},{"name":"Created or Updated_1.current.responding_units","label":"Trigger - Record Created or Updated➛ Record➛Backup","reference":"x_968807_public_0_employees","reference_display":"Employees","type":"glide_list","base_type":"glide_list","parent_table_name":"x_968807_public_0_incidents","column_name":"responding_units","usedInstances":{"787ceb44-2fcd-4c86-94db-f862614e47c7":["items"]}},{"name":"787ceb44-2fcd-4c86-94db-f862614e47c7.item","label":"2 - For Each➛Employees Record","reference":"x_968807_public_0_employees","reference_display":"Employees","type":"reference","base_type":"reference","usedInstances":{"b3742e09-da66-41d5-986e-e1ccae7d2d33":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"Created or Updated_1.current.assigned_to","label":"Trigger - Record Created or Updated➛ Record➛Primary","reference":"x_968807_public_0_employees","reference_display":"Employees","type":"reference","base_type":"reference","parent_table_name":"x_968807_public_0_incidents","column_name":"assigned_to","usedInstances":{"b7825dff-f56d-4e3f-a4fe-9ff8754f6c2f":["record"],"3da1113f-e93c-4990-ab1e-f5291ed01467":["record"],"2c33787b-61de-4423-86e8-2d475801e86e":["record"],"32a49fca-0c28-4008-a593-c63490b2f997":["record"]}},{"name":"Created or Updated_1.current.disposition","label":"Trigger - Record Created or Updated➛ Record➛Disposition","reference":"","reference_display":"Disposition","type":"choice","base_type":"choice","parent_table_name":"x_968807_public_0_incidents","column_name":"disposition","choices":[{"label":"Admonished","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Admonished","value":"Admonished","parameters":{"name":"x_968807_public_0_incidents","dependent_values":[""]}},{"label":"Arrest Made","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Arrest Made","value":"Arrest Made","parameters":{"name":"x_968807_public_0_incidents","dependent_values":[""]}},{"label":"Checked/Secured","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Checked/Secured","value":"Checked/Secured","parameters":{"name":"x_968807_public_0_incidents","dependent_values":[""]}},{"label":"Citation Issued","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Citation Issued","value":"Citation Issued","parameters":{"name":"x_968807_public_0_incidents","dependent_values":[""]}},{"label":"Detained","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Detained","value":"Detained","parameters":{"name":"x_968807_public_0_incidents","dependent_values":[""]}},{"label":"Referred Outside Agency","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Referred Outside Agency","value":"Referred Outside Agency","parameters":{"name":"x_968807_public_0_incidents","dependent_values":[""]}},{"label":"Report Taken","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Report Taken","value":"Report Taken","parameters":{"name":"x_968807_public_0_incidents","dependent_values":[""]}},{"label":"Transported","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Transported","value":"Transported","parameters":{"name":"x_968807_public_0_incidents","dependent_values":[""]}},{"label":"Unable to Locate","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Unable to Locate","value":"Unable to Locate","parameters":{"name":"x_968807_public_0_incidents","dependent_values":[""]}},{"label":"No Action Required","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"No Action Required","value":"No Action Required","parameters":{"name":"x_968807_public_0_incidents","dependent_values":[""]}}],"usedInstances":{"9e3939aa-1d9e-4c38-b32d-2ad4d70090ca":["condition"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛ Record","reference":"x_968807_public_0_incidents","reference_display":"Incidents","type":"reference","base_type":"reference","usedInstances":{"f3e01228-2509-4e60-81c3-460072b05945":["record"]},"attributes":{}}]</label_cache>
         <master>true</master>
-        <name>Close Incident</name>
+        <name>Incident Close</name>
         <natlang/>
         <outputs/>
-        <parent_flow display_value="Close Incident">6e6274e1c3dd1e10d056bd43e4013198</parent_flow>
+        <parent_flow display_value="Incident Close">6e6274e1c3dd1e10d056bd43e4013198</parent_flow>
         <remote_trigger_id/>
         <run_as>user</run_as>
         <run_with_roles/>
@@ -602,7 +624,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1b237c25c3dd1e10d056bd43e40131ec</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -610,7 +632,7 @@
         <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-18 02:33:18</sys_updated_on>
+        <sys_updated_on>2024-10-18 23:02:18</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -671,7 +693,7 @@
         <label>Table Name</label>
         <mandatory>false</mandatory>
         <max_length>200</max_length>
-        <model display_value="Close Incident">1b237c25c3dd1e10d056bd43e40131ec</model>
+        <model display_value="Incident Close">1b237c25c3dd1e10d056bd43e40131ec</model>
         <model_id>1b237c25c3dd1e10d056bd43e40131ec</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_input_1b237c25c3dd1e10d056bd43e40131ec</name>
@@ -694,14 +716,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-16 23:31:49</sys_created_on>
         <sys_id>2323bc25c3dd1e10d056bd43e401312a</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-18 02:33:18</sys_updated_on>
+        <sys_updated_on>2024-10-18 23:02:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -778,7 +800,7 @@
         <label>Changed Fields</label>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
-        <model display_value="Close Incident">1b237c25c3dd1e10d056bd43e40131ec</model>
+        <model display_value="Incident Close">1b237c25c3dd1e10d056bd43e40131ec</model>
         <model_id>1b237c25c3dd1e10d056bd43e40131ec</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_input_1b237c25c3dd1e10d056bd43e40131ec</name>
@@ -862,7 +884,7 @@
         <label>Record</label>
         <mandatory>true</mandatory>
         <max_length>200</max_length>
-        <model display_value="Close Incident">1b237c25c3dd1e10d056bd43e40131ec</model>
+        <model display_value="Incident Close">1b237c25c3dd1e10d056bd43e40131ec</model>
         <model_id>1b237c25c3dd1e10d056bd43e40131ec</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_input_1b237c25c3dd1e10d056bd43e40131ec</name>
@@ -885,14 +907,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-16 23:31:49</sys_created_on>
         <sys_id>9f237c25c3dd1e10d056bd43e40131ee</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-18 02:33:18</sys_updated_on>
+        <sys_updated_on>2024-10-18 23:02:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -912,22 +934,44 @@
     <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="Close Incident">1b237c25c3dd1e10d056bd43e40131ec</flow>
+        <flow display_value="Incident Close">1b237c25c3dd1e10d056bd43e40131ec</flow>
         <name>Created or Updated</name>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-16 23:31:49</sys_created_on>
         <sys_id>2723bc25c3dd1e10d056bd43e4013134</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-16 23:31:49</sys_updated_on>
+        <sys_updated_on>2024-10-18 23:02:18</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
-        <trigger_inputs>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</trigger_inputs>
+        <trigger_inputs>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</trigger_inputs>
         <trigger_outputs/>
         <trigger_type>record_create_or_update</trigger_type>
     </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=1b237c25c3dd1e10d056bd43e40131ec^sys_idNOT IN6f23bc25c3dd1e10d056bd43e4013133,e1592875c3519250d056bd43e401317b,fca0227dc3551650d056bd43e4013155"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=1b237c25c3dd1e10d056bd43e40131ec^sys_idNOT IN0ffebe46c35d5a50d056bd43e401317b,6f23bc25c3dd1e10d056bd43e4013133,e1592875c3519250d056bd43e401317b,fca0227dc3551650d056bd43e4013155"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment>Add Close time</comment>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Incident Close">1b237c25c3dd1e10d056bd43e40131ec</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-18 22:59:36</sys_created_on>
+        <sys_id>0ffebe46c35d5a50d056bd43e401317b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-18 22:59:36</sys_updated_on>
+        <ui_id>f3e01228-2509-4e60-81c3-460072b05945</ui_id>
+        <values>H4sIAAAAAAAA/+VVXU/bMBT9K5GfNqmrkha6Up4mKqZJDCRgfQEUOfZNseQ4me0Uuir/nevYDVU7OpB4QetTfL98zsk9zc2KCE4m5AB4nBwlIzZMhsNBHA/GB0k2GmbJgA8pQEJ6RNECsFIDKzXH84LK2gVWqxMN1AKPSh39qrh7TJM+q7UGZZsGS7kwlaTLWejACLsXkmOeTG7ueqSiGodb0GSy2kq9Fp2kGUgsvVzD24Zrl5U785LVBeJKxTp4FjqnIRP9mGIGmxycJO4ReLSgOCCQnEoDPVJQhSxLvSQTq2sMIH9+oeSyq7gXynqiBX004g/efBC7uhyQGQsidMdrmkmYepF8Kp9SS69wOrO17jQrBQPjdeGQ01rak82YL7iorCiVb7FucOguZV2oc68K6QZsvJPaQMqhclwdek8tv7ovHy7XQE+FamUJNGXJqOxO1Fotsto6OCsCElqdC1pVQs3TSpcL0TYjlKI/l3jo57J8wDuNmKs+ZQ53H5Wl/VOMT9vwjGrhSPzEMdjc9IhZmhNJjXmmgjqmv2uHxBMLFNJWhVaCtN0G18y0qOw3vGoBAXjTCx7IDvdtGTt6XqqNmc8+eEyPRuNx/DWt6kwKlsapUEw4IGbXAvuL3+aOV+Beu6NdtBd4BIPsxM42e6Nznwj2OHw3e4w/mj0ClQ/vj3+5Ih7s/e/d2KbWCGbDEUyWBvhtHcdDnvMv/hbgu254ufBtTngF1rUTTgVIbv4Cfm0DKBChhdST2bJCSEazkOy+Fu/mh2QUt78P5or/4KPhKfpYu4ft8rqnfXW4YDqacxv5LY8UPETfHR18Z3AtCvj0+fhWacA3p1zdMYIydAG807ppmrsnZjJS8K8JAAA=</values>
+    </sys_hub_action_instance_v2>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
@@ -935,18 +979,18 @@
         <comment>Update Log Record Status to Completed</comment>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
-        <flow display_value="Close Incident">1b237c25c3dd1e10d056bd43e40131ec</flow>
+        <flow display_value="Incident Close">1b237c25c3dd1e10d056bd43e40131ec</flow>
         <generation_source/>
-        <order>1</order>
+        <order>5</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-16 23:31:49</sys_created_on>
         <sys_id>6f23bc25c3dd1e10d056bd43e4013133</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-17 17:27:18</sys_updated_on>
+        <sys_updated_on>2024-10-18 22:59:36</sys_updated_on>
         <ui_id>a07da8bf-d8bb-4b70-acba-f51bf991cc60</ui_id>
         <values>H4sIAAAAAAAA/+VVW2/aMBj9K8jPKEqAMuBtAlWa1LVSu/HSVZZjf4AlJ858oWSI/77PibmoXW9SX9B4Cf4u9jkn34nvt0QKMiEDEGk2zoa8n/X7vTTtjQZZPuznWU/0GUBGuqRkBWClAa6NwPWaKR8C2+3UAHMgOtp0flYi/KVZwr0xULpE6SXFp6l3O2wS0laK1fPYixG+kkpgJZncP3RJxQwe48CQyfZJ6r04FctBYentHuhT4K6uwlpo7gtERuU+eBU7ZzHT+TbDDDYFOFnaJbBxUApAIAumLHRJwUrkq01NJs54DKAS4qZU9aFiJUvXEi3Yxso/ePIgDXULQGY8inBY/mC5glkrUptazJhjd7g7d94cNNOSg211EbBgXrnpaawtuKmc1GXb4sLGsVsrX5TXrSrksMHJO/EWqIAqcA3oW2qLu5V+vN0DvZRlI0ukqTRn6rBizhmZexfgbAkoaHQuWFXJckkro9eyaUYoRbJUuEgWSj/imVYuy4TxgDtBZVlyifFZE54zIwOJ77gNNu+6xNZ2qpi1RyqoI/3tA5KWWKRAGxUaCWgzDaGZG1m5r3jUGiLwXTe6Ib94bcr4+DhUJ3seHbGh4+FolH6hlc+V5DSlgdFaupqiG5674M36j3nkHej3HmnG7QU20SbPYlenvZ3rNhFNcvFpJhmdm0kilbN3yVveSHuvfoFPpqmxgz3xhXXMefvLp2lfTHVRKRxi8dwOL5V9zAXvwLl3waUEJew/gO8tAAgCrzXaEnlig5jszGPycF98mheyYdr8zswR/8218fAXubn3+UYJAAA=</values>
     </sys_hub_action_instance_v2>
@@ -957,7 +1001,7 @@
         <comment/>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
-        <flow display_value="Close Incident">1b237c25c3dd1e10d056bd43e40131ec</flow>
+        <flow display_value="Incident Close">1b237c25c3dd1e10d056bd43e40131ec</flow>
         <generation_source/>
         <order>3</order>
         <parent_ui_id>787ceb44-2fcd-4c86-94db-f862614e47c7</parent_ui_id>
@@ -976,21 +1020,21 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <attributes/>
-        <comment/>
+        <comment>Update Primary Officer Status to Available</comment>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
-        <flow display_value="Close Incident">1b237c25c3dd1e10d056bd43e40131ec</flow>
+        <flow display_value="Incident Close">1b237c25c3dd1e10d056bd43e40131ec</flow>
         <generation_source/>
-        <order>4</order>
+        <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-18 02:08:32</sys_created_on>
         <sys_id>fca0227dc3551650d056bd43e4013155</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-18 02:08:32</sys_updated_on>
+        <sys_updated_on>2024-10-18 22:59:36</sys_updated_on>
         <ui_id>32a49fca-0c28-4008-a593-c63490b2f997</ui_id>
         <values>H4sIAAAAAAAA/+VVy24aMRT9FeQ1Gs0AocAuCkKqlCZS0rJJU8tjXxJLnvHUDxKK+Pdej81DSZsSKRtUVvi+fM7hHny3JlKQCRmAyItxMeT9ot/v5XlvNCjKYb8seqLPAArSJTWrACsNcG0EnpdM+RBYry8MMAeio03nWyPCV1pk3BsDtcuYtfKhxpDTmw22CWkbxVbz1I0R/iiVwFoyubvvkoYZvMiBIZP1i9SxSBUrQWHpzRbqS+hu1YSz0NxXiJHKbfAydU5TpvN5ihlsCnCKvEvg2UEtAIEsmLLQJRWrkbE2KzJxxmMAtRDXtVrtKh5l7SLRij1b+QtvHuShbgHIjCcRdsevrFQwjSLF1GLKHLvF6dx5s9NMSw426iJgwbxyF4exWHDdOKnr2OLC4NStla/qq6gK2Q04+E28BSqgCVwD+khtcfuon262QGeybmVJNJXmTO1OzDkjS+8CnDUBBa3OFWsaWT/QxuilbJsRSpU9KDxkC6Wf8M6wLRnjAXeGyrJshvFpG54zIwOJLzgGmzddYlf2QuGG7amgjvSnD0gisUSBtiq0EtB2G0IzN7Jx53jVEhLwTTf5oTx7a8v4eL9UBzP3nnim4+FolH+ijS+V5DSnUDVKrwD1eGWBt4vf544jcG/d0S7aX3gkg7yKXR72dq5iItnj7MPsMTo1eyQqJ++Pf7ki773533uwTa0R7IEjrGPO2+8+z/vifMmkCkB/xChlQshAiKlY8Noj721/n2uO4LV1zUyCEvYPRLeWCd7FJ5BG4i9sk5KdeUruXpYP804xzNvPiTnov3lg7n8DNSeN0HIJAAA=</values>
     </sys_hub_action_instance_v2>
@@ -1003,7 +1047,7 @@
         <connected_to/>
         <decision_table/>
         <display_text/>
-        <flow display_value="Close Incident">1b237c25c3dd1e10d056bd43e40131ec</flow>
+        <flow display_value="Incident Close">1b237c25c3dd1e10d056bd43e40131ec</flow>
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
@@ -1014,10 +1058,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-17 17:27:18</sys_created_on>
         <sys_id>e1592875c3519250d056bd43e401317d</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-18 02:33:18</sys_updated_on>
+        <sys_updated_on>2024-10-18 23:02:18</sys_updated_on>
         <ui_id>787ceb44-2fcd-4c86-94db-f862614e47c7</ui_id>
         <values>H4sIAAAAAAAA/6VTTW/bMAz9K4XOhmE7Q7DkViQoUGBbgbbrZSgMRqITYbKk6SOpZ+S/j4oct+h1J4uP5ON7lDwyE4ONwT+bW+/lXrP1r9eCSZ0wOo9MQ49szWTA3rOCHUHFFI/jxiEEFDfG3fy0Ih3buuTROdShdOit0ULqfRu1DP58pl4hvVUwvPwHBT9IJSidZVpwpC6gY+vxU0oKmlCvRLeqqxVfNMtFU1XN1y/1brnY1Y1YAIolESrYoaLS+8nfJ7thsCl0yI0TV+Db1PM4o/RJIpqqYPgWUAuk8R0ojwXrQZM14wa2Di4SQKbFg1bDXHGQOhAdS7VvXv6liXVVpcIOyRDHnJzDZ9gp3OZl5lS3hQBPRM9DdFM5PxjJ0ed1COwgqrD5iOWCBxuk0bklJOKp26jY6x95G2wmuN4dIdFjK9Ams0n+5KV7OpjT41XpndSXxUxJZTioOYIQnNzFkPSMDBX2RNT2YG26c+vMUV6aSUtf7hUFZafMiYamh1oCT8JL2i2Ud4RvL/ALOJlcfCcaaj4XzA9+o8D7dy+0yPZPTEqys8lDm9eQWriTNtzSgCNOcs+v6e1n7nmnXHqScLmO++sfkxIDvSLJP0In434n8e/Y+R+GjH12ewMAAA==</values>
         <workflow_reference/>
@@ -1102,22 +1146,22 @@
         <latest_snapshot>1b237c25c3dd1e10d056bd43e40131ec</latest_snapshot>
         <compiler_build>glide-xanadu-07-02-2024__patch1-08-24-2024_09-01-2024_1853.zip</compiler_build>
     </sys_hub_flow>
-    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=6e6274e1c3dd1e10d056bd43e4013198^sys_idNOT INab23bc25c3dd1e10d056bd43e401313c"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=6e6274e1c3dd1e10d056bd43e4013198^sys_idNOT IN769f724ac35d5a50d056bd43e40131c0"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
-        <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
-        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"ab23bc25c3dd1e10d056bd43e401313c","name":"plan","plan_signature":null}}</plan>
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan/>
         <plan_id>6e6274e1c3dd1e10d056bd43e4013198</plan_id>
         <snapshot>1b237c25c3dd1e10d056bd43e40131ec</snapshot>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-16 23:31:49</sys_created_on>
+        <sys_created_on>2024-10-18 23:02:19</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>ab23bc25c3dd1e10d056bd43e401313c</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_id>769f724ac35d5a50d056bd43e40131c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-18 02:33:19</sys_updated_on>
+        <sys_updated_on>2024-10-18 23:02:19</sys_updated_on>
         <trigger display_value="">425f5e32c3051210d056bd43e40131e8</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=6e6274e1c3dd1e10d056bd43e4013198"/>
