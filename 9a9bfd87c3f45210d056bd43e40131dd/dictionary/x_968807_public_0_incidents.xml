@@ -14,7 +14,7 @@
                 <element inactive_on_update="false" label="Detained" sequence="4" value="Detained"/>
             </choice>
         </element>
-        <element label="Backup" max_length="4000" name="responding_units" reference="x_968807_public_0_employees" reference_qual="title=Safety Officer^ORtitle=Safety Sergeant^status=Available" reference_qual_condition="title=Safety Officer^ORtitle=Safety Sergeant^status=Available" type="glide_list"/>
+        <element label="Secondary" max_length="4000" name="responding_units" reference="x_968807_public_0_employees" reference_qual="title=Safety Officer^ORtitle=Safety Sergeant^status=Available" reference_qual_condition="title=Safety Officer^ORtitle=Safety Sergeant^status=Available" type="glide_list"/>
         <element label="Comments" max_length="40" name="comments" type="journal_input"/>
         <element label="Primary" max_length="32" name="assigned_to" reference="x_968807_public_0_employees" reference_qual="title=Safety Officer^status=Available" reference_qual_condition="title=Safety Officer^status=Available" type="reference"/>
         <element label="Closed" max_length="40" name="closed" read_only="true" type="glide_date_time"/>
