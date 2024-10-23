@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_968807_public_0.Audience for app public-safety-supervisor</api_name>
+        <description/>
+        <name>Audience for app public-safety-supervisor</name>
+        <role_names/>
+        <roles name="x_968807_public_0.supervisor">1a9b31c7c3f45210d056bd43e401314d</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 00:29:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e3d9ff17c359d610d056bd43e40131ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for app public-safety-supervisor</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
+        <sys_update_name>sys_ux_applicability_e3d9ff17c359d610d056bd43e40131ec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 00:29:16</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

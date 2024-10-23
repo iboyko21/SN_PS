@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="4ee9b357c359d610d056bd43e4013136" sys_domain="global" table="x_968807_public_0_reports" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-23 00:29:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8ee9b357c359d610d056bd43e401313a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_968807_public_0_reports" name="x_968807_public_0_reports" sys_domain="global" view="06d9bf17bc59d610a4aedff246dfcb8e">4ee9b357c359d610d056bd43e4013136</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_968807_public_0_reports" sys_domain="global" view="06d9bf17bc59d610a4aedff246dfcb8e">4ee9b357c359d610d056bd43e4013139</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-23 00:29:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-23 00:29:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0ae9f357c359d610d056bd43e40131e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_968807_public_0_reports" name="x_968807_public_0_reports" sys_domain="global" view="06d9bf17bc59d610a4aedff246dfcb8e">4ee9b357c359d610d056bd43e4013136</sys_ui_form>
+            <sys_ui_section caption="Additional Info" display_value="Additional Info" name="x_968807_public_0_reports" sys_domain="global" view="06d9bf17bc59d610a4aedff246dfcb8e">c6e9f357c359d610d056bd43e40131e7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-23 00:29:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_968807_public_0_reports</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-23 00:29:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4ee9b357c359d610d056bd43e4013136</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_968807_public_0_reports</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
+            <sys_update_name>sys_ui_form_sections_4ee9b357c359d610d056bd43e4013136</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-23 00:29:26</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Public Safety Supervisor 0" name="workspace-public-safety-supervisor-0">06d9bf17bc59d610a4aedff246dfcb8e</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
