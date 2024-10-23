@@ -55,10 +55,12 @@
                 <element dependent_value="Mission Campus" inactive_on_update="false" label="Building B" sequence="12" value="Building B"/>
                 <element dependent_value="North Beach/Chinatown Campus" inactive_on_update="false" label="Library" sequence="27" value="Library"/>
                 <element dependent_value="Ocean Campus" inactive_on_update="false" label="Arts Buildings" sequence="4" value="Arts Buildings"/>
+                <element dependent_value="Ocean Campus" inactive_on_update="false" label="Lunchbox" sequence="24" value="Lunchbox"/>
                 <element dependent_value="John Adams Campus" inactive_on_update="false" label="Gymnasium" sequence="19" value="Gymnasium"/>
                 <element dependent_value="Ocean Campus" inactive_on_update="false" label="Conlan Hall" sequence="0" value="Conlan Hall"/>
                 <element dependent_value="Evans Campus" inactive_on_update="false" label="Garage" sequence="30" value="Garage"/>
                 <element dependent_value="Ocean Campus" inactive_on_update="false" label="Rosenberg Library" sequence="3" value="Rosenberg Library"/>
+                <element dependent_value="Mission Campus" inactive_on_update="false" label="Cafe" sequence="14" value="Cafe"/>
                 <element dependent_value="Mission Campus" inactive_on_update="false" label="Library" sequence="13" value="Library"/>
                 <element dependent_value="North Beach/Chinatown Campus" inactive_on_update="false" label="Classroom" sequence="28" value="Classroom"/>
                 <element dependent_value="Ocean Campus" inactive_on_update="false" label="Wellness Center" sequence="10" value="Wellness Center"/>
@@ -67,7 +69,7 @@
                 <element dependent_value="Downtown Campus" inactive_on_update="false" label="Cafe" sequence="21" value="Cafe"/>
                 <element dependent_value="Airport Campus" inactive_on_update="false" label="Classroom" sequence="32" value="Classroom"/>
                 <element dependent_value="John Adams Campus" inactive_on_update="false" label="1st Floor" sequence="15" value="1st Floor"/>
-                <element dependent_value="Mission Campus" inactive_on_update="false" label="Garage" sequence="14" value="Garage"/>
+                <element dependent_value="Mission Campus" inactive_on_update="false" label="Garage" sequence="36" value="Garage"/>
                 <element dependent_value="John Adams Campus" inactive_on_update="false" label="3rd Floor" sequence="17" value="3rd Floor"/>
                 <element dependent_value="Ocean Campus" inactive_on_update="false" label="Smith Hall" sequence="1" value="Smith Hall"/>
                 <element dependent_value="Ocean Campus" inactive_on_update="false" label="Bungalows" sequence="5" value="Bungalows"/>
@@ -78,8 +80,9 @@
                 <element dependent_value="Mission Campus" inactive_on_update="false" label="Building A" sequence="11" value="Building A"/>
                 <element dependent_value="North Beach/Chinatown Campus" inactive_on_update="false" label="Lobby" sequence="26" value="Lobby"/>
                 <element dependent_value="Ocean Campus" inactive_on_update="false" label="Batmale Hall" sequence="6" value="Batmale Hall"/>
-                <element dependent_value="Ocean Campus" inactive_on_update="false" label="Parking Lot" sequence="24" value="Parking Lot"/>
+                <element dependent_value="Ocean Campus" inactive_on_update="false" label="Parking Lot" sequence="35" value="Parking Lot"/>
                 <element dependent_value="John Adams Campus" inactive_on_update="false" label="Basement" sequence="18" value="Basement"/>
+                <element dependent_value="Ocean Campus" inactive_on_update="false" label="Cloud Circle" sequence="34" value="Cloud Circle"/>
                 <element dependent_value="Ocean Campus" inactive_on_update="false" label="Student Union" sequence="2" value="Student Union"/>
             </choice>
         </element>
