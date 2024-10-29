@@ -7,10 +7,10 @@
     // Set the status of the current record
     g_form.setValue('status', 'Waiting For Approval');
     // Save the record
-    g_form.save();
-    // Redirect back to the list view after saving
-    // GlideNavigation.openList('sys_user');
-	nowRecordForm.close();
+    g_form.save().then(function(){
+	// close the record after save
+    g_aw.closeRecord();
+  });
 }]]></client_script_v2>
         <comments/>
         <condition/>
@@ -20,7 +20,7 @@
         <form_context_menu>false</form_context_menu>
         <form_link>false</form_link>
         <form_menu_button_v2>false</form_menu_button_v2>
-        <form_style/>
+        <form_style>primary</form_style>
         <format_for_configurable_workspace>true</format_for_configurable_workspace>
         <hint/>
         <isolate_script>false</isolate_script>
@@ -38,8 +38,7 @@
         <order>100</order>
         <script><![CDATA[current.status = "Waiting For Approval"; 
 current.update();
-
-//action.setRedirectURL('Reports');
+console.log('status updated');
 window.history.back();]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
@@ -51,7 +50,7 @@ window.history.back();]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8a2336a1c3a99e50d056bd43e401314a</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>Submit for Approval</sys_name>
         <sys_overrides/>
         <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
@@ -59,7 +58,7 @@ window.history.back();]]></script>
         <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
         <sys_update_name>sys_ui_action_8a2336a1c3a99e50d056bd43e401314a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-29 19:33:46</sys_updated_on>
+        <sys_updated_on>2024-10-29 19:56:56</sys_updated_on>
         <table>x_968807_public_0_reports</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
@@ -69,9 +68,9 @@ window.history.back();]]></script>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-29 19:07:29</sys_created_on>
         <sys_id>125376a1c3a99e50d056bd43e4013172</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-29 19:28:30</sys_updated_on>
+        <sys_updated_on>2024-10-29 19:50:15</sys_updated_on>
         <table>sys_ui_action</table>
         <use_es_latest>false</use_es_latest>
     </sys_es_latest_script>
