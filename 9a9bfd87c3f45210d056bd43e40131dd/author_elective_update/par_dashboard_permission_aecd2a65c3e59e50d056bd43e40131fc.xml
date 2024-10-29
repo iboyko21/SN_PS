@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="DELETE">
+        <can_read>true</can_read>
+        <can_share>true</can_share>
+        <can_write>true</can_write>
+        <dashboard display_value="Public Safety Dashboard">2ecd2a65c3e59e50d056bd43e40131f8</dashboard>
+        <group/>
+        <owner>true</owner>
+        <role/>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-29 18:43:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aecd2a65c3e59e50d056bd43e40131fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2ecd2a65c3e59e50d056bd43e40131f8</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
+        <sys_update_name>par_dashboard_permission_aecd2a65c3e59e50d056bd43e40131fc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-29 18:43:12</sys_updated_on>
+        <user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user>
+    </par_dashboard_permission>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</application>
+        <file_path/>
+        <instance_id>09943ed3dbe9029837d72a5913961978</instance_id>
+        <instance_name>dev260260</instance_name>
+        <name>par_dashboard_permission_aecd2a65c3e59e50d056bd43e40131fc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission"><par_dashboard_permission action="INSERT_OR_UPDATE"><can_read>true</can_read><can_share>true</can_share><can_write>true</can_write><dashboard display_value="Public Safety Dashboard">2ecd2a65c3e59e50d056bd43e40131f8</dashboard><group/><owner>true</owner><role/><sys_class_name>par_dashboard_permission</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-29 18:43:12</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>aecd2a65c3e59e50d056bd43e40131fc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>2ecd2a65c3e59e50d056bd43e40131f8</sys_name><sys_overrides/><sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package><sys_policy/><sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope><sys_update_name>par_dashboard_permission_aecd2a65c3e59e50d056bd43e40131fc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-29 18:43:12</sys_updated_on><user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user></par_dashboard_permission></record_update>]]></payload>
+        <payload_hash>-771585174</payload_hash>
+        <record_name>2ecd2a65c3e59e50d056bd43e40131f8</record_name>
+        <reverted_from/>
+        <source>a6ccf94fc3f45210d056bd43e401310f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-29 18:43:12</sys_created_on>
+        <sys_id>62cdeae5c3e59e50d056bd43e40131e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192d996d1580000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-29 18:43:12</sys_updated_on>
+        <type>PAR Dashboard Permission</type>
+        <update_guid>26cdeae550e59e50ff3fe0fd9b9729e2</update_guid>
+        <update_guid_history>26cdeae550e59e50ff3fe0fd9b9729e2:-771585174</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">657e626dc3e59e50d056bd43e40131b9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-29 18:46:08</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_permission">par_dashboard_permission</sys_db_object>
+        <sys_id>a727e692274b4f65ba410ba7ea4ce089</sys_id>
+        <sys_metadata>aecd2a65c3e59e50d056bd43e40131fc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2ecd2a65c3e59e50d056bd43e40131f8</sys_name>
+        <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
+        <sys_scope_delete display_value="">4c78752d5203411aaac0e69796d5d3c9</sys_scope_delete>
+        <sys_update_name>par_dashboard_permission_aecd2a65c3e59e50d056bd43e40131fc</sys_update_name>
+        <sys_update_version display_value="par_dashboard_permission_aecd2a65c3e59e50d056bd43e40131fc">62cdeae5c3e59e50d056bd43e40131e3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-29 18:46:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

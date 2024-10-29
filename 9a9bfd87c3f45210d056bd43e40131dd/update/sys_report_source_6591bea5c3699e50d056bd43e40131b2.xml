@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_source">
+    <sys_report_source action="INSERT_OR_UPDATE">
+        <description/>
+        <display>Crime Stats (Incidents)</display>
+        <filter/>
+        <name>Crime Stats</name>
+        <sys_class_name>sys_report_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-29 19:00:00</sys_created_on>
+        <sys_id>6591bea5c3699e50d056bd43e40131b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Crime Stats (Incidents)</sys_name>
+        <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
+        <sys_update_name>sys_report_source_6591bea5c3699e50d056bd43e40131b2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-29 19:00:00</sys_updated_on>
+        <table>x_968807_public_0_incidents</table>
+    </sys_report_source>
+</record_update>
