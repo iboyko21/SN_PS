@@ -81,8 +81,9 @@ td button {
 	data.answer = "";
 	
 	var incident = new GlideRecord('x_968807_public_0_incidents'); // table name
-	incident.addQuery('status', 'Open'); // filter by status
+	//incident.addQuery('status', 'Open'); // filter by status
 	incident.orderByDesc('sys_created_on');
+	incident.setLimit(10);
 	incident.query();
 	
 	while (incident.next()) {
@@ -104,14 +105,14 @@ td button {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-08 22:09:52</sys_created_on>
         <sys_id>11b3973ac3055210d056bd43e40131ce</sys_id>
-        <sys_mod_count>178</sys_mod_count>
+        <sys_mod_count>180</sys_mod_count>
         <sys_name>Active Incidents</sys_name>
         <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
         <sys_update_name>sp_widget_11b3973ac3055210d056bd43e40131ce</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 21:06:03</sys_updated_on>
+        <sys_updated_on>2024-10-31 22:56:16</sys_updated_on>
         <template><![CDATA[<div class="container-fluid">
   <div>
     <p class="title">Open Incidents</p>
