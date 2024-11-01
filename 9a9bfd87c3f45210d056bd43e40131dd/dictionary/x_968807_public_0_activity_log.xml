@@ -13,6 +13,7 @@
                 <element inactive_on_update="false" label="Fixed Post" sequence="3" value="Fixed Post"/>
                 <element inactive_on_update="false" label="Escort" sequence="1" value="Escort"/>
                 <element inactive_on_update="false" label="Motorist Assist" sequence="5" value="Motorist Assist"/>
+                <element inactive_on_update="false" label="Break" sequence="10" value="Break"/>
                 <element inactive_on_update="false" label="Report Writing" sequence="8" value="Report Writing"/>
                 <element inactive_on_update="false" label="Training" sequence="9" value="Training"/>
                 <element inactive_on_update="false" label="Foot Patrol" sequence="2" value="Foot Patrol"/>
