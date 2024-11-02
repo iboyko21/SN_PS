@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency">
+    <m2m_sp_widget_dependency action="INSERT_OR_UPDATE">
+        <sp_dependency display_value="moment-timezone-with-data-2010-2020-v0.5">db6689c1cb11120000f8d856634c9c3b</sp_dependency>
+        <sp_widget display_value="PS Clock">7953d326c321de10d056bd43e4013156</sp_widget>
+        <sys_class_name>m2m_sp_widget_dependency</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-02 00:01:12</sys_created_on>
+        <sys_id>f553d326c321de10d056bd43e4013159</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>moment-timezone-with-data-2010-2020-v0.5.PS Clock</sys_name>
+        <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
+        <sys_update_name>m2m_sp_widget_dependency_f553d326c321de10d056bd43e4013159</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-02 00:01:12</sys_updated_on>
+    </m2m_sp_widget_dependency>
+</record_update>

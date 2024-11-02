@@ -6,13 +6,17 @@
 }]]></client_script>
         <controller_as>c</controller_as>
         <css>.panel {
- 	margin-top: 20px;
+ 	//margin-top: 20px;
+  border: solid 1px black;
+  //padding-left: 10px;
+  //border-radius: 0;
 }
 
 .panel-heading {
+  width: 100%;
   // padding: 5px;
-	// background-color: #1F8476;
-  background-color: #293E40;
+	background-color: #1F8476;
+  // background-color: #293E40;
   // font-size: 20px;
   color: white;
   // text-align: center;
@@ -20,7 +24,7 @@
 
 .details {
     width: 100%;
-  	margin-left: 10px;
+  	//margin-left: 10px;
 		padding: 5px;
   }</css>
         <data_table>sp_instance</data_table>
@@ -44,14 +48,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-15 17:58:29</sys_created_on>
         <sys_id>cf4dde85c3515610d056bd43e40131b7</sys_id>
-        <sys_mod_count>39</sys_mod_count>
+        <sys_mod_count>53</sys_mod_count>
         <sys_name>PS Announcements</sys_name>
         <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
         <sys_update_name>sp_widget_cf4dde85c3515610d056bd43e40131b7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-01 19:51:35</sys_updated_on>
+        <sys_updated_on>2024-11-02 00:16:57</sys_updated_on>
         <template><![CDATA[<div class="panel">
   <div class="panel-heading">
     <h3 class="h4 panel-title">Announcements</h3>
@@ -59,28 +63,10 @@
 
   <div class="details">
     <p>
-<h2>]]>📢<![CDATA[ Mandatory Training Announcement for All Department Employees ]]>📢<![CDATA[</h2>
-    <p>Dear Team,</p>
-    
-    <p>We are committed to maintaining the highest standards of safety and operational effectiveness. To support this goal, we will be holding a <strong>mandatory training session next week</strong> that all department employees are required to attend.</p>
-    
-    <h3>Training Details:</h3>
-    <ul>
-        <li><strong>Topic:</strong> [Training Topic, e.g., Emergency Response Procedures]</li>
-        <li><strong>Date:</strong> [Day, Month Date, e.g., Tuesday, October 24th]</li>
-        <li><strong>Time:</strong> [Time, e.g., 9:00 AM – 12:00 PM]</li>
-        <li><strong>Location:</strong> [Location, e.g., Main Conference Room or Online via Zoom]</li>
-    </ul>
-
-    <p>This training will cover crucial skills and protocols necessary for effectively handling emergencies and ensuring the safety of our team and community. Your active participation and attention are essential.</p>
-    
-    <h3>Please Note:</h3>
-    <ul>
-        <li>Be sure to bring [any specific materials, e.g., department-issued device, notebook].</li>
-        <li>Attendance will be recorded, and completion is required as part of your role responsibilities.</li>
-    </ul>
-
-    <p>Thank you for your cooperation and commitment to excellence.</p>
+			<h2>Mandatory Training for All Department Employees</h2>
+    <p>We are committed to maintaining the highest standards of safety and operational effectiveness. 
+      To support this goal, we will be holding a <strong>mandatory training session next week</strong> 
+      that all department employees are required to attend.</p>
   </div>
 
 </div>]]></template>

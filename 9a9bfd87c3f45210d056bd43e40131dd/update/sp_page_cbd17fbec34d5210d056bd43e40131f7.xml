@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
     <sp_page action="INSERT_OR_UPDATE">
         <category>custom</category>
-        <css>.header {
-    margin: 0 0 0 0;
+        <css>.middle {
+		margin-top: 3em;
+  	margin-bottom: 2em;
 }
 
-.bottom-fixed {
-    //position: fixed;
-    //bottom: 0;
-    //left: 50%;
-  	//transform: translateX(-50%);
-    // width: 100%;        /* Full width across the screen */
-    background-color: #f8f9fa; /* Optional: add background color */
-    padding: 10px;      /* Optional: add padding */
-    text-align: center; /* Optional: center-align text */
-    //z-index: 1000;      /* Ensure it appears above other elements */
+.announcements {
+  //margin-top: 100px;
 }</css>
         <draft>false</draft>
         <dynamic_title_structure/>
@@ -30,14 +23,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-09 00:21:36</sys_created_on>
         <sys_id>cbd17fbec34d5210d056bd43e40131f7</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_name>public_safety_home</sys_name>
         <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
         <sys_update_name>sp_page_cbd17fbec34d5210d056bd43e40131f7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-01 19:52:45</sys_updated_on>
+        <sys_updated_on>2024-11-02 00:12:15</sys_updated_on>
         <title>Public Safety Home</title>
         <use_seo_script>false</use_seo_script>
     </sp_page>
