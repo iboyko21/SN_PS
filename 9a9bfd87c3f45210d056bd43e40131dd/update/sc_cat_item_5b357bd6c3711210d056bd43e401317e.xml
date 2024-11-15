@@ -14,7 +14,7 @@
         <description><![CDATA[<p>You can request a new ID card</p>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
-        <flow_designer_flow display_value="Public Safety Catalog Item Request">c7bd87fec3415210d056bd43e401314a</flow_designer_flow>
+        <flow_designer_flow display_value="Public Safety Catalog Service">9251068bc3f95e10d056bd43e4013107</flow_designer_flow>
         <fulfillment_automation_level>manual</fulfillment_automation_level>
         <group/>
         <hide_sp>false</hide_sp>
@@ -65,21 +65,21 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-11-13 18:06:42</sys_created_on>
         <sys_id>5b357bd6c3711210d056bd43e401317e</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Request ID Card</sys_name>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
         <sys_update_name>sc_cat_item_5b357bd6c3711210d056bd43e401317e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-14 21:39:04</sys_updated_on>
+        <sys_updated_on>2024-11-15 17:55:54</sys_updated_on>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>7</version>
+        <version>8</version>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
