@@ -17,12 +17,7 @@
 <div>
 <div id="productSpecs">
 <div>
-<div>
 <ul style="list-style-position: inside;"><li style="font-size: 12pt;"><span style="font-size: 12pt;">Uses time tested SABRE Red formula; 10% OC, 1.33% capsaicinoid content</span></li><li style="font-size: 12pt;"><span style="font-size: 12pt;">Fires 10 one-sec bursts</span></li><li style="font-size: 12pt;"><span style="font-size: 12pt;">Electronic immobilization device compatible</span></li><li style="font-size: 12pt;"><span style="font-size: 12pt;">Non-flammable</span></li><li style="font-size: 12pt;"><span style="font-size: 12pt;">4-1/2&#34;H x 1-1/2&#34;D</span></li><li style="font-size: 12pt;"><span style="font-size: 12pt;">1.4 oz.</span></li></ul>
-</div>
-<div>
-<p><span style="font-size: 12pt;">For optimal performance, defense sprays should be replaced at least every two years. See manufacturer’s information for details on shelf life and expiration dates.</span></p>
-</div>
 </div>
 </div>
 </div>
@@ -86,21 +81,21 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-02 18:06:35</sys_created_on>
         <sys_id>a17b2da4c3121210d056bd43e40131d9</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Pepper Spray</sys_name>
         <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
         <sys_update_name>sc_cat_item_a17b2da4c3121210d056bd43e40131d9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-02 18:11:51</sys_updated_on>
+        <sys_updated_on>2024-12-05 18:33:22</sys_updated_on>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>12</version>
+        <version>13</version>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
