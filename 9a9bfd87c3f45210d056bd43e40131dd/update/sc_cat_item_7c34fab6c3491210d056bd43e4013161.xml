@@ -20,7 +20,7 @@
 <div id="productSpecs">
 <div>
 <div>
-<ul style="list-style-position: inside;"><li style="font-size: 10pt;"><span style="font-size: 10pt;"><em>Meets NIJ Standard 0307.01</em></span></li><li style="font-size: 10pt;"><span style="font-size: 10pt;">Fabricated from the finest quality carbon steel</span></li><li style="font-size: 10pt;"><span style="font-size: 10pt;">Double lock engaging pin assures security</span></li><li style="font-size: 10pt;"><span style="font-size: 10pt;">Heat-treated chain</span></li><li style="font-size: 10pt;"><span style="font-size: 10pt;">Heat treated internal lockworks</span></li><li style="font-size: 10pt;"><span style="font-size: 10pt;">Smooth ratchets for swift cuffing</span></li><li style="font-size: 10pt;"><span style="font-size: 10pt;">Inner perimeter range of 5¾&#34; - 8&#34;</span></li><li style="font-size: 10pt;"><span style="font-size: 10pt;">20 locking positions</span></li><li style="font-size: 10pt;"><span style="font-size: 10pt;">Includes two keys</span></li><li style="font-size: 10pt;"><span style="font-size: 10pt;">Lifetime warranty</span></li><li style="font-size: 10pt;"><span style="font-size: 10pt;">10 oz</span></li></ul>
+<ul style="list-style-position: inside;"><li style="font-size: 10pt;"><span style="font-size: 10pt;">Fabricated from the finest quality carbon steel</span></li><li style="font-size: 10pt;"><span style="font-size: 10pt;">Double lock engaging pin assures security</span></li><li style="font-size: 10pt;"><span style="font-size: 10pt;">Heat-treated chain</span></li><li style="font-size: 10pt;"><span style="font-size: 10pt;">Heat treated internal lockworks</span></li><li style="font-size: 10pt;"><span style="font-size: 10pt;">Smooth ratchets for swift cuffing</span></li><li style="font-size: 10pt;"><span style="font-size: 10pt;">Inner perimeter range of 5¾&#34; - 8&#34;</span></li><li style="font-size: 10pt;"><span style="font-size: 10pt;">20 locking positions</span></li><li style="font-size: 10pt;"><span style="font-size: 10pt;">Includes two keys</span></li><li style="font-size: 10pt;"><span style="font-size: 10pt;">Lifetime warranty</span></li><li style="font-size: 10pt;"><span style="font-size: 10pt;">10 oz</span></li></ul>
 </div>
 <div> </div>
 </div>
@@ -87,21 +87,21 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-08 19:56:01</sys_created_on>
         <sys_id>7c34fab6c3491210d056bd43e4013161</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Handcuffs</sys_name>
         <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
         <sys_update_name>sc_cat_item_7c34fab6c3491210d056bd43e4013161</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-14 21:41:35</sys_updated_on>
+        <sys_updated_on>2025-01-06 18:55:52</sys_updated_on>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>6</version>
+        <version>7</version>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
