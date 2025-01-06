@@ -2,7 +2,7 @@
     <par_dashboard_widget action="INSERT_OR_UPDATE">
         <canvas display_value="">8ed9bf179c59d6106750657939920f90</canvas>
         <component display_value="List - Simple">2b1c080881e05dc63b917044290b233f</component>
-        <component_props>{"table":"x_968807_public_0_activity_log","fixedQuery":"","listTitle":"Activity Log","columns":"","query":"","groupByField":"","hideViewAll":false,"hideHighlightedValues":false,"highlightedValueConfigId":"","hideHighlightContent":false,"highlightContent":{"patterns":[],"color":""},"hideLinks":false,"wordWrap":false,"overrideWordWrapUserPref":false,"maxCharLimit":4000,"hideEmptyStateImage":false,"hidePersonalization":true,"hideDotwalk":true,"hideColumnReorder":true,"hideRowSelector":false,"hideColumnGrouping":true,"hideColumnResizing":true,"hideColumnFiltering":true,"hideColumnSorting":false,"hideHeader":false,"hideTitle":false,"hideTitleRowCount":true,"hideLastRefreshedText":false,"hideRefreshButton":false,"hideInlineEditing":true,"noDebounce":true,"id":"hideTitleRowCount","value":true,"propLabel":"Hide total number of records"}</component_props>
+        <component_props>{"table":"x_968807_public_0_activity_log","fixedQuery":"","listTitle":"Activity Log","columns":"","query":"","groupByField":"","hideViewAll":false,"hideHighlightedValues":false,"highlightedValueConfigId":"","hideHighlightContent":false,"highlightContent":{"patterns":[],"color":""},"hideLinks":false,"wordWrap":false,"overrideWordWrapUserPref":false,"maxCharLimit":4000,"hideEmptyStateImage":false,"hidePersonalization":true,"hideDotwalk":true,"hideColumnReorder":true,"hideRowSelector":false,"hideColumnGrouping":true,"hideColumnResizing":true,"hideColumnFiltering":true,"hideColumnSorting":false,"hideHeader":false,"hideTitle":false,"hideTitleRowCount":true,"hideLastRefreshedText":false,"hideRefreshButton":false,"hideInlineEditing":true,"noDebounce":true,"id":"maxColumns","value":7,"propLabel":"Number of displayed columns","maxColumns":7}</component_props>
         <h>18</h>
         <name/>
         <stored_component/>
@@ -12,7 +12,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cad9bf175f59d610ffde47c8a34b6490</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
@@ -20,7 +20,7 @@
         <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
         <sys_update_name>par_dashboard_widget_cad9bf175f59d610ffde47c8a34b6490</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-23 00:44:12</sys_updated_on>
+        <sys_updated_on>2025-01-06 19:56:19</sys_updated_on>
         <visualization/>
         <w>48</w>
         <widget_props/>
