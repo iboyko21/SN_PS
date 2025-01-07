@@ -7,11 +7,11 @@
 	// border: 1px solid blue;
   //border-radius: 5px;
   //background-color: #1F8476;
-  background-color: #293E40;
-  padding: 10px;
+  //background-color: #293E40;
+  padding: 1px;
   text-align: center;
-  font-size: 50px;
-  color: white;
+  font-size: 20px;
+  color: #293E40;
 }</css>
         <data_table>sp_instance</data_table>
         <demo_data/>
@@ -36,17 +36,18 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-09 00:46:12</sys_created_on>
         <sys_id>4777b776c3019210d056bd43e4013184</sys_id>
-        <sys_mod_count>31</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_name>Greeting</sys_name>
         <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
         <sys_update_name>sp_widget_4777b776c3019210d056bd43e4013184</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-01 23:55:20</sys_updated_on>
+        <sys_updated_on>2025-01-07 21:12:57</sys_updated_on>
         <template><![CDATA[
   <p>
-    Hello, {{c.data.userName}}!
+    Hello, <br>
+    <b>{{c.data.userName}}!</b>
   </p>
 ]]></template>
     </sp_widget>

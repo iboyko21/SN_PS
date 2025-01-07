@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>3</order>
+        <semantic_tag/>
+        <size>4</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">0b5f4744c34f1210d056bd43e401311b</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 18:53:10</sys_created_on>
+        <sys_id>c75f4f08c34f1210d056bd43e40131c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3</sys_name>
+        <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
+        <sys_update_name>sp_column_c75f4f08c34f1210d056bd43e40131c9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 18:53:10</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</application>
+        <file_path/>
+        <instance_id>09943ed3dbe9029837d72a5913961978</instance_id>
+        <instance_name>dev260260</instance_name>
+        <name>sp_column_c75f4f08c34f1210d056bd43e40131c9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>3</order><semantic_tag/><size>4</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">0b5f4744c34f1210d056bd43e401311b</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-07 18:53:10</sys_created_on><sys_id>c75f4f08c34f1210d056bd43e40131c9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>3</sys_name><sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package><sys_policy/><sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope><sys_update_name>sp_column_c75f4f08c34f1210d056bd43e40131c9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-07 18:53:10</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>1209885742</payload_hash>
+        <record_name>3</record_name>
+        <reverted_from/>
+        <source>a6ccf94fc3f45210d056bd43e401310f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 18:53:10</sys_created_on>
+        <sys_id>835f4f08c34f1210d056bd43e40131cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194421d18eb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 18:53:10</sys_updated_on>
+        <type>Column</type>
+        <update_guid>875f4f08194f121076b3ebf5931540ca</update_guid>
+        <update_guid_history>875f4f08194f121076b3ebf5931540ca:1209885742</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="3">c58ce3c4c3c75210d056bd43e40131a5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 21:00:33</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>2833c3024faa494087640ce3b2710590</sys_id>
+        <sys_metadata>c75f4f08c34f1210d056bd43e40131c9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3</sys_name>
+        <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
+        <sys_scope_delete display_value="">4c78752d5203411aaac0e69796d5d3c9</sys_scope_delete>
+        <sys_update_name>sp_column_c75f4f08c34f1210d056bd43e40131c9</sys_update_name>
+        <sys_update_version display_value="sp_column_c75f4f08c34f1210d056bd43e40131c9">835f4f08c34f1210d056bd43e40131cb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 21:00:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

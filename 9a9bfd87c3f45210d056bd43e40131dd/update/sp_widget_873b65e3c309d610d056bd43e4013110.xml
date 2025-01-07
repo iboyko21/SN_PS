@@ -16,6 +16,10 @@
   margin-bottom: 0;
 }
 
+table {
+	width: 100%;
+}
+
 th {
   font-size: 15px;
   padding: 15px;
@@ -48,7 +52,7 @@ td {
 	
 	var report = new GlideRecord('x_968807_public_0_reports');
 	// report.addQuery('assigned_to', data.userName);
-	report.orderBy('sys_created_on'); //
+	report.orderByDesc('number'); // sort by number in descending order
 	report.query();
 	
 	while (report.next()) {
@@ -70,15 +74,15 @@ td {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-10 22:28:52</sys_created_on>
         <sys_id>873b65e3c309d610d056bd43e4013110</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_name>PS My Reports</sys_name>
         <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
         <sys_update_name>sp_widget_873b65e3c309d610d056bd43e4013110</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 00:53:24</sys_updated_on>
-        <template><![CDATA[<div class="container-fluid">
+        <sys_updated_on>2025-01-07 21:31:23</sys_updated_on>
+        <template><![CDATA[
 
   <div>
     <p class="title">Your Reports
@@ -114,8 +118,6 @@ td {
         </td>	
       </tr>
     </table>
-  </div>
-  
-</div>]]></template>
+  </div>]]></template>
     </sp_widget>
 </record_update>

@@ -3,8 +3,8 @@
         <active>true</active>
         <color>default</color>
         <condition/>
-        <display_1/>
-        <display_2/>
+        <display_1>number</display_1>
+        <display_2>reporting_officer</display_2>
         <display_date/>
         <filter/>
         <glyph>file-o</glyph>
@@ -25,14 +25,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-09 01:06:20</sys_created_on>
         <sys_id>88fb3bbec3419210d056bd43e401319f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Reports</sys_name>
         <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
         <sys_update_name>sp_rectangle_menu_item_88fb3bbec3419210d056bd43e401319f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-10 02:02:09</sys_updated_on>
+        <sys_updated_on>2025-01-07 20:51:28</sys_updated_on>
         <table>x_968807_public_0_reports</table>
         <type>filtered</type>
         <url/>

@@ -25,7 +25,7 @@
 .details {
     width: 100%;
   	//margin-left: 10px;
-		padding: 5px;
+		padding: 0 1rem  1rem 1rem;
   }</css>
         <data_table>sp_instance</data_table>
         <demo_data/>
@@ -48,14 +48,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-15 17:58:29</sys_created_on>
         <sys_id>cf4dde85c3515610d056bd43e40131b7</sys_id>
-        <sys_mod_count>53</sys_mod_count>
+        <sys_mod_count>59</sys_mod_count>
         <sys_name>PS Announcements</sys_name>
         <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
         <sys_update_name>sp_widget_cf4dde85c3515610d056bd43e40131b7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-02 00:16:57</sys_updated_on>
+        <sys_updated_on>2025-01-07 21:22:57</sys_updated_on>
         <template><![CDATA[<div class="panel">
   <div class="panel-heading">
     <h3 class="h4 panel-title">Announcements</h3>
@@ -63,7 +63,7 @@
 
   <div class="details">
     <p>
-			<h2>Mandatory Training for All Department Employees</h2>
+			<h3>Mandatory Training for All Department Employees</h3>
     <p>We are committed to maintaining the highest standards of safety and operational effectiveness. 
       To support this goal, we will be holding a <strong>mandatory training session next week</strong> 
       that all department employees are required to attend.</p>

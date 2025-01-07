@@ -15,21 +15,21 @@
         <sc_category/>
         <short_description>Browse through the knowledge articles</short_description>
         <size>md</size>
-        <sp_column display_value="2">5d34bbfac38d5210d056bd43e401315c</sp_column>
+        <sp_column display_value="2">b87ceb84c3c75210d056bd43e4013109</sp_column>
         <sp_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</sp_page>
         <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
         <sys_class_name>sp_instance_link</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-09 00:34:44</sys_created_on>
         <sys_id>97d43fbac38d5210d056bd43e401318c</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Knowledge Base</sys_name>
         <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
         <sys_update_name>sp_instance_link_97d43fbac38d5210d056bd43e401318c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-02 00:10:25</sys_updated_on>
+        <sys_updated_on>2025-01-07 21:51:32</sys_updated_on>
         <title>Knowledge Base</title>
         <type>page</type>
         <url/>

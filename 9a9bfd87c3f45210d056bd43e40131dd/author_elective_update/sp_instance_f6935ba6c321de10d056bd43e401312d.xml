@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">f01e4f8cc30f1210d056bd43e40131f3</sp_column>
+        <sp_widget display_value="PS Clock">7953d326c321de10d056bd43e4013156</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-02 00:02:21</sys_created_on>
+        <sys_id>f6935ba6c321de10d056bd43e401312d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
+        <sys_update_name>sp_instance_f6935ba6c321de10d056bd43e401312d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 18:49:23</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"zone": {
+		"value": "",
+		"displayValue": ""
+	},
+	"c_color": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=f6935ba6c321de10d056bd43e401312d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</application>
+        <file_path/>
+        <instance_id>09943ed3dbe9029837d72a5913961978</instance_id>
+        <instance_name>dev260260</instance_name>
+        <name>sp_instance_f6935ba6c321de10d056bd43e401312d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;f01e4f8cc30f1210d056bd43e40131f3&lt;/sp_column&gt;&lt;sp_widget display_value="PS Clock"&gt;7953d326c321de10d056bd43e4013156&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-11-02 00:02:21&lt;/sys_created_on&gt;&lt;sys_id&gt;f6935ba6c321de10d056bd43e401312d&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Public Safety" source="x_968807_public_0"&gt;9a9bfd87c3f45210d056bd43e40131dd&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Public Safety"&gt;9a9bfd87c3f45210d056bd43e40131dd&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_f6935ba6c321de10d056bd43e401312d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-07 18:49:23&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"zone": {
+		"value": "",
+		"displayValue": ""
+	},
+	"c_color": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=f6935ba6c321de10d056bd43e401312d"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>745620832</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>a6ccf94fc3f45210d056bd43e401310f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 18:49:23</sys_created_on>
+        <sys_id>637e87ccc30f1210d056bd43e401310a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1944219a1bf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 18:49:23</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>e77e87cc700f121004f22cde3619d409</update_guid>
+        <update_guid_history>e77e87cc700f121004f22cde3619d409:745620832,0a1e0f484d0f121081ed9c88d561b929:2060347708,eb65df260161de10e8247d38dc47c5ad:-1487159324,0915dbeacf21de10095c8c34bc432c5d:1428267261,32935ba6fd21de10a60b5ade3e246d30:-1487159324</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">d1402fc8c3835210d056bd43e4013184</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 20:07:03</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>775d7a19699f425a9af9815ea5fdf109</sys_id>
+        <sys_metadata>f6935ba6c321de10d056bd43e401312d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
+        <sys_scope_delete display_value="">4c78752d5203411aaac0e69796d5d3c9</sys_scope_delete>
+        <sys_update_name>sp_instance_f6935ba6c321de10d056bd43e401312d</sys_update_name>
+        <sys_update_version display_value="sp_instance_f6935ba6c321de10d056bd43e401312d">637e87ccc30f1210d056bd43e401310a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 20:07:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
