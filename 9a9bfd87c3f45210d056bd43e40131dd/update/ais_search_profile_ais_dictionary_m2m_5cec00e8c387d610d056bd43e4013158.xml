@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_dictionary_m2m">
+    <ais_search_profile_ais_dictionary_m2m action="INSERT_OR_UPDATE">
+        <dictionary display_value="x_968807_public_0_public_safety_chief_search_profile_default_spell_check_dictionary">94ec00e8c387d610d056bd43e4013155</dictionary>
+        <dictionary_reference_qualifier/>
+        <marked_for_deletion>false</marked_for_deletion>
+        <profile display_value="public-safety-chief Search Profile">4adc88a8e487d6102bc2be9e67420cba</profile>
+        <sys_class_name>ais_search_profile_ais_dictionary_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-08 18:00:26</sys_created_on>
+        <sys_id>5cec00e8c387d610d056bd43e4013158</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_968807_public_0_public_safety_chief_search_profile_default_spell_check_dictionary.public-safety-chief Search Profile</sys_name>
+        <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
+        <sys_update_name>ais_search_profile_ais_dictionary_m2m_5cec00e8c387d610d056bd43e4013158</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-08 18:00:26</sys_updated_on>
+    </ais_search_profile_ais_dictionary_m2m>
+</record_update>

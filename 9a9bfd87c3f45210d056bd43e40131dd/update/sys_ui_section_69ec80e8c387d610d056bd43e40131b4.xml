@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="69ec80e8c387d610d056bd43e40131b4" sys_domain="global" table="x_968807_public_0_activity_log" version="3" view="workspace-public-safety-chief-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-08 18:00:32</sys_created_on>
+            <sys_id>f5ec04e8c387d610d056bd43e401319f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_968807_public_0_activity_log" sys_domain="global" view="06dc88a87f87d610436e9decc95570b0">69ec80e8c387d610d056bd43e40131b4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-08 18:00:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reporting_unit</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-08 18:00:31</sys_created_on>
+            <sys_id>29ec04e8c387d610d056bd43e401319d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_968807_public_0_activity_log" sys_domain="global" view="06dc88a87f87d610436e9decc95570b0">69ec80e8c387d610d056bd43e40131b4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-08 18:00:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-08 18:00:32</sys_created_on>
+            <sys_id>fdec04e8c387d610d056bd43e401319f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_968807_public_0_activity_log" sys_domain="global" view="06dc88a87f87d610436e9decc95570b0">69ec80e8c387d610d056bd43e40131b4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-08 18:00:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>location</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-08 18:00:31</sys_created_on>
+            <sys_id>e5ec04e8c387d610d056bd43e401319e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_968807_public_0_activity_log" sys_domain="global" view="06dc88a87f87d610436e9decc95570b0">69ec80e8c387d610d056bd43e40131b4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-08 18:00:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>location_additional</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-08 18:00:32</sys_created_on>
+            <sys_id>f5ec04e8c387d610d056bd43e40131a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_968807_public_0_activity_log" sys_domain="global" view="06dc88a87f87d610436e9decc95570b0">69ec80e8c387d610d056bd43e40131b4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-08 18:00:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-08 18:00:32</sys_created_on>
+            <sys_id>edec04e8c387d610d056bd43e401319e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_968807_public_0_activity_log" sys_domain="global" view="06dc88a87f87d610436e9decc95570b0">69ec80e8c387d610d056bd43e40131b4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-08 18:00:32</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-08 18:00:32</sys_created_on>
+            <sys_id>f5ec04e8c387d610d056bd43e40131a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_968807_public_0_activity_log" sys_domain="global" view="06dc88a87f87d610436e9decc95570b0">69ec80e8c387d610d056bd43e40131b4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-08 18:00:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>incident_number</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-08 18:00:32</sys_created_on>
+            <sys_id>fdec04e8c387d610d056bd43e40131a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_968807_public_0_activity_log" sys_domain="global" view="06dc88a87f87d610436e9decc95570b0">69ec80e8c387d610d056bd43e40131b4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-08 18:00:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>report_number</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-08 18:00:32</sys_created_on>
+            <sys_id>fdec04e8c387d610d056bd43e40131a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_968807_public_0_activity_log" sys_domain="global" view="06dc88a87f87d610436e9decc95570b0">69ec80e8c387d610d056bd43e40131b4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-08 18:00:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_968807_public_0_activity_log</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-08 18:00:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>69ec80e8c387d610d056bd43e40131b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_968807_public_0_activity_log</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
+            <sys_update_name>sys_ui_section_69ec80e8c387d610d056bd43e40131b4</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-08 18:00:31</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace Public Safety Chief 0" name="workspace-public-safety-chief-0">06dc88a87f87d610436e9decc95570b0</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
