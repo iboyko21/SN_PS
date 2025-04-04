@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_catalog">
+    <m2m_sp_portal_catalog action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <order>100</order>
+        <sc_catalog display_value="Public Safety Catalog">00733afec3091210d056bd43e4013138</sc_catalog>
+        <sp_portal display_value="Public Safety">c850f7b6c38d5210d056bd43e40131db</sp_portal>
+        <sys_class_name>m2m_sp_portal_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-01 14:08:12</sys_created_on>
+        <sys_id>afa3368fc3a86610d056bd43e401311a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Public Safety Catalog.Public Safety</sys_name>
+        <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
+        <sys_update_name>m2m_sp_portal_catalog_afa3368fc3a86610d056bd43e401311a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-01 14:08:12</sys_updated_on>
+    </m2m_sp_portal_catalog>
+</record_update>

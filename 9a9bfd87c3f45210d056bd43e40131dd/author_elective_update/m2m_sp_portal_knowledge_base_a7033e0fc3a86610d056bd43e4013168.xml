@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_knowledge_base">
+    <m2m_sp_portal_knowledge_base action="DELETE">
+        <active>true</active>
+        <kb_knowledge_base display_value="Public Safety">0bfa397bc3851210d056bd43e40131ad</kb_knowledge_base>
+        <order>100</order>
+        <sp_portal display_value="Public Safety">c850f7b6c38d5210d056bd43e40131db</sp_portal>
+        <sys_class_name>m2m_sp_portal_knowledge_base</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-01 14:05:28</sys_created_on>
+        <sys_id>a7033e0fc3a86610d056bd43e4013168</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Public Safety.Public Safety</sys_name>
+        <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
+        <sys_update_name>m2m_sp_portal_knowledge_base_a7033e0fc3a86610d056bd43e4013168</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-01 14:05:28</sys_updated_on>
+    </m2m_sp_portal_knowledge_base>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</application>
+        <file_path/>
+        <instance_id>09943ed3dbe9029837d72a5913961978</instance_id>
+        <instance_name>dev260260</instance_name>
+        <name>m2m_sp_portal_knowledge_base_a7033e0fc3a86610d056bd43e4013168</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_knowledge_base"><m2m_sp_portal_knowledge_base action="INSERT_OR_UPDATE"><active>true</active><kb_knowledge_base display_value="Public Safety">0bfa397bc3851210d056bd43e40131ad</kb_knowledge_base><order>100</order><sp_portal display_value="Public Safety">c850f7b6c38d5210d056bd43e40131db</sp_portal><sys_class_name>m2m_sp_portal_knowledge_base</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-01 14:05:28</sys_created_on><sys_id>a7033e0fc3a86610d056bd43e4013168</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Public Safety.Public Safety</sys_name><sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package><sys_policy/><sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope><sys_update_name>m2m_sp_portal_knowledge_base_a7033e0fc3a86610d056bd43e4013168</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-01 14:05:28</sys_updated_on></m2m_sp_portal_knowledge_base></record_update>]]></payload>
+        <payload_hash>-1734501952</payload_hash>
+        <record_name>Public Safety.Public Safety</record_name>
+        <reverted_from/>
+        <source>a6ccf94fc3f45210d056bd43e401310f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-01 14:05:28</sys_created_on>
+        <sys_id>2f03324fc3a86610d056bd43e401314f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195f1abe16a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-01 14:05:28</sys_updated_on>
+        <type>Portal Knowledge Base</type>
+        <update_guid>23033e0fb6a86610f3520944c0e3c96c</update_guid>
+        <update_guid_history>23033e0fb6a86610f3520944c0e3c96c:-1734501952</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Public Safety.Public Safety">9883f28fc3a86610d056bd43e4013107</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-01 14:07:26</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_portal_knowledge_base">m2m_sp_portal_knowledge_base</sys_db_object>
+        <sys_id>5b86a4413fdb4872a3efad39155df2c4</sys_id>
+        <sys_metadata>a7033e0fc3a86610d056bd43e4013168</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Public Safety.Public Safety</sys_name>
+        <sys_package display_value="Public Safety" source="x_968807_public_0">9a9bfd87c3f45210d056bd43e40131dd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Public Safety">9a9bfd87c3f45210d056bd43e40131dd</sys_scope>
+        <sys_scope_delete display_value="">4c78752d5203411aaac0e69796d5d3c9</sys_scope_delete>
+        <sys_update_name>m2m_sp_portal_knowledge_base_a7033e0fc3a86610d056bd43e4013168</sys_update_name>
+        <sys_update_version display_value="m2m_sp_portal_knowledge_base_a7033e0fc3a86610d056bd43e4013168">2f03324fc3a86610d056bd43e401314f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-01 14:07:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
